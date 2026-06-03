@@ -181,6 +181,11 @@ public class InfiniteBuyingController {
         if (targetUsd != null && targetUsd > 0) extra.put("target_monthly_usd", targetUsd);
         Double fx = asDouble(body.get("fx"));
         if (fx != null && fx > 0) extra.put("fx", fx);
+        // 직접 지정(달력) 기간 — 주면 analytics 가 워밍업 포함 측정창 [start,end] 으로 역산
+        Object start = body.get("start");
+        Object end = body.get("end");
+        if (start != null && !String.valueOf(start).isBlank()) extra.put("start", String.valueOf(start));
+        if (end != null && !String.valueOf(end).isBlank()) extra.put("end", String.valueOf(end));
 
         try {
             JsonNode res = analytics.infiniteBuyingSizing(tickers, extra);

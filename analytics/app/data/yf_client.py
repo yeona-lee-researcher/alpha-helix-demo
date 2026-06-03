@@ -47,7 +47,7 @@ def _read_cache(path: Path, ticker: str) -> Optional[pd.DataFrame]:
 def _period_to_dates(period: str) -> tuple[str, str]:
     """'5y' → (from_date, to_date) ISO 문자열 반환."""
     to_dt = date.today()
-    mapping = {"1d": 1, "5d": 5, "1mo": 30, "3mo": 90, "6mo": 180,
+    mapping = {"1d": 1, "5d": 5, "1mo": 30, "2mo": 60, "3mo": 90, "6mo": 180,
                "1y": 365, "2y": 730, "5y": 1825, "10y": 3650,
                "15y": 5475, "20y": 7300, "25y": 9125, "30y": 10950,
                "ytd": 365, "max": 10950}

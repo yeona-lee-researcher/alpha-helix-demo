@@ -28,6 +28,12 @@ services:
       dockerfile: Dockerfile
     environment:
       ANALYTICS_INTERNAL_TOKEN: ${ANALYTICS_INTERNAL_TOKEN:-dev-internal-token-change-me}
+      # 시세 데이터 — Polygon.io 우선(미국 주식), 미설정 시 yfinance 폴백.
+      # ⚠️ AWS EC2 IP는 야후 파이낸스에 차단/레이트리밋되므로 운영에선 POLYGON_API_KEY 필수.
+      POLYGON_API_KEY: ${POLYGON_API_KEY:-}
+      PRICE_CACHE_TTL_MIN: ${PRICE_CACHE_TTL_MIN:-360}
+    volumes:
+      - price_cache:/app/cache           # 가격 캐시 영속(일일 프리페치 결과 보존)
     expose:
       - "8001"
     restart: unless-stopped
@@ -99,3 +105,4 @@ volumes:
   db_data:
   claude_home:
   uploads:
+  price_cache:
