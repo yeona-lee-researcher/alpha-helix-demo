@@ -4,14 +4,14 @@ import { BRAND_GRADIENT } from "../ThemeContext";
 // ──────────────────────────────────────────────
 // 기본 프리미티브
 // ──────────────────────────────────────────────
-export function Card({ title, children, theme, action, badge }) {
+export function Card({ title, children, theme, action, badge, titleSize = 13 }) {
   return (
     <div style={{
       background: theme.panel, border: `1px solid ${theme.panelBorder}`,
       borderRadius: 12, padding: 16, marginBottom: 12, backdropFilter: "blur(8px)",
     }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 10 }}>
-        <h3 style={{ margin: 0, fontSize: 13, fontWeight: 800, color: theme.text }}>
+        <h3 style={{ margin: 0, fontSize: titleSize, fontWeight: 800, color: theme.text }}>
           {title}{badge && <span style={{ marginLeft: 8, padding: "2px 8px", borderRadius: 999, background: theme.accent, color: "white", fontSize: 10 }}>{badge}</span>}
         </h3>
         {action}

@@ -36,8 +36,8 @@ function BigStat({ label, value, unit = "", theme, positive, negative, hint }) {
   return (
     <div style={{ padding: "14px 16px", background: theme.codeBg, borderRadius: 10,
       display: "flex", alignItems: "center", justifyContent: "space-between", gap: 10, minHeight: 64 }}>
-      <div style={{ display: "flex", flexDirection: "column", gap: 6, minWidth: 0 }}>
-        <span style={{ fontSize: 13, fontWeight: 700, color: theme.textMuted, whiteSpace: "nowrap" }}>{label}</span>
+      <div style={{ display: "flex", alignItems: "center", gap: 5, minWidth: 0 }}>
+        <span style={{ fontSize: 16, fontWeight: 700, color: theme.textMuted, whiteSpace: "nowrap" }}>{label}</span>
         <InfoDot hint={hint} />
       </div>
       <div style={{ fontSize: 25, fontWeight: 900, color, fontVariantNumeric: "tabular-nums", whiteSpace: "nowrap", letterSpacing: -0.5 }}>{v}{unit}</div>
@@ -97,7 +97,7 @@ function SeedSizingCard({ ws, theme }) {
 
   const mdd = res?.backtest_stats?.max_drawdown_pct;
   return (
-    <Card title="💰 목표수익 → 필요시드 계산기" theme={theme}>
+    <Card title="💰 목표수익 → 필요시드 계산기" theme={theme} titleSize={20}>
       <p style={{ margin: "0 0 12px", fontSize: 12, color: theme.textMuted, lineHeight: 1.6 }}>
         <b>무한매수법</b>으로 <b>{tickers.join(" + ")}</b>를 운용할 때,
         원하는 <b>월 목표수익</b>을 입력하면 과거 성과 기준으로 <b>종목별 필요 시드</b>를 역산합니다.
@@ -217,7 +217,7 @@ function ChartTabs({ bt, theme }) {
   if (!equitySeries) return null;
 
   return (
-    <Card title="📈 전략 자산곡선 & 종목 차트" theme={theme}>
+    <Card title="📈 전략 자산곡선 & 종목 차트" theme={theme} titleSize={20}>
       {/* 탭 헤더 */}
       <div style={{ display: "flex", gap: 7, flexWrap: "wrap", marginBottom: 12 }}>
         {tabs.map((t, i) => (
@@ -326,7 +326,7 @@ export default function ReportPanel({ id, ws, onChange }) {
 
           {/* 위험지표 — 1줄 4지표 + 쉬운 설명 */}
           {bt.risk_metrics && (
-            <Card title="📐 위험지표 상세 (QuantStats)" theme={theme}>
+            <Card title="📐 위험지표 상세 (QuantStats)" theme={theme} titleSize={20}>
               <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 10 }}>
                 <BigStat label="CAGR" value={rm.cagr_pct} unit="%" theme={theme} hint="복리 연환산 수익률 — 1년에 평균 몇 % 불어났는지." />
                 <BigStat label="변동성" value={rm.volatility_pct} unit="%" theme={theme} hint="연환산 변동성. 일별 수익률 표준편차 × √252. 높을수록 자산가치 등락이 큽니다." />

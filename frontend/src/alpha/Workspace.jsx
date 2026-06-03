@@ -387,7 +387,7 @@ export default function Workspace() {
               <button key={key} onClick={() => setTab(key)} style={{
                 display: "inline-flex", alignItems: "center", gap: 5,
                 padding: "12px 11px", border: "none", background: "transparent",
-                color: active ? theme.accent : theme.textMuted, fontSize: 12.5, fontWeight: 700, cursor: "pointer",
+                color: active ? theme.accent : theme.textMuted, fontSize: 14.5, fontWeight: 700, cursor: "pointer",
                 borderBottom: `2px solid ${active ? theme.accent : "transparent"}`,
                 marginBottom: -1, whiteSpace: "nowrap", flexShrink: 0,
               }}>
