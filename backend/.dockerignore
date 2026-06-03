@@ -1,0 +1,14 @@
+build/
+.gradle/
+bin/
+*.log
+.idea/
+.vscode/
+src/test/
+# 보안: 로컬/개발 전용 설정·시크릿은 이미지(배포물)에 절대 포함하지 않는다.
+# (로컬 DB 자격증명·이메일·키가 컨테이너에 새고, docker 프로파일을 덮어써 오작동시킴)
+src/main/resources/application-local.properties
+src/main/resources/application-local*.properties
+src/main/resources/application-dev*.properties
+**/*.local.properties
+.env

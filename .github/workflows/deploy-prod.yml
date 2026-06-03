@@ -1,0 +1,167 @@
+name: Deploy to Production (EC2 who-a)
+
+# main 브랜치에 push될 때 자동 배포.
+# 수동 트리거도 가능 (Actions 탭 → Run workflow).
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'backend/**'
+      - 'frontend/**'
+      - 'analytics/**'
+      - 'deploy/**'
+      - '.github/workflows/deploy-prod.yml'
+  workflow_dispatch:
+    inputs:
+      skip_frontend:
+        description: '프론트엔드 빌드/배포 건너뛰기'
+        type: boolean
+        default: false
+      skip_backend:
+        description: '백엔드 빌드/배포 건너뛰기'
+        type: boolean
+        default: false
+
+concurrency:
+  group: deploy-prod
+  cancel-in-progress: false  # 진행중 배포는 중단하지 않음 (덮어쓰기 방지)
+
+env:
+  EC2_USER: ubuntu
+  REMOTE_BASE: /home/ubuntu/DevBridge
+
+jobs:
+  # ──────────────────────────── 1. Frontend Build
+  build-frontend:
+    if: ${{ !inputs.skip_frontend }}
+    runs-on: ubuntu-latest
+    outputs:
+      built: ${{ steps.flag.outputs.built }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install + Build (Vite)
+        working-directory: frontend
+        run: |
+          npm ci
+          npm run build
+
+      - name: Upload dist artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: frontend-dist
+          path: frontend/dist
+          retention-days: 7
+
+      - id: flag
+        run: echo "built=true" >> "$GITHUB_OUTPUT"
+
+  # ──────────────────────────── 2. Backend Build
+  build-backend:
+    if: ${{ !inputs.skip_backend }}
+    runs-on: ubuntu-latest
+    outputs:
+      built: ${{ steps.flag.outputs.built }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+          cache: 'gradle'
+
+      - name: Gradle bootJar
+        working-directory: backend
+        run: |
+          chmod +x ./gradlew
+          ./gradlew clean bootJar --no-daemon
+
+      - name: Find JAR
+        id: jar
+        working-directory: backend
+        run: |
+          JAR=$(ls build/libs/*-SNAPSHOT.jar | head -1)
+          echo "path=$JAR" >> "$GITHUB_OUTPUT"
+          echo "Built: $JAR ($(du -h $JAR | cut -f1))"
+
+      - name: Upload JAR artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: backend-jar
+          path: backend/${{ steps.jar.outputs.path }}
+          retention-days: 7
+
+      - id: flag
+        run: echo "built=true" >> "$GITHUB_OUTPUT"
+
+  # ──────────────────────────── 3. Deploy to EC2
+  deploy:
+    needs: [build-frontend, build-backend]
+    if: always() && (needs.build-frontend.result == 'success' || needs.build-backend.result == 'success' || needs.build-frontend.result == 'skipped' || needs.build-backend.result == 'skipped')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download frontend dist
+        if: ${{ !inputs.skip_frontend }}
+        uses: actions/download-artifact@v4
+        with:
+          name: frontend-dist
+          path: frontend-dist
+
+      - name: Download backend jar
+        if: ${{ !inputs.skip_backend }}
+        uses: actions/download-artifact@v4
+        with:
+          name: backend-jar
+          path: backend-jar
+
+      - name: Set up SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.EC2_SSH_KEY }}" > ~/.ssh/deploy.pem
+          chmod 600 ~/.ssh/deploy.pem
+          ssh-keyscan -H ${{ secrets.EC2_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Upload frontend dist via rsync
+        if: ${{ !inputs.skip_frontend }}
+        run: |
+          rsync -avz --delete -e "ssh -i ~/.ssh/deploy.pem" \
+            frontend-dist/ \
+            ${{ env.EC2_USER }}@${{ secrets.EC2_HOST }}:${{ env.REMOTE_BASE }}/frontend/dist/
+
+      - name: Upload backend jar
+        if: ${{ !inputs.skip_backend }}
+        run: |
+          scp -i ~/.ssh/deploy.pem \
+            backend-jar/*.jar \
+            ${{ env.EC2_USER }}@${{ secrets.EC2_HOST }}:${{ env.REMOTE_BASE }}/backend/build/libs/
+
+      - name: Restart services on EC2
+        run: |
+          ssh -i ~/.ssh/deploy.pem ${{ env.EC2_USER }}@${{ secrets.EC2_HOST }} <<'EOF'
+            set -e
+            echo "── Restarting nginx (frontend dist 재로드) ──"
+            sudo systemctl reload nginx || sudo systemctl restart nginx
+            echo "── Restarting backend (Spring Boot 8080) ──"
+            sudo systemctl restart who-a-backend
+            sleep 3
+            sudo systemctl status who-a-backend --no-pager | head -15
+            echo "── Health check ──"
+            curl -fsS http://localhost:8080/actuator/health || (echo "FAIL: backend not healthy" && exit 1)
+            echo "DEPLOY OK"
+          EOF
+
+      - name: Cleanup SSH key
+        if: always()
+        run: rm -f ~/.ssh/deploy.pem
+
+      - name: Notify success
+        if: success()
+        run: |
+          echo "✅ 배포 성공 → http://${{ secrets.EC2_HOST }} 또는 https://who-a.com"
+          echo "Commit: ${{ github.sha }}"
+          echo "Actor: ${{ github.actor }}"

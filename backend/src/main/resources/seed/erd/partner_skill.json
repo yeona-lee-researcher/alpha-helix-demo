@@ -1,0 +1,647 @@
+[
+  {
+    "id": 1,
+    "partner_profile_id": 1,
+    "skill_id": 38
+  },
+  {
+    "id": 2,
+    "partner_profile_id": 1,
+    "skill_id": 12
+  },
+  {
+    "id": 3,
+    "partner_profile_id": 1,
+    "skill_id": 25
+  },
+  {
+    "id": 4,
+    "partner_profile_id": 1,
+    "skill_id": 20
+  },
+  {
+    "id": 5,
+    "partner_profile_id": 2,
+    "skill_id": 9
+  },
+  {
+    "id": 6,
+    "partner_profile_id": 2,
+    "skill_id": 12
+  },
+  {
+    "id": 7,
+    "partner_profile_id": 2,
+    "skill_id": 1
+  },
+  {
+    "id": 8,
+    "partner_profile_id": 2,
+    "skill_id": 37
+  },
+  {
+    "id": 9,
+    "partner_profile_id": 2,
+    "skill_id": 26
+  },
+  {
+    "id": 10,
+    "partner_profile_id": 3,
+    "skill_id": 12
+  },
+  {
+    "id": 11,
+    "partner_profile_id": 3,
+    "skill_id": 39
+  },
+  {
+    "id": 12,
+    "partner_profile_id": 3,
+    "skill_id": 21
+  },
+  {
+    "id": 13,
+    "partner_profile_id": 4,
+    "skill_id": 37
+  },
+  {
+    "id": 14,
+    "partner_profile_id": 4,
+    "skill_id": 7
+  },
+  {
+    "id": 15,
+    "partner_profile_id": 4,
+    "skill_id": 32
+  },
+  {
+    "id": 16,
+    "partner_profile_id": 4,
+    "skill_id": 10
+  },
+  {
+    "id": 17,
+    "partner_profile_id": 5,
+    "skill_id": 22
+  },
+  {
+    "id": 18,
+    "partner_profile_id": 5,
+    "skill_id": 29
+  },
+  {
+    "id": 19,
+    "partner_profile_id": 5,
+    "skill_id": 1
+  },
+  {
+    "id": 20,
+    "partner_profile_id": 6,
+    "skill_id": 4
+  },
+  {
+    "id": 21,
+    "partner_profile_id": 6,
+    "skill_id": 25
+  },
+  {
+    "id": 22,
+    "partner_profile_id": 6,
+    "skill_id": 29
+  },
+  {
+    "id": 23,
+    "partner_profile_id": 7,
+    "skill_id": 27
+  },
+  {
+    "id": 24,
+    "partner_profile_id": 7,
+    "skill_id": 32
+  },
+  {
+    "id": 25,
+    "partner_profile_id": 7,
+    "skill_id": 25
+  },
+  {
+    "id": 26,
+    "partner_profile_id": 7,
+    "skill_id": 23
+  },
+  {
+    "id": 27,
+    "partner_profile_id": 8,
+    "skill_id": 3
+  },
+  {
+    "id": 28,
+    "partner_profile_id": 8,
+    "skill_id": 19
+  },
+  {
+    "id": 29,
+    "partner_profile_id": 8,
+    "skill_id": 2
+  },
+  {
+    "id": 30,
+    "partner_profile_id": 9,
+    "skill_id": 5
+  },
+  {
+    "id": 31,
+    "partner_profile_id": 9,
+    "skill_id": 36
+  },
+  {
+    "id": 32,
+    "partner_profile_id": 9,
+    "skill_id": 6
+  },
+  {
+    "id": 33,
+    "partner_profile_id": 9,
+    "skill_id": 22
+  },
+  {
+    "id": 34,
+    "partner_profile_id": 10,
+    "skill_id": 19
+  },
+  {
+    "id": 35,
+    "partner_profile_id": 10,
+    "skill_id": 20
+  },
+  {
+    "id": 36,
+    "partner_profile_id": 10,
+    "skill_id": 16
+  },
+  {
+    "id": 37,
+    "partner_profile_id": 10,
+    "skill_id": 7
+  },
+  {
+    "id": 38,
+    "partner_profile_id": 10,
+    "skill_id": 4
+  },
+  {
+    "id": 39,
+    "partner_profile_id": 11,
+    "skill_id": 14
+  },
+  {
+    "id": 40,
+    "partner_profile_id": 11,
+    "skill_id": 11
+  },
+  {
+    "id": 41,
+    "partner_profile_id": 11,
+    "skill_id": 19
+  },
+  {
+    "id": 42,
+    "partner_profile_id": 12,
+    "skill_id": 8
+  },
+  {
+    "id": 43,
+    "partner_profile_id": 12,
+    "skill_id": 20
+  },
+  {
+    "id": 44,
+    "partner_profile_id": 12,
+    "skill_id": 26
+  },
+  {
+    "id": 45,
+    "partner_profile_id": 12,
+    "skill_id": 31
+  },
+  {
+    "id": 46,
+    "partner_profile_id": 12,
+    "skill_id": 32
+  },
+  {
+    "id": 47,
+    "partner_profile_id": 12,
+    "skill_id": 17
+  },
+  {
+    "id": 48,
+    "partner_profile_id": 13,
+    "skill_id": 18
+  },
+  {
+    "id": 49,
+    "partner_profile_id": 13,
+    "skill_id": 37
+  },
+  {
+    "id": 50,
+    "partner_profile_id": 13,
+    "skill_id": 4
+  },
+  {
+    "id": 51,
+    "partner_profile_id": 13,
+    "skill_id": 10
+  },
+  {
+    "id": 52,
+    "partner_profile_id": 14,
+    "skill_id": 6
+  },
+  {
+    "id": 53,
+    "partner_profile_id": 14,
+    "skill_id": 23
+  },
+  {
+    "id": 54,
+    "partner_profile_id": 14,
+    "skill_id": 35
+  },
+  {
+    "id": 55,
+    "partner_profile_id": 15,
+    "skill_id": 33
+  },
+  {
+    "id": 56,
+    "partner_profile_id": 15,
+    "skill_id": 37
+  },
+  {
+    "id": 57,
+    "partner_profile_id": 15,
+    "skill_id": 34
+  },
+  {
+    "id": 58,
+    "partner_profile_id": 16,
+    "skill_id": 8
+  },
+  {
+    "id": 59,
+    "partner_profile_id": 16,
+    "skill_id": 29
+  },
+  {
+    "id": 60,
+    "partner_profile_id": 16,
+    "skill_id": 12
+  },
+  {
+    "id": 61,
+    "partner_profile_id": 16,
+    "skill_id": 11
+  },
+  {
+    "id": 62,
+    "partner_profile_id": 17,
+    "skill_id": 9
+  },
+  {
+    "id": 63,
+    "partner_profile_id": 17,
+    "skill_id": 3
+  },
+  {
+    "id": 64,
+    "partner_profile_id": 17,
+    "skill_id": 28
+  },
+  {
+    "id": 65,
+    "partner_profile_id": 17,
+    "skill_id": 6
+  },
+  {
+    "id": 66,
+    "partner_profile_id": 18,
+    "skill_id": 13
+  },
+  {
+    "id": 67,
+    "partner_profile_id": 18,
+    "skill_id": 10
+  },
+  {
+    "id": 68,
+    "partner_profile_id": 18,
+    "skill_id": 17
+  },
+  {
+    "id": 69,
+    "partner_profile_id": 18,
+    "skill_id": 21
+  },
+  {
+    "id": 70,
+    "partner_profile_id": 18,
+    "skill_id": 5
+  },
+  {
+    "id": 71,
+    "partner_profile_id": 18,
+    "skill_id": 6
+  },
+  {
+    "id": 72,
+    "partner_profile_id": 19,
+    "skill_id": 10
+  },
+  {
+    "id": 73,
+    "partner_profile_id": 19,
+    "skill_id": 37
+  },
+  {
+    "id": 74,
+    "partner_profile_id": 19,
+    "skill_id": 38
+  },
+  {
+    "id": 75,
+    "partner_profile_id": 19,
+    "skill_id": 7
+  },
+  {
+    "id": 76,
+    "partner_profile_id": 20,
+    "skill_id": 19
+  },
+  {
+    "id": 77,
+    "partner_profile_id": 20,
+    "skill_id": 35
+  },
+  {
+    "id": 78,
+    "partner_profile_id": 20,
+    "skill_id": 23
+  },
+  {
+    "id": 79,
+    "partner_profile_id": 21,
+    "skill_id": 25
+  },
+  {
+    "id": 80,
+    "partner_profile_id": 21,
+    "skill_id": 32
+  },
+  {
+    "id": 81,
+    "partner_profile_id": 21,
+    "skill_id": 37
+  },
+  {
+    "id": 82,
+    "partner_profile_id": 21,
+    "skill_id": 39
+  },
+  {
+    "id": 83,
+    "partner_profile_id": 21,
+    "skill_id": 31
+  },
+  {
+    "id": 84,
+    "partner_profile_id": 22,
+    "skill_id": 18
+  },
+  {
+    "id": 85,
+    "partner_profile_id": 22,
+    "skill_id": 24
+  },
+  {
+    "id": 86,
+    "partner_profile_id": 22,
+    "skill_id": 2
+  },
+  {
+    "id": 87,
+    "partner_profile_id": 22,
+    "skill_id": 22
+  },
+  {
+    "id": 88,
+    "partner_profile_id": 22,
+    "skill_id": 20
+  },
+  {
+    "id": 89,
+    "partner_profile_id": 22,
+    "skill_id": 36
+  },
+  {
+    "id": 90,
+    "partner_profile_id": 23,
+    "skill_id": 13
+  },
+  {
+    "id": 91,
+    "partner_profile_id": 23,
+    "skill_id": 29
+  },
+  {
+    "id": 92,
+    "partner_profile_id": 23,
+    "skill_id": 14
+  },
+  {
+    "id": 93,
+    "partner_profile_id": 24,
+    "skill_id": 32
+  },
+  {
+    "id": 94,
+    "partner_profile_id": 24,
+    "skill_id": 34
+  },
+  {
+    "id": 95,
+    "partner_profile_id": 24,
+    "skill_id": 24
+  },
+  {
+    "id": 96,
+    "partner_profile_id": 24,
+    "skill_id": 4
+  },
+  {
+    "id": 97,
+    "partner_profile_id": 24,
+    "skill_id": 33
+  },
+  {
+    "id": 98,
+    "partner_profile_id": 24,
+    "skill_id": 11
+  },
+  {
+    "id": 99,
+    "partner_profile_id": 25,
+    "skill_id": 13
+  },
+  {
+    "id": 100,
+    "partner_profile_id": 25,
+    "skill_id": 18
+  },
+  {
+    "id": 101,
+    "partner_profile_id": 25,
+    "skill_id": 24
+  },
+  {
+    "id": 102,
+    "partner_profile_id": 25,
+    "skill_id": 30
+  },
+  {
+    "id": 103,
+    "partner_profile_id": 25,
+    "skill_id": 33
+  },
+  {
+    "id": 104,
+    "partner_profile_id": 26,
+    "skill_id": 12
+  },
+  {
+    "id": 105,
+    "partner_profile_id": 26,
+    "skill_id": 31
+  },
+  {
+    "id": 106,
+    "partner_profile_id": 26,
+    "skill_id": 38
+  },
+  {
+    "id": 107,
+    "partner_profile_id": 26,
+    "skill_id": 36
+  },
+  {
+    "id": 108,
+    "partner_profile_id": 26,
+    "skill_id": 23
+  },
+  {
+    "id": 109,
+    "partner_profile_id": 26,
+    "skill_id": 37
+  },
+  {
+    "id": 110,
+    "partner_profile_id": 27,
+    "skill_id": 14
+  },
+  {
+    "id": 111,
+    "partner_profile_id": 27,
+    "skill_id": 18
+  },
+  {
+    "id": 112,
+    "partner_profile_id": 27,
+    "skill_id": 27
+  },
+  {
+    "id": 113,
+    "partner_profile_id": 27,
+    "skill_id": 33
+  },
+  {
+    "id": 114,
+    "partner_profile_id": 28,
+    "skill_id": 30
+  },
+  {
+    "id": 115,
+    "partner_profile_id": 28,
+    "skill_id": 17
+  },
+  {
+    "id": 116,
+    "partner_profile_id": 28,
+    "skill_id": 14
+  },
+  {
+    "id": 117,
+    "partner_profile_id": 28,
+    "skill_id": 20
+  },
+  {
+    "id": 118,
+    "partner_profile_id": 28,
+    "skill_id": 34
+  },
+  {
+    "id": 119,
+    "partner_profile_id": 29,
+    "skill_id": 38
+  },
+  {
+    "id": 120,
+    "partner_profile_id": 29,
+    "skill_id": 7
+  },
+  {
+    "id": 121,
+    "partner_profile_id": 29,
+    "skill_id": 1
+  },
+  {
+    "id": 122,
+    "partner_profile_id": 29,
+    "skill_id": 33
+  },
+  {
+    "id": 123,
+    "partner_profile_id": 29,
+    "skill_id": 24
+  },
+  {
+    "id": 124,
+    "partner_profile_id": 29,
+    "skill_id": 19
+  },
+  {
+    "id": 125,
+    "partner_profile_id": 30,
+    "skill_id": 18
+  },
+  {
+    "id": 126,
+    "partner_profile_id": 30,
+    "skill_id": 17
+  },
+  {
+    "id": 127,
+    "partner_profile_id": 30,
+    "skill_id": 20
+  },
+  {
+    "id": 128,
+    "partner_profile_id": 30,
+    "skill_id": 13
+  },
+  {
+    "id": 129,
+    "partner_profile_id": 30,
+    "skill_id": 10
+  }
+]

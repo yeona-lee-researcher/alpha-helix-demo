@@ -1,0 +1,28 @@
+# === Alpha-Helix analytics service (MVP lite — no heavy ML deps) ===
+# Python 3.11 only
+
+# Web
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+pydantic==2.9.2
+
+# Market data
+yfinance==0.2.50
+pandas==2.2.3
+numpy==1.26.4
+pyarrow==17.0.0
+
+# Backtest engine
+vectorbt==0.26.2
+numba==0.60.0
+plotly==5.24.1
+
+# Risk metrics
+quantstats==0.0.62
+
+# ML — light versions (xgboost 2.0 series doesn't pull nvidia GPU deps)
+scikit-learn==1.5.2
+joblib==1.4.2
+
+# Utils
+python-dotenv==1.0.1

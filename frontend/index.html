@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.1" />
+    <title>Alpha-Helix</title>
+    <meta name="application-name" content="Alpha-Helix" />
+    <meta name="description" content="Alpha-Helix — 자유를 설계하는 AI 퀴트 매니저" />
+
+    <!-- Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- Inter (영어), Noto Sans SC (중국어) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" />
+
+    <!-- Toss Payments v1 SDK (결제창 전용)
+         ※ React 및 v2 SDK보다 반드시 먼저 로드해야 window.TossPayments 충돌 방지.
+            로드 직후 window.__tossV1 에 캡처 → v2가 나중에 window.TossPayments를 덮어써도 무관. -->
+    <script src="https://js.tosspayments.com/v1/payment"></script>
+    <script>window.__tossV1 = window.TossPayments;</script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

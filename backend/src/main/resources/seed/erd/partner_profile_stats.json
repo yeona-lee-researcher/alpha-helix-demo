@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "partner_profile_id": 1,
+    "experience_years": 7,
+    "completed_projects": 13,
+    "rating": 3.8,
+    "response_rate": 85,
+    "repeat_rate": 53,
+    "availability_days": 5
+  },
+  {
+    "id": 2,
+    "partner_profile_id": 2,
+    "experience_years": 7,
+    "completed_projects": 21,
+    "rating": 4.9,
+    "response_rate": 64,
+    "repeat_rate": 31,
+    "availability_days": 5
+  },
+  {
+    "id": 3,
+    "partner_profile_id": 3,
+    "experience_years": 7,
+    "completed_projects": 17,
+    "rating": 4.9,
+    "response_rate": 88,
+    "repeat_rate": 81,
+    "availability_days": 7
+  },
+  {
+    "id": 4,
+    "partner_profile_id": 4,
+    "experience_years": 4,
+    "completed_projects": 10,
+    "rating": 4.9,
+    "response_rate": 81,
+    "repeat_rate": 37,
+    "availability_days": 4
+  },
+  {
+    "id": 5,
+    "partner_profile_id": 5,
+    "experience_years": 1,
+    "completed_projects": 34,
+    "rating": 3.6,
+    "response_rate": 96,
+    "repeat_rate": 57,
+    "availability_days": 15
+  },
+  {
+    "id": 6,
+    "partner_profile_id": 6,
+    "experience_years": 2,
+    "completed_projects": 36,
+    "rating": 3.5,
+    "response_rate": 87,
+    "repeat_rate": 41,
+    "availability_days": 14
+  },
+  {
+    "id": 7,
+    "partner_profile_id": 7,
+    "experience_years": 1,
+    "completed_projects": 18,
+    "rating": 4.9,
+    "response_rate": 77,
+    "repeat_rate": 47,
+    "availability_days": 17
+  },
+  {
+    "id": 8,
+    "partner_profile_id": 8,
+    "experience_years": 7,
+    "completed_projects": 14,
+    "rating": 3.6,
+    "response_rate": 75,
+    "repeat_rate": 71,
+    "availability_days": 12
+  },
+  {
+    "id": 9,
+    "partner_profile_id": 9,
+    "experience_years": 7,
+    "completed_projects": 36,
+    "rating": 4.1,
+    "response_rate": 95,
+    "repeat_rate": 60,
+    "availability_days": 4
+  },
+  {
+    "id": 10,
+    "partner_profile_id": 10,
+    "experience_years": 4,
+    "completed_projects": 10,
+    "rating": 3.9,
+    "response_rate": 68,
+    "repeat_rate": 56,
+    "availability_days": 9
+  },
+  {
+    "id": 11,
+    "partner_profile_id": 11,
+    "experience_years": 1,
+    "completed_projects": 38,
+    "rating": 3.9,
+    "response_rate": 94,
+    "repeat_rate": 80,
+    "availability_days": 3
+  },
+  {
+    "id": 12,
+    "partner_profile_id": 12,
+    "experience_years": 7,
+    "completed_projects": 29,
+    "rating": 4.7,
+    "response_rate": 82,
+    "repeat_rate": 60,
+    "availability_days": 20
+  },
+  {
+    "id": 13,
+    "partner_profile_id": 13,
+    "experience_years": 1,
+    "completed_projects": 36,
+    "rating": 4.0,
+    "response_rate": 96,
+    "repeat_rate": 62,
+    "availability_days": 13
+  },
+  {
+    "id": 14,
+    "partner_profile_id": 14,
+    "experience_years": 12,
+    "completed_projects": 29,
+    "rating": 3.9,
+    "response_rate": 61,
+    "repeat_rate": 50,
+    "availability_days": 10
+  },
+  {
+    "id": 15,
+    "partner_profile_id": 15,
+    "experience_years": 12,
+    "completed_projects": 6,
+    "rating": 4.8,
+    "response_rate": 77,
+    "repeat_rate": 33,
+    "availability_days": 18
+  },
+  {
+    "id": 16,
+    "partner_profile_id": 16,
+    "experience_years": 1,
+    "completed_projects": 38,
+    "rating": 4.0,
+    "response_rate": 97,
+    "repeat_rate": 44,
+    "availability_days": 8
+  },
+  {
+    "id": 17,
+    "partner_profile_id": 17,
+    "experience_years": 1,
+    "completed_projects": 11,
+    "rating": 3.9,
+    "response_rate": 75,
+    "repeat_rate": 47,
+    "availability_days": 20
+  },
+  {
+    "id": 18,
+    "partner_profile_id": 18,
+    "experience_years": 2,
+    "completed_projects": 8,
+    "rating": 4.6,
+    "response_rate": 74,
+    "repeat_rate": 66,
+    "availability_days": 15
+  },
+  {
+    "id": 19,
+    "partner_profile_id": 19,
+    "experience_years": 2,
+    "completed_projects": 27,
+    "rating": 4.9,
+    "response_rate": 71,
+    "repeat_rate": 41,
+    "availability_days": 10
+  },
+  {
+    "id": 20,
+    "partner_profile_id": 20,
+    "experience_years": 12,
+    "completed_projects": 25,
+    "rating": 4.7,
+    "response_rate": 82,
+    "repeat_rate": 67,
+    "availability_days": 3
+  },
+  {
+    "id": 21,
+    "partner_profile_id": 21,
+    "experience_years": 2,
+    "completed_projects": 27,
+    "rating": 4.9,
+    "response_rate": 96,
+    "repeat_rate": 39,
+    "availability_days": 9
+  },
+  {
+    "id": 22,
+    "partner_profile_id": 22,
+    "experience_years": 2,
+    "completed_projects": 36,
+    "rating": 4.3,
+    "response_rate": 71,
+    "repeat_rate": 61,
+    "availability_days": 4
+  },
+  {
+    "id": 23,
+    "partner_profile_id": 23,
+    "experience_years": 4,
+    "completed_projects": 10,
+    "rating": 3.6,
+    "response_rate": 98,
+    "repeat_rate": 44,
+    "availability_days": 3
+  },
+  {
+    "id": 24,
+    "partner_profile_id": 24,
+    "experience_years": 4,
+    "completed_projects": 38,
+    "rating": 4.2,
+    "response_rate": 81,
+    "repeat_rate": 69,
+    "availability_days": 9
+  },
+  {
+    "id": 25,
+    "partner_profile_id": 25,
+    "experience_years": 7,
+    "completed_projects": 13,
+    "rating": 4.0,
+    "response_rate": 71,
+    "repeat_rate": 81,
+    "availability_days": 13
+  },
+  {
+    "id": 26,
+    "partner_profile_id": 26,
+    "experience_years": 2,
+    "completed_projects": 8,
+    "rating": 3.5,
+    "response_rate": 97,
+    "repeat_rate": 75,
+    "availability_days": 7
+  },
+  {
+    "id": 27,
+    "partner_profile_id": 27,
+    "experience_years": 7,
+    "completed_projects": 12,
+    "rating": 4.8,
+    "response_rate": 83,
+    "repeat_rate": 34,
+    "availability_days": 14
+  },
+  {
+    "id": 28,
+    "partner_profile_id": 28,
+    "experience_years": 12,
+    "completed_projects": 30,
+    "rating": 4.4,
+    "response_rate": 81,
+    "repeat_rate": 49,
+    "availability_days": 13
+  },
+  {
+    "id": 29,
+    "partner_profile_id": 29,
+    "experience_years": 1,
+    "completed_projects": 13,
+    "rating": 5.0,
+    "response_rate": 87,
+    "repeat_rate": 80,
+    "availability_days": 18
+  },
+  {
+    "id": 30,
+    "partner_profile_id": 30,
+    "experience_years": 4,
+    "completed_projects": 25,
+    "rating": 3.8,
+    "response_rate": 95,
+    "repeat_rate": 74,
+    "availability_days": 14
+  }
+]

@@ -1,0 +1,82 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '4.0.4'
+	id 'io.spring.dependency-management' version '1.1.7'
+}
+
+group = 'com.DevBridge'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(17)
+	}
+}
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	// implementation 'org.springframework.boot:spring-boot-starter-security'
+	// 비밀번호 BCrypt 해싱만 사용 (전체 Security 프레임워크/auto-config 없이 PasswordEncoder 만)
+	implementation 'org.springframework.security:spring-security-crypto'
+	implementation 'org.springframework.boot:spring-boot-starter-webmvc'
+	implementation 'org.springframework.boot:spring-boot-starter-websocket'
+	implementation 'org.springframework.boot:spring-boot-starter-mail'
+	implementation 'io.getstream:stream-chat-java:1.30.0'
+	implementation 'com.fasterxml.jackson.core:jackson-databind'
+	implementation 'io.github.cdimascio:dotenv-java:3.1.0'
+
+	// JWT (JJWT 0.12.x)
+	implementation 'io.jsonwebtoken:jjwt-api:0.12.6'
+	runtimeOnly 'io.jsonwebtoken:jjwt-impl:0.12.6'
+	runtimeOnly 'io.jsonwebtoken:jjwt-jackson:0.12.6'
+
+	// Flyway — DB 마이그레이션 (운영 ddl-auto=validate 와 함께 사용)
+	// ⚠️ Spring Boot 4.0 은 autoconfigure 를 모듈별로 분리했다. flyway-core 만으로는
+	//    FlywayAutoConfiguration 이 클래스패스에 없어 Flyway 가 기동 시 전혀 실행되지 않는다(마이그레이션 dead).
+	//    spring-boot-flyway 모듈이 있어야 자동 마이그레이션이 동작한다.
+	implementation 'org.springframework.boot:spring-boot-flyway'
+	implementation 'org.flywaydb:flyway-core'
+	implementation 'org.flywaydb:flyway-mysql'
+
+	// Bucket4j — Rate Limiting (AI 채팅 등 고비용 엔드포인트 보호)
+	implementation 'com.github.vladimir-bukhtoyarov:bucket4j-core:7.6.0'
+
+	// Resilience4j — Analytics sidecar Circuit Breaker + Retry
+	implementation 'io.github.resilience4j:resilience4j-spring-boot3:2.2.0'
+	implementation 'io.github.resilience4j:resilience4j-circuitbreaker:2.2.0'
+	implementation 'io.github.resilience4j:resilience4j-retry:2.2.0'
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+
+	compileOnly 'org.projectlombok:lombok'
+	runtimeOnly 'com.mysql:mysql-connector-j'
+	annotationProcessor 'org.projectlombok:lombok'
+
+	testImplementation 'org.springframework.boot:spring-boot-starter-data-jpa-test'
+	// testImplementation 'org.springframework.boot:spring-boot-starter-security-test'
+	testImplementation 'org.springframework.boot:spring-boot-starter-webmvc-test'
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+
+// ===== ERD v2 mock JSON 시드 데이터 자동 복사 =====
+// frontend/src/data/erd/*.json -> build/resources/main/seed/erd/
+// SSOT(Single Source of Truth)를 frontend로 유지.
+tasks.named('processResources') {
+	from('frontend/src/data/erd') {
+		into 'seed/erd'
+		include '*.json'
+	}
+}

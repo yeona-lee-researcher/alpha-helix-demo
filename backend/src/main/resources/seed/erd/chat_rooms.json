@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "user1_id": 61,
+    "user2_id": 62,
+    "room_type": "DIRECT_MESSAGE",
+    "stream_channel_id": "dm-chat01_email_com-chat02_email_com",
+    "stream_channel_type": "messaging"
+  }
+]

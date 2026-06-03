@@ -1,0 +1,1624 @@
+[
+  {
+    "id": 1,
+    "user_id": 31,
+    "name": "임지호",
+    "title": "Prisma 아키텍처 설계부터 React 배포까지 원스톱",
+    "hero_key": "teacher",
+    "service_field": "유지보수",
+    "work_category": "design",
+    "job_roles": [
+      "BX 디자이너",
+      "모바일 개발자",
+      "DevOps 엔지니어"
+    ],
+    "partner_type": "team",
+    "preferred_project_type": "fulltime",
+    "work_available_hours": {
+      "weekday": "오전",
+      "weekend": true
+    },
+    "communication_channels": [
+      "Teams",
+      "Google Meet",
+      "Zoom",
+      "Slack"
+    ],
+    "dev_level": "senior",
+    "dev_experience": "5-10",
+    "work_preference": "hybrid",
+    "slogan": "Prisma 아키텍처 설계부터 React 배포까지 원스톱",
+    "slogan_sub": "lead · 5-10년 경험",
+    "salary_hour": 105690,
+    "salary_month": 16910400,
+    "github_url": "https://github.com/partner_00031",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/31.pdf",
+    "portfolio_file_tag": [
+      "백엔드",
+      "모바일"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/31.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#품질우선",
+      "#성실",
+      "#빠른소통"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#EF4444",
+    "grade": "silver"
+  },
+  {
+    "id": 2,
+    "user_id": 32,
+    "name": "정하준",
+    "title": "웹사이트 품질 보증 · TypeScript+React CI/CD 파이프라인",
+    "hero_key": "check",
+    "service_field": "SaaS",
+    "work_category": "dev",
+    "job_roles": [
+      "BX 디자이너",
+      "QA"
+    ],
+    "partner_type": "individual",
+    "preferred_project_type": "fulltime",
+    "work_available_hours": {
+      "weekday": "오후",
+      "weekend": false
+    },
+    "communication_channels": [
+      "Discord",
+      "Figma"
+    ],
+    "dev_level": "junior",
+    "dev_experience": "5-10",
+    "work_preference": "hybrid",
+    "slogan": "웹사이트 품질 보증 · TypeScript+React CI/CD 파이프라인",
+    "slogan_sub": "junior · 10+년 경험",
+    "salary_hour": 59536,
+    "salary_month": 9525760,
+    "github_url": "https://github.com/partner_00032",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/32.pdf",
+    "portfolio_file_tag": [
+      "백엔드",
+      "웹"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/32.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#빠른소통",
+      "#품질우선",
+      "#장기협업"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#6366F1",
+    "grade": "diamond"
+  },
+  {
+    "id": 3,
+    "user_id": 33,
+    "name": "신서연",
+    "title": "AI 추천 엔진 End-to-End 구축 전문가",
+    "hero_key": "teacher",
+    "service_field": "의료",
+    "work_category": "design",
+    "job_roles": [
+      "모바일 개발자",
+      "데이터 엔지니어"
+    ],
+    "partner_type": "team",
+    "preferred_project_type": "outsource",
+    "work_available_hours": {
+      "weekday": "오후",
+      "weekend": true
+    },
+    "communication_channels": [
+      "Notion",
+      "Discord",
+      "Zoom",
+      "Figma"
+    ],
+    "dev_level": "middle",
+    "dev_experience": "5-10",
+    "work_preference": "remote",
+    "slogan": "AI 추천 엔진 End-to-End 구축 전문가",
+    "slogan_sub": "senior · 3-5년 경험",
+    "salary_hour": 35183,
+    "salary_month": 5629280,
+    "github_url": "https://github.com/partner_00033",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/33.pdf",
+    "portfolio_file_tag": [
+      "디자인",
+      "AI"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/33.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#장기협업",
+      "#빠른소통",
+      "#성실"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#2DD4BF",
+    "grade": "gold"
+  },
+  {
+    "id": 4,
+    "user_id": 34,
+    "name": "권윤서",
+    "title": "핀테크 결제 모듈 리팩토링 시니어",
+    "hero_key": "check",
+    "service_field": "웹사이트",
+    "work_category": "dev",
+    "job_roles": [
+      "모바일 개발자",
+      "데이터 엔지니어"
+    ],
+    "partner_type": "team",
+    "preferred_project_type": "fulltime",
+    "work_available_hours": {
+      "weekday": "오전",
+      "weekend": true
+    },
+    "communication_channels": [
+      "Jira",
+      "Slack",
+      "Figma",
+      "Google Meet"
+    ],
+    "dev_level": "lead",
+    "dev_experience": "3-5",
+    "work_preference": "remote",
+    "slogan": "핀테크 결제 모듈 리팩토링 시니어",
+    "slogan_sub": "middle · 3-5년 경험",
+    "salary_hour": 97215,
+    "salary_month": 15554400,
+    "github_url": "https://github.com/partner_00034",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/34.pdf",
+    "portfolio_file_tag": [
+      "백엔드",
+      "디자인"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/34.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#장기협업",
+      "#성실",
+      "#품질우선"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#10B981",
+    "grade": "gold"
+  },
+  {
+    "id": 5,
+    "user_id": 35,
+    "name": "서윤서",
+    "title": "크로스플랫폼 모바일 앱 Flutter 전문가",
+    "hero_key": "check",
+    "service_field": "모바일",
+    "work_category": "design",
+    "job_roles": [
+      "데이터 엔지니어",
+      "풀스택 개발자",
+      "PM"
+    ],
+    "partner_type": "company",
+    "preferred_project_type": "both",
+    "work_available_hours": {
+      "weekday": "유연",
+      "weekend": true
+    },
+    "communication_channels": [
+      "Slack",
+      "Google Meet",
+      "Figma",
+      "Discord"
+    ],
+    "dev_level": "junior",
+    "dev_experience": "0-1",
+    "work_preference": "any",
+    "slogan": "크로스플랫폼 모바일 앱 Flutter 전문가",
+    "slogan_sub": "middle · 1-3년 경험",
+    "salary_hour": 63728,
+    "salary_month": 10196480,
+    "github_url": "https://github.com/partner_00035",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/35.pdf",
+    "portfolio_file_tag": [
+      "웹",
+      "백엔드"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/35.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#열정",
+      "#성실",
+      "#빠른소통"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#EF4444",
+    "grade": "gold"
+  },
+  {
+    "id": 6,
+    "user_id": 36,
+    "name": "임나은",
+    "title": "백엔드 아키텍처 설계 & MSA 전환",
+    "hero_key": "check",
+    "service_field": "모바일",
+    "work_category": "planning",
+    "job_roles": [
+      "BX 디자이너"
+    ],
+    "partner_type": "company",
+    "preferred_project_type": "fulltime",
+    "work_available_hours": {
+      "weekday": "오전",
+      "weekend": true
+    },
+    "communication_channels": [
+      "Google Meet",
+      "Figma",
+      "Jira",
+      "Slack"
+    ],
+    "dev_level": "lead",
+    "dev_experience": "1-3",
+    "work_preference": "onsite",
+    "slogan": "백엔드 아키텍처 설계 & MSA 전환",
+    "slogan_sub": "junior · 10+년 경험",
+    "salary_hour": 37923,
+    "salary_month": 6067680,
+    "github_url": "https://github.com/partner_00036",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/36.pdf",
+    "portfolio_file_tag": [
+      "백엔드",
+      "AI"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/36.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#성실",
+      "#빠른소통",
+      "#장기협업"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#2DD4BF",
+    "grade": "platinum"
+  },
+  {
+    "id": 7,
+    "user_id": 37,
+    "name": "강수빈",
+    "title": "데이터 엔지니어 · Airflow·Spark 경험",
+    "hero_key": "check",
+    "service_field": "의료",
+    "work_category": "design",
+    "job_roles": [
+      "모바일 개발자",
+      "AI 엔지니어",
+      "백엔드 개발자"
+    ],
+    "partner_type": "company",
+    "preferred_project_type": "both",
+    "work_available_hours": {
+      "weekday": "오전",
+      "weekend": true
+    },
+    "communication_channels": [
+      "Teams",
+      "Zoom",
+      "Google Meet"
+    ],
+    "dev_level": "lead",
+    "dev_experience": "0-1",
+    "work_preference": "onsite",
+    "slogan": "데이터 엔지니어 · Airflow·Spark 경험",
+    "slogan_sub": "middle · 0-1년 경험",
+    "salary_hour": 40357,
+    "salary_month": 6457120,
+    "github_url": "https://github.com/partner_00037",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/37.pdf",
+    "portfolio_file_tag": [
+      "디자인",
+      "AI"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/37.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#빠른소통",
+      "#열정",
+      "#장기협업"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#F59E0B",
+    "grade": "silver"
+  },
+  {
+    "id": 8,
+    "user_id": 38,
+    "name": "권하린",
+    "title": "UI/UX 디자인 시스템 구축 리드",
+    "hero_key": "check",
+    "service_field": "유지보수",
+    "work_category": "planning",
+    "job_roles": [
+      "PM"
+    ],
+    "partner_type": "team",
+    "preferred_project_type": "both",
+    "work_available_hours": {
+      "weekday": "오전",
+      "weekend": true
+    },
+    "communication_channels": [
+      "Slack",
+      "Notion",
+      "Google Meet"
+    ],
+    "dev_level": "middle",
+    "dev_experience": "5-10",
+    "work_preference": "onsite",
+    "slogan": "UI/UX 디자인 시스템 구축 리드",
+    "slogan_sub": "senior · 1-3년 경험",
+    "salary_hour": 57710,
+    "salary_month": 9233600,
+    "github_url": "https://github.com/partner_00038",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/38.pdf",
+    "portfolio_file_tag": [
+      "AI",
+      "백엔드"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/38.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#장기협업",
+      "#품질우선",
+      "#빠른소통"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#10B981",
+    "grade": "gold"
+  },
+  {
+    "id": 9,
+    "user_id": 39,
+    "name": "서하준",
+    "title": "DevOps 파이프라인 & 쿠버네티스 운영",
+    "hero_key": "meeting",
+    "service_field": "교육",
+    "work_category": "publishing",
+    "job_roles": [
+      "백엔드 개발자"
+    ],
+    "partner_type": "team",
+    "preferred_project_type": "outsource",
+    "work_available_hours": {
+      "weekday": "오전",
+      "weekend": false
+    },
+    "communication_channels": [
+      "Teams",
+      "Figma",
+      "Jira",
+      "Slack"
+    ],
+    "dev_level": "senior",
+    "dev_experience": "5-10",
+    "work_preference": "any",
+    "slogan": "DevOps 파이프라인 & 쿠버네티스 운영",
+    "slogan_sub": "middle · 3-5년 경험",
+    "salary_hour": 80311,
+    "salary_month": 12849760,
+    "github_url": "https://github.com/partner_00039",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/39.pdf",
+    "portfolio_file_tag": [
+      "AI",
+      "디자인"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/39.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#품질우선",
+      "#성실",
+      "#빠른소통"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#6366F1",
+    "grade": "platinum"
+  },
+  {
+    "id": 10,
+    "user_id": 40,
+    "name": "서나은",
+    "title": "프론트엔드 성능 최적화 전문",
+    "hero_key": "student",
+    "service_field": "커머스",
+    "work_category": "planning",
+    "job_roles": [
+      "AI 엔지니어"
+    ],
+    "partner_type": "individual",
+    "preferred_project_type": "fulltime",
+    "work_available_hours": {
+      "weekday": "오후",
+      "weekend": false
+    },
+    "communication_channels": [
+      "Discord",
+      "Slack",
+      "Teams"
+    ],
+    "dev_level": "junior",
+    "dev_experience": "3-5",
+    "work_preference": "any",
+    "slogan": "프론트엔드 성능 최적화 전문",
+    "slogan_sub": "senior · 3-5년 경험",
+    "salary_hour": 41232,
+    "salary_month": 6597120,
+    "github_url": "https://github.com/partner_00040",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/40.pdf",
+    "portfolio_file_tag": [
+      "웹",
+      "백엔드"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/40.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#열정",
+      "#성실",
+      "#품질우선"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#EF4444",
+    "grade": "diamond"
+  },
+  {
+    "id": 11,
+    "user_id": 41,
+    "name": "장유진",
+    "title": "Prisma 아키텍처 설계부터 React 배포까지 원스톱",
+    "hero_key": "meeting",
+    "service_field": "SaaS",
+    "work_category": "planning",
+    "job_roles": [
+      "BX 디자이너",
+      "백엔드 개발자"
+    ],
+    "partner_type": "company",
+    "preferred_project_type": "both",
+    "work_available_hours": {
+      "weekday": "풀타임",
+      "weekend": false
+    },
+    "communication_channels": [
+      "Google Meet",
+      "Zoom"
+    ],
+    "dev_level": "lead",
+    "dev_experience": "0-1",
+    "work_preference": "remote",
+    "slogan": "Prisma 아키텍처 설계부터 React 배포까지 원스톱",
+    "slogan_sub": "middle · 5-10년 경험",
+    "salary_hour": 102710,
+    "salary_month": 16433600,
+    "github_url": "https://github.com/partner_00041",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/41.pdf",
+    "portfolio_file_tag": [
+      "백엔드",
+      "AI"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/41.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#빠른소통",
+      "#장기협업",
+      "#성실"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#EF4444",
+    "grade": "silver"
+  },
+  {
+    "id": 12,
+    "user_id": 42,
+    "name": "박유진",
+    "title": "웹사이트 품질 보증 · TypeScript+React CI/CD 파이프라인",
+    "hero_key": "student",
+    "service_field": "블록체인",
+    "work_category": "publishing",
+    "job_roles": [
+      "백엔드 개발자",
+      "데이터 엔지니어"
+    ],
+    "partner_type": "team",
+    "preferred_project_type": "outsource",
+    "work_available_hours": {
+      "weekday": "유연",
+      "weekend": true
+    },
+    "communication_channels": [
+      "Notion",
+      "Figma",
+      "Jira"
+    ],
+    "dev_level": "junior",
+    "dev_experience": "5-10",
+    "work_preference": "hybrid",
+    "slogan": "웹사이트 품질 보증 · TypeScript+React CI/CD 파이프라인",
+    "slogan_sub": "lead · 3-5년 경험",
+    "salary_hour": 38292,
+    "salary_month": 6126720,
+    "github_url": "https://github.com/partner_00042",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/42.pdf",
+    "portfolio_file_tag": [
+      "디자인",
+      "모바일"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/42.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#품질우선",
+      "#성실",
+      "#장기협업"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#EA580C",
+    "grade": "diamond"
+  },
+  {
+    "id": 13,
+    "user_id": 43,
+    "name": "윤지호",
+    "title": "AI 추천 엔진 End-to-End 구축 전문가",
+    "hero_key": "teacher",
+    "service_field": "블록체인",
+    "work_category": "publishing",
+    "job_roles": [
+      "QA",
+      "PM"
+    ],
+    "partner_type": "team",
+    "preferred_project_type": "both",
+    "work_available_hours": {
+      "weekday": "오후",
+      "weekend": false
+    },
+    "communication_channels": [
+      "Google Meet",
+      "Teams",
+      "Zoom"
+    ],
+    "dev_level": "senior",
+    "dev_experience": "0-1",
+    "work_preference": "remote",
+    "slogan": "AI 추천 엔진 End-to-End 구축 전문가",
+    "slogan_sub": "middle · 10+년 경험",
+    "salary_hour": 56326,
+    "salary_month": 9012160,
+    "github_url": "https://github.com/partner_00043",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/43.pdf",
+    "portfolio_file_tag": [
+      "웹",
+      "디자인"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/43.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#성실",
+      "#품질우선",
+      "#장기협업"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#14B8A6",
+    "grade": "bronze"
+  },
+  {
+    "id": 14,
+    "user_id": 44,
+    "name": "한윤서",
+    "title": "핀테크 결제 모듈 리팩토링 시니어",
+    "hero_key": "teacher",
+    "service_field": "유지보수",
+    "work_category": "design",
+    "job_roles": [
+      "PM",
+      "풀스택 개발자"
+    ],
+    "partner_type": "company",
+    "preferred_project_type": "fulltime",
+    "work_available_hours": {
+      "weekday": "유연",
+      "weekend": true
+    },
+    "communication_channels": [
+      "Figma",
+      "Google Meet",
+      "Zoom"
+    ],
+    "dev_level": "lead",
+    "dev_experience": "10+",
+    "work_preference": "onsite",
+    "slogan": "핀테크 결제 모듈 리팩토링 시니어",
+    "slogan_sub": "senior · 10+년 경험",
+    "salary_hour": 83627,
+    "salary_month": 13380320,
+    "github_url": "https://github.com/partner_00044",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/44.pdf",
+    "portfolio_file_tag": [
+      "AI",
+      "웹"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/44.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#열정",
+      "#성실",
+      "#빠른소통"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#EC4899",
+    "grade": "gold"
+  },
+  {
+    "id": 15,
+    "user_id": 45,
+    "name": "한나은",
+    "title": "크로스플랫폼 모바일 앱 Flutter 전문가",
+    "hero_key": "meeting",
+    "service_field": "의료",
+    "work_category": "dev",
+    "job_roles": [
+      "DevOps 엔지니어",
+      "백엔드 개발자"
+    ],
+    "partner_type": "individual",
+    "preferred_project_type": "outsource",
+    "work_available_hours": {
+      "weekday": "풀타임",
+      "weekend": true
+    },
+    "communication_channels": [
+      "Zoom",
+      "Figma",
+      "Jira",
+      "Teams"
+    ],
+    "dev_level": "lead",
+    "dev_experience": "10+",
+    "work_preference": "remote",
+    "slogan": "크로스플랫폼 모바일 앱 Flutter 전문가",
+    "slogan_sub": "senior · 0-1년 경험",
+    "salary_hour": 51802,
+    "salary_month": 8288320,
+    "github_url": "https://github.com/partner_00045",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/45.pdf",
+    "portfolio_file_tag": [
+      "디자인",
+      "웹"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/45.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#빠른소통",
+      "#품질우선",
+      "#열정"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#22D3EE",
+    "grade": "silver"
+  },
+  {
+    "id": 16,
+    "user_id": 46,
+    "name": "정지호",
+    "title": "백엔드 아키텍처 설계 & MSA 전환",
+    "hero_key": "check",
+    "service_field": "커머스",
+    "work_category": "dev",
+    "job_roles": [
+      "UI/UX 디자이너",
+      "백엔드 개발자"
+    ],
+    "partner_type": "team",
+    "preferred_project_type": "both",
+    "work_available_hours": {
+      "weekday": "유연",
+      "weekend": false
+    },
+    "communication_channels": [
+      "Google Meet",
+      "Slack"
+    ],
+    "dev_level": "junior",
+    "dev_experience": "0-1",
+    "work_preference": "hybrid",
+    "slogan": "백엔드 아키텍처 설계 & MSA 전환",
+    "slogan_sub": "junior · 1-3년 경험",
+    "salary_hour": 75656,
+    "salary_month": 12104960,
+    "github_url": "https://github.com/partner_00046",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/46.pdf",
+    "portfolio_file_tag": [
+      "백엔드",
+      "AI"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/46.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#장기협업",
+      "#성실",
+      "#품질우선"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#10B981",
+    "grade": "platinum"
+  },
+  {
+    "id": 17,
+    "user_id": 47,
+    "name": "최수빈",
+    "title": "데이터 엔지니어 · Airflow·Spark 경험",
+    "hero_key": "teacher",
+    "service_field": "AI",
+    "work_category": "dev",
+    "job_roles": [
+      "프론트엔드 개발자",
+      "기획자"
+    ],
+    "partner_type": "individual",
+    "preferred_project_type": "fulltime",
+    "work_available_hours": {
+      "weekday": "유연",
+      "weekend": false
+    },
+    "communication_channels": [
+      "Zoom",
+      "Notion"
+    ],
+    "dev_level": "senior",
+    "dev_experience": "0-1",
+    "work_preference": "onsite",
+    "slogan": "데이터 엔지니어 · Airflow·Spark 경험",
+    "slogan_sub": "middle · 3-5년 경험",
+    "salary_hour": 90562,
+    "salary_month": 14489920,
+    "github_url": "https://github.com/partner_00047",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/47.pdf",
+    "portfolio_file_tag": [
+      "모바일",
+      "백엔드"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/47.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#품질우선",
+      "#열정",
+      "#성실"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#EC4899",
+    "grade": "platinum"
+  },
+  {
+    "id": 18,
+    "user_id": 48,
+    "name": "한지호",
+    "title": "UI/UX 디자인 시스템 구축 리드",
+    "hero_key": "default",
+    "service_field": "블록체인",
+    "work_category": "dev",
+    "job_roles": [
+      "백엔드 개발자",
+      "데이터 엔지니어",
+      "PM"
+    ],
+    "partner_type": "team",
+    "preferred_project_type": "both",
+    "work_available_hours": {
+      "weekday": "오후",
+      "weekend": false
+    },
+    "communication_channels": [
+      "Notion",
+      "Discord",
+      "Figma",
+      "Jira"
+    ],
+    "dev_level": "junior",
+    "dev_experience": "1-3",
+    "work_preference": "hybrid",
+    "slogan": "UI/UX 디자인 시스템 구축 리드",
+    "slogan_sub": "junior · 1-3년 경험",
+    "salary_hour": 99168,
+    "salary_month": 15866880,
+    "github_url": "https://github.com/partner_00048",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/48.pdf",
+    "portfolio_file_tag": [
+      "모바일",
+      "백엔드"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/48.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#장기협업",
+      "#품질우선",
+      "#성실"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#6366F1",
+    "grade": "silver"
+  },
+  {
+    "id": 19,
+    "user_id": 49,
+    "name": "조유진",
+    "title": "DevOps 파이프라인 & 쿠버네티스 운영",
+    "hero_key": "teacher",
+    "service_field": "모바일",
+    "work_category": "design",
+    "job_roles": [
+      "풀스택 개발자",
+      "UI/UX 디자이너",
+      "AI 엔지니어"
+    ],
+    "partner_type": "individual",
+    "preferred_project_type": "outsource",
+    "work_available_hours": {
+      "weekday": "풀타임",
+      "weekend": false
+    },
+    "communication_channels": [
+      "Slack",
+      "Teams",
+      "Jira",
+      "Figma"
+    ],
+    "dev_level": "lead",
+    "dev_experience": "1-3",
+    "work_preference": "remote",
+    "slogan": "DevOps 파이프라인 & 쿠버네티스 운영",
+    "slogan_sub": "lead · 10+년 경험",
+    "salary_hour": 105340,
+    "salary_month": 16854400,
+    "github_url": "https://github.com/partner_00049",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/49.pdf",
+    "portfolio_file_tag": [
+      "AI",
+      "디자인"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/49.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#품질우선",
+      "#장기협업",
+      "#성실"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#14B8A6",
+    "grade": "platinum"
+  },
+  {
+    "id": 20,
+    "user_id": 50,
+    "name": "박서연",
+    "title": "프론트엔드 성능 최적화 전문",
+    "hero_key": "default",
+    "service_field": "SaaS",
+    "work_category": "design",
+    "job_roles": [
+      "프론트엔드 개발자",
+      "AI 엔지니어"
+    ],
+    "partner_type": "individual",
+    "preferred_project_type": "both",
+    "work_available_hours": {
+      "weekday": "풀타임",
+      "weekend": true
+    },
+    "communication_channels": [
+      "Figma",
+      "Google Meet",
+      "Teams"
+    ],
+    "dev_level": "junior",
+    "dev_experience": "10+",
+    "work_preference": "onsite",
+    "slogan": "프론트엔드 성능 최적화 전문",
+    "slogan_sub": "senior · 10+년 경험",
+    "salary_hour": 94054,
+    "salary_month": 15048640,
+    "github_url": "https://github.com/partner_00050",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/50.pdf",
+    "portfolio_file_tag": [
+      "모바일",
+      "웹"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/50.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#품질우선",
+      "#성실",
+      "#장기협업"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#22D3EE",
+    "grade": "silver"
+  },
+  {
+    "id": 21,
+    "user_id": 51,
+    "name": "신지훈",
+    "title": "Prisma 아키텍처 설계부터 React 배포까지 원스톱",
+    "hero_key": "check",
+    "service_field": "유지보수",
+    "work_category": "publishing",
+    "job_roles": [
+      "UI/UX 디자이너"
+    ],
+    "partner_type": "individual",
+    "preferred_project_type": "outsource",
+    "work_available_hours": {
+      "weekday": "오후",
+      "weekend": false
+    },
+    "communication_channels": [
+      "Teams",
+      "Notion",
+      "Google Meet",
+      "Figma"
+    ],
+    "dev_level": "middle",
+    "dev_experience": "1-3",
+    "work_preference": "onsite",
+    "slogan": "Prisma 아키텍처 설계부터 React 배포까지 원스톱",
+    "slogan_sub": "senior · 10+년 경험",
+    "salary_hour": 69021,
+    "salary_month": 11043360,
+    "github_url": "https://github.com/partner_00051",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/51.pdf",
+    "portfolio_file_tag": [
+      "모바일",
+      "백엔드"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/51.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#빠른소통",
+      "#장기협업",
+      "#성실"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#6366F1",
+    "grade": "gold"
+  },
+  {
+    "id": 22,
+    "user_id": 52,
+    "name": "권지우",
+    "title": "웹사이트 품질 보증 · TypeScript+React CI/CD 파이프라인",
+    "hero_key": "teacher",
+    "service_field": "블록체인",
+    "work_category": "planning",
+    "job_roles": [
+      "PM",
+      "풀스택 개발자"
+    ],
+    "partner_type": "company",
+    "preferred_project_type": "outsource",
+    "work_available_hours": {
+      "weekday": "오후",
+      "weekend": true
+    },
+    "communication_channels": [
+      "Discord",
+      "Teams",
+      "Notion",
+      "Zoom"
+    ],
+    "dev_level": "lead",
+    "dev_experience": "1-3",
+    "work_preference": "hybrid",
+    "slogan": "웹사이트 품질 보증 · TypeScript+React CI/CD 파이프라인",
+    "slogan_sub": "lead · 5-10년 경험",
+    "salary_hour": 97425,
+    "salary_month": 15588000,
+    "github_url": "https://github.com/partner_00052",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/52.pdf",
+    "portfolio_file_tag": [
+      "디자인",
+      "웹"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/52.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#열정",
+      "#품질우선",
+      "#빠른소통"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#14B8A6",
+    "grade": "gold"
+  },
+  {
+    "id": 23,
+    "user_id": 53,
+    "name": "윤윤서",
+    "title": "AI 추천 엔진 End-to-End 구축 전문가",
+    "hero_key": "student",
+    "service_field": "의료",
+    "work_category": "planning",
+    "job_roles": [
+      "백엔드 개발자",
+      "UI/UX 디자이너",
+      "데이터 엔지니어"
+    ],
+    "partner_type": "individual",
+    "preferred_project_type": "both",
+    "work_available_hours": {
+      "weekday": "유연",
+      "weekend": true
+    },
+    "communication_channels": [
+      "Zoom",
+      "Figma",
+      "Jira"
+    ],
+    "dev_level": "senior",
+    "dev_experience": "3-5",
+    "work_preference": "hybrid",
+    "slogan": "AI 추천 엔진 End-to-End 구축 전문가",
+    "slogan_sub": "middle · 10+년 경험",
+    "salary_hour": 78374,
+    "salary_month": 12539840,
+    "github_url": "https://github.com/partner_00053",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/53.pdf",
+    "portfolio_file_tag": [
+      "디자인",
+      "모바일"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/53.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#열정",
+      "#장기협업",
+      "#품질우선"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#EC4899",
+    "grade": "platinum"
+  },
+  {
+    "id": 24,
+    "user_id": 54,
+    "name": "이예준",
+    "title": "핀테크 결제 모듈 리팩토링 시니어",
+    "hero_key": "check",
+    "service_field": "모바일",
+    "work_category": "planning",
+    "job_roles": [
+      "모바일 개발자",
+      "풀스택 개발자"
+    ],
+    "partner_type": "company",
+    "preferred_project_type": "fulltime",
+    "work_available_hours": {
+      "weekday": "오후",
+      "weekend": false
+    },
+    "communication_channels": [
+      "Discord",
+      "Jira"
+    ],
+    "dev_level": "junior",
+    "dev_experience": "3-5",
+    "work_preference": "remote",
+    "slogan": "핀테크 결제 모듈 리팩토링 시니어",
+    "slogan_sub": "junior · 5-10년 경험",
+    "salary_hour": 32134,
+    "salary_month": 5141440,
+    "github_url": "https://github.com/partner_00054",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/54.pdf",
+    "portfolio_file_tag": [
+      "모바일",
+      "백엔드"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/54.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#품질우선",
+      "#열정",
+      "#빠른소통"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#22D3EE",
+    "grade": "bronze"
+  },
+  {
+    "id": 25,
+    "user_id": 55,
+    "name": "윤서연",
+    "title": "크로스플랫폼 모바일 앱 Flutter 전문가",
+    "hero_key": "teacher",
+    "service_field": "의료",
+    "work_category": "design",
+    "job_roles": [
+      "PM",
+      "UI/UX 디자이너",
+      "프론트엔드 개발자"
+    ],
+    "partner_type": "individual",
+    "preferred_project_type": "both",
+    "work_available_hours": {
+      "weekday": "풀타임",
+      "weekend": true
+    },
+    "communication_channels": [
+      "Jira",
+      "Zoom",
+      "Slack"
+    ],
+    "dev_level": "middle",
+    "dev_experience": "5-10",
+    "work_preference": "onsite",
+    "slogan": "크로스플랫폼 모바일 앱 Flutter 전문가",
+    "slogan_sub": "junior · 0-1년 경험",
+    "salary_hour": 57973,
+    "salary_month": 9275680,
+    "github_url": "https://github.com/partner_00055",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/55.pdf",
+    "portfolio_file_tag": [
+      "모바일",
+      "AI"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/55.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#빠른소통",
+      "#성실",
+      "#품질우선"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#7C3AED",
+    "grade": "silver"
+  },
+  {
+    "id": 26,
+    "user_id": 56,
+    "name": "장하린",
+    "title": "백엔드 아키텍처 설계 & MSA 전환",
+    "hero_key": "meeting",
+    "service_field": "의료",
+    "work_category": "design",
+    "job_roles": [
+      "데이터 엔지니어",
+      "모바일 개발자"
+    ],
+    "partner_type": "company",
+    "preferred_project_type": "both",
+    "work_available_hours": {
+      "weekday": "오후",
+      "weekend": false
+    },
+    "communication_channels": [
+      "Figma",
+      "Teams",
+      "Notion",
+      "Slack"
+    ],
+    "dev_level": "junior",
+    "dev_experience": "1-3",
+    "work_preference": "onsite",
+    "slogan": "백엔드 아키텍처 설계 & MSA 전환",
+    "slogan_sub": "lead · 3-5년 경험",
+    "salary_hour": 38966,
+    "salary_month": 6234560,
+    "github_url": "https://github.com/partner_00056",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/56.pdf",
+    "portfolio_file_tag": [
+      "디자인",
+      "모바일"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/56.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#성실",
+      "#장기협업",
+      "#품질우선"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#EC4899",
+    "grade": "bronze"
+  },
+  {
+    "id": 27,
+    "user_id": 57,
+    "name": "장나은",
+    "title": "데이터 엔지니어 · Airflow·Spark 경험",
+    "hero_key": "default",
+    "service_field": "의료",
+    "work_category": "publishing",
+    "job_roles": [
+      "프론트엔드 개발자",
+      "PM",
+      "AI 엔지니어"
+    ],
+    "partner_type": "individual",
+    "preferred_project_type": "both",
+    "work_available_hours": {
+      "weekday": "오후",
+      "weekend": false
+    },
+    "communication_channels": [
+      "Slack",
+      "Teams",
+      "Notion"
+    ],
+    "dev_level": "lead",
+    "dev_experience": "5-10",
+    "work_preference": "onsite",
+    "slogan": "데이터 엔지니어 · Airflow·Spark 경험",
+    "slogan_sub": "middle · 5-10년 경험",
+    "salary_hour": 62527,
+    "salary_month": 10004320,
+    "github_url": "https://github.com/partner_00057",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/57.pdf",
+    "portfolio_file_tag": [
+      "AI",
+      "웹"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/57.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#장기협업",
+      "#열정",
+      "#성실"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#EA580C",
+    "grade": "silver"
+  },
+  {
+    "id": 28,
+    "user_id": 58,
+    "name": "신하린",
+    "title": "UI/UX 디자인 시스템 구축 리드",
+    "hero_key": "check",
+    "service_field": "핀테크",
+    "work_category": "design",
+    "job_roles": [
+      "백엔드 개발자",
+      "프론트엔드 개발자"
+    ],
+    "partner_type": "company",
+    "preferred_project_type": "outsource",
+    "work_available_hours": {
+      "weekday": "오전",
+      "weekend": false
+    },
+    "communication_channels": [
+      "Slack",
+      "Figma"
+    ],
+    "dev_level": "lead",
+    "dev_experience": "10+",
+    "work_preference": "hybrid",
+    "slogan": "UI/UX 디자인 시스템 구축 리드",
+    "slogan_sub": "lead · 5-10년 경험",
+    "salary_hour": 80703,
+    "salary_month": 12912480,
+    "github_url": "https://github.com/partner_00058",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/58.pdf",
+    "portfolio_file_tag": [
+      "디자인",
+      "웹"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/58.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#장기협업",
+      "#성실",
+      "#품질우선"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#22D3EE",
+    "grade": "gold"
+  },
+  {
+    "id": 29,
+    "user_id": 59,
+    "name": "장서윤",
+    "title": "DevOps 파이프라인 & 쿠버네티스 운영",
+    "hero_key": "teacher",
+    "service_field": "교육",
+    "work_category": "publishing",
+    "job_roles": [
+      "기획자",
+      "PM"
+    ],
+    "partner_type": "company",
+    "preferred_project_type": "both",
+    "work_available_hours": {
+      "weekday": "오전",
+      "weekend": false
+    },
+    "communication_channels": [
+      "Teams",
+      "Discord",
+      "Notion",
+      "Slack"
+    ],
+    "dev_level": "middle",
+    "dev_experience": "0-1",
+    "work_preference": "any",
+    "slogan": "DevOps 파이프라인 & 쿠버네티스 운영",
+    "slogan_sub": "junior · 5-10년 경험",
+    "salary_hour": 40357,
+    "salary_month": 6457120,
+    "github_url": "https://github.com/partner_00059",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/59.pdf",
+    "portfolio_file_tag": [
+      "AI",
+      "웹"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/59.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#빠른소통",
+      "#성실",
+      "#열정"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#F59E0B",
+    "grade": "silver"
+  },
+  {
+    "id": 30,
+    "user_id": 60,
+    "name": "박윤서",
+    "title": "프론트엔드 성능 최적화 전문",
+    "hero_key": "student",
+    "service_field": "교육",
+    "work_category": "publishing",
+    "job_roles": [
+      "데이터 엔지니어"
+    ],
+    "partner_type": "individual",
+    "preferred_project_type": "both",
+    "work_available_hours": {
+      "weekday": "풀타임",
+      "weekend": true
+    },
+    "communication_channels": [
+      "Discord",
+      "Teams"
+    ],
+    "dev_level": "lead",
+    "dev_experience": "3-5",
+    "work_preference": "onsite",
+    "slogan": "프론트엔드 성능 최적화 전문",
+    "slogan_sub": "senior · 10+년 경험",
+    "salary_hour": 31487,
+    "salary_month": 5037920,
+    "github_url": "https://github.com/partner_00060",
+    "blog_url": null,
+    "youtube_url": null,
+    "portfolio_file_url": "https://cdn.devbridge.com/portfolio/60.pdf",
+    "portfolio_file_tag": [
+      "웹",
+      "디자인"
+    ],
+    "bio_file_url": "https://cdn.devbridge.com/bio/60.pdf",
+    "bio_file_tag": [
+      "경력",
+      "포트폴리오"
+    ],
+    "hashtags": [
+      "#품질우선",
+      "#빠른소통",
+      "#열정"
+    ],
+    "bio": "다양한 도메인에서 실무 경험을 쌓아온 개발자입니다.",
+    "strength_desc": "분산 시스템 설계, 성능 튜닝, 팀 리딩에 강점이 있습니다.",
+    "avatar_color": "#EF4444",
+    "grade": "diamond"
+  },
+  {
+    "id": 31,
+    "user_id": 62,
+    "title": "풀스택 시니어 개발자 (Java/Spring, React 전문가)",
+    "work_category": "dev",
+    "partner_type": "individual",
+    "dev_level": "lead",
+    "dev_experience": "10+",
+    "avatar_color": "#10B981",
+    "grade": "diamond",
+    "job_roles": [
+      "풀스택 개발자",
+      "백엔드 개발자"
+    ],
+    "work_available_hours": {
+      "weekday": "오전",
+      "weekend": false
+    },
+    "communication_channels": [
+      "Slack",
+      "Google Meet",
+      "Email"
+    ]
+  }
+]

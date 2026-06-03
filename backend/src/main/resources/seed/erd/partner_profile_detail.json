@@ -1,0 +1,1592 @@
+[
+  {
+    "id": 1,
+    "partner_profile_id": 1,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": true,
+    "show_certificates": false,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2025-11-08 10:00:00",
+    "updated_at": "2026-04-14 10:00:00"
+  },
+  {
+    "id": 2,
+    "partner_profile_id": 2,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": true,
+    "show_certificates": true,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2026-02-24 10:00:00",
+    "updated_at": "2026-04-17 10:00:00"
+  },
+  {
+    "id": 3,
+    "partner_profile_id": 3,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": true,
+    "show_certificates": true,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2025-09-13 10:00:00",
+    "updated_at": "2026-04-05 10:00:00"
+  },
+  {
+    "id": 4,
+    "partner_profile_id": 4,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": true,
+    "show_certificates": true,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2025-06-08 10:00:00",
+    "updated_at": "2026-03-28 10:00:00"
+  },
+  {
+    "id": 5,
+    "partner_profile_id": 5,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": false,
+    "show_certificates": true,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2025-11-11 10:00:00",
+    "updated_at": "2026-04-04 10:00:00"
+  },
+  {
+    "id": 6,
+    "partner_profile_id": 6,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": false,
+    "show_certificates": false,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2025-05-30 10:00:00",
+    "updated_at": "2026-04-06 10:00:00"
+  },
+  {
+    "id": 7,
+    "partner_profile_id": 7,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": true,
+    "show_certificates": true,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2025-11-24 10:00:00",
+    "updated_at": "2026-04-01 10:00:00"
+  },
+  {
+    "id": 8,
+    "partner_profile_id": 8,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": true,
+    "show_certificates": false,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2025-07-23 10:00:00",
+    "updated_at": "2026-04-08 10:00:00"
+  },
+  {
+    "id": 9,
+    "partner_profile_id": 9,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": false,
+    "show_certificates": false,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2025-06-08 10:00:00",
+    "updated_at": "2026-04-03 10:00:00"
+  },
+  {
+    "id": 10,
+    "partner_profile_id": 10,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": true,
+    "show_certificates": false,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2025-10-20 10:00:00",
+    "updated_at": "2026-03-30 10:00:00"
+  },
+  {
+    "id": 11,
+    "partner_profile_id": 11,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": false,
+    "show_certificates": true,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2025-09-11 10:00:00",
+    "updated_at": "2026-03-30 10:00:00"
+  },
+  {
+    "id": 12,
+    "partner_profile_id": 12,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": false,
+    "show_certificates": true,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2025-12-31 10:00:00",
+    "updated_at": "2026-04-17 10:00:00"
+  },
+  {
+    "id": 13,
+    "partner_profile_id": 13,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": false,
+    "show_certificates": true,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2025-06-14 10:00:00",
+    "updated_at": "2026-04-06 10:00:00"
+  },
+  {
+    "id": 14,
+    "partner_profile_id": 14,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": true,
+    "show_certificates": false,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2025-09-07 10:00:00",
+    "updated_at": "2026-04-08 10:00:00"
+  },
+  {
+    "id": 15,
+    "partner_profile_id": 15,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": true,
+    "show_certificates": true,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2025-08-16 10:00:00",
+    "updated_at": "2026-04-02 10:00:00"
+  },
+  {
+    "id": 16,
+    "partner_profile_id": 16,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": true,
+    "show_certificates": true,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2026-01-30 10:00:00",
+    "updated_at": "2026-04-16 10:00:00"
+  },
+  {
+    "id": 17,
+    "partner_profile_id": 17,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": true,
+    "show_certificates": false,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2025-07-27 10:00:00",
+    "updated_at": "2026-04-15 10:00:00"
+  },
+  {
+    "id": 18,
+    "partner_profile_id": 18,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": true,
+    "show_certificates": true,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2026-02-08 10:00:00",
+    "updated_at": "2026-03-30 10:00:00"
+  },
+  {
+    "id": 19,
+    "partner_profile_id": 19,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": true,
+    "show_certificates": false,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2025-11-17 10:00:00",
+    "updated_at": "2026-04-08 10:00:00"
+  },
+  {
+    "id": 20,
+    "partner_profile_id": 20,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": false,
+    "show_certificates": false,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2025-10-02 10:00:00",
+    "updated_at": "2026-04-07 10:00:00"
+  },
+  {
+    "id": 21,
+    "partner_profile_id": 21,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": false,
+    "show_certificates": false,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2026-02-08 10:00:00",
+    "updated_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 22,
+    "partner_profile_id": 22,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": true,
+    "show_certificates": true,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2026-01-23 10:00:00",
+    "updated_at": "2026-04-12 10:00:00"
+  },
+  {
+    "id": 23,
+    "partner_profile_id": 23,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": false,
+    "show_certificates": false,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2025-08-22 10:00:00",
+    "updated_at": "2026-04-14 10:00:00"
+  },
+  {
+    "id": 24,
+    "partner_profile_id": 24,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": false,
+    "show_certificates": true,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2025-10-12 10:00:00",
+    "updated_at": "2026-04-03 10:00:00"
+  },
+  {
+    "id": 25,
+    "partner_profile_id": 25,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": false,
+    "show_certificates": true,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2025-12-28 10:00:00",
+    "updated_at": "2026-04-08 10:00:00"
+  },
+  {
+    "id": 26,
+    "partner_profile_id": 26,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": true,
+    "show_certificates": true,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2026-01-02 10:00:00",
+    "updated_at": "2026-04-15 10:00:00"
+  },
+  {
+    "id": 27,
+    "partner_profile_id": 27,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": true,
+    "show_certificates": false,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2025-06-29 10:00:00",
+    "updated_at": "2026-04-16 10:00:00"
+  },
+  {
+    "id": 28,
+    "partner_profile_id": 28,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": false,
+    "show_certificates": false,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2026-03-03 10:00:00",
+    "updated_at": "2026-04-05 10:00:00"
+  },
+  {
+    "id": 29,
+    "partner_profile_id": 29,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": false,
+    "show_certificates": true,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2025-07-25 10:00:00",
+    "updated_at": "2026-04-14 10:00:00"
+  },
+  {
+    "id": 30,
+    "partner_profile_id": 30,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": true,
+    "show_certificates": true,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "detailed_bio": "다수의 스타트업에서 리드 엔지니어로 근무했습니다.",
+    "core_strengths": "문제 정의 능력, 빠른 프로토타이핑, 팀 커뮤니케이션.",
+    "experience_json": [
+      {
+        "companyName": "TechCorp",
+        "jobTitle": "Senior Engineer",
+        "startDate": "2022-03",
+        "endDate": "2024-06",
+        "isCurrent": false,
+        "employmentType": "정규직",
+        "role": "풀스택 개발자",
+        "level": "시니어",
+        "description": "SaaS 플랫폼 메인 개발자로 근무.",
+        "projects": [
+          {
+            "name": "SaaS 구독 결제 시스템",
+            "desc": "Stripe API 연동",
+            "period": "2022.03 ~ 2022.09"
+          }
+        ]
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "한국대학교",
+        "major": "컴퓨터공학",
+        "degree": "학사",
+        "graduationDate": "2018-02"
+      }
+    ],
+    "certificates_json": [
+      {
+        "certName": "정보처리기사",
+        "issuer": "한국산업인력공단",
+        "acquiredDate": "2020-11-20"
+      }
+    ],
+    "awards_json": [],
+    "created_at": "2026-02-15 10:00:00",
+    "updated_at": "2026-04-10 10:00:00"
+  }
+]

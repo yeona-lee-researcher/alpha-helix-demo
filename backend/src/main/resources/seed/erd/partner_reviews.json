@@ -1,0 +1,1064 @@
+[
+  {
+    "id": 1,
+    "partner_profile_id": 1,
+    "reviewer_user_id": 24,
+    "rating": 3.5,
+    "comment": "협업 과정에서 높은 이해도를 보여주셨습니다.",
+    "project_id": null,
+    "created_at": "2026-01-22 10:00:00"
+  },
+  {
+    "id": 2,
+    "partner_profile_id": 1,
+    "reviewer_user_id": 9,
+    "rating": 4.9,
+    "comment": "협업 과정에서 높은 이해도를 보여주셨습니다.",
+    "project_id": 11,
+    "created_at": "2025-12-29 10:00:00"
+  },
+  {
+    "id": 3,
+    "partner_profile_id": 2,
+    "reviewer_user_id": 2,
+    "rating": 4.4,
+    "comment": "프로젝트 목표와 KPI 정의가 명확했습니다.",
+    "project_id": null,
+    "created_at": "2026-02-18 10:00:00"
+  },
+  {
+    "id": 4,
+    "partner_profile_id": 2,
+    "reviewer_user_id": 11,
+    "rating": 4.6,
+    "comment": "피드백이 구체적이라 방향 정리가 쉬웠습니다.",
+    "project_id": 14,
+    "created_at": "2025-10-14 10:00:00"
+  },
+  {
+    "id": 5,
+    "partner_profile_id": 2,
+    "reviewer_user_id": 18,
+    "rating": 4.5,
+    "comment": "협업 과정에서 높은 이해도를 보여주셨습니다.",
+    "project_id": 22,
+    "created_at": "2025-10-18 10:00:00"
+  },
+  {
+    "id": 6,
+    "partner_profile_id": 2,
+    "reviewer_user_id": 12,
+    "rating": 4.3,
+    "comment": "피드백이 구체적이라 방향 정리가 쉬웠습니다.",
+    "project_id": 5,
+    "created_at": "2025-10-21 10:00:00"
+  },
+  {
+    "id": 7,
+    "partner_profile_id": 3,
+    "reviewer_user_id": 6,
+    "rating": 3.9,
+    "comment": "협업 과정에서 높은 이해도를 보여주셨습니다.",
+    "project_id": 13,
+    "created_at": "2026-03-06 10:00:00"
+  },
+  {
+    "id": 8,
+    "partner_profile_id": 3,
+    "reviewer_user_id": 24,
+    "rating": 3.9,
+    "comment": "프로젝트 목표와 KPI 정의가 명확했습니다.",
+    "project_id": null,
+    "created_at": "2026-02-20 10:00:00"
+  },
+  {
+    "id": 9,
+    "partner_profile_id": 3,
+    "reviewer_user_id": 22,
+    "rating": 4.8,
+    "comment": "기술적 깊이와 커뮤니케이션 모두 훌륭했습니다.",
+    "project_id": 14,
+    "created_at": "2026-03-16 10:00:00"
+  },
+  {
+    "id": 10,
+    "partner_profile_id": 3,
+    "reviewer_user_id": 8,
+    "rating": 4.0,
+    "comment": "기술적 깊이와 커뮤니케이션 모두 훌륭했습니다.",
+    "project_id": 28,
+    "created_at": "2026-01-19 10:00:00"
+  },
+  {
+    "id": 11,
+    "partner_profile_id": 4,
+    "reviewer_user_id": 26,
+    "rating": 4.8,
+    "comment": "업무 범위가 명확하고 일정 공유가 체계적이었습니다.",
+    "project_id": 5,
+    "created_at": "2026-01-31 10:00:00"
+  },
+  {
+    "id": 12,
+    "partner_profile_id": 4,
+    "reviewer_user_id": 19,
+    "rating": 3.9,
+    "comment": "의사결정이 빠르고 요구사항이 명확했습니다.",
+    "project_id": 21,
+    "created_at": "2025-12-08 10:00:00"
+  },
+  {
+    "id": 13,
+    "partner_profile_id": 4,
+    "reviewer_user_id": 2,
+    "rating": 4.8,
+    "comment": "프로젝트 목표와 KPI 정의가 명확했습니다.",
+    "project_id": 24,
+    "created_at": "2025-11-10 10:00:00"
+  },
+  {
+    "id": 14,
+    "partner_profile_id": 5,
+    "reviewer_user_id": 3,
+    "rating": 4.2,
+    "comment": "피드백이 구체적이라 방향 정리가 쉬웠습니다.",
+    "project_id": null,
+    "created_at": "2025-11-30 10:00:00"
+  },
+  {
+    "id": 15,
+    "partner_profile_id": 5,
+    "reviewer_user_id": 4,
+    "rating": 4.8,
+    "comment": "협업 과정에서 높은 이해도를 보여주셨습니다.",
+    "project_id": 5,
+    "created_at": "2025-11-23 10:00:00"
+  },
+  {
+    "id": 16,
+    "partner_profile_id": 5,
+    "reviewer_user_id": 10,
+    "rating": 4.1,
+    "comment": "피드백이 구체적이라 방향 정리가 쉬웠습니다.",
+    "project_id": 21,
+    "created_at": "2026-03-03 10:00:00"
+  },
+  {
+    "id": 17,
+    "partner_profile_id": 5,
+    "reviewer_user_id": 7,
+    "rating": 4.0,
+    "comment": "프로젝트 목표와 KPI 정의가 명확했습니다.",
+    "project_id": null,
+    "created_at": "2025-12-11 10:00:00"
+  },
+  {
+    "id": 18,
+    "partner_profile_id": 6,
+    "reviewer_user_id": 11,
+    "rating": 4.8,
+    "comment": "피드백이 구체적이라 방향 정리가 쉬웠습니다.",
+    "project_id": null,
+    "created_at": "2026-03-18 10:00:00"
+  },
+  {
+    "id": 19,
+    "partner_profile_id": 6,
+    "reviewer_user_id": 16,
+    "rating": 4.0,
+    "comment": "피드백이 구체적이라 방향 정리가 쉬웠습니다.",
+    "project_id": null,
+    "created_at": "2026-01-17 10:00:00"
+  },
+  {
+    "id": 20,
+    "partner_profile_id": 7,
+    "reviewer_user_id": 2,
+    "rating": 3.5,
+    "comment": "업무 범위가 명확하고 일정 공유가 체계적이었습니다.",
+    "project_id": 30,
+    "created_at": "2026-02-13 10:00:00"
+  },
+  {
+    "id": 21,
+    "partner_profile_id": 7,
+    "reviewer_user_id": 25,
+    "rating": 4.7,
+    "comment": "프로젝트 목표와 KPI 정의가 명확했습니다.",
+    "project_id": 6,
+    "created_at": "2026-02-26 10:00:00"
+  },
+  {
+    "id": 22,
+    "partner_profile_id": 7,
+    "reviewer_user_id": 16,
+    "rating": 4.7,
+    "comment": "의사결정이 빠르고 요구사항이 명확했습니다.",
+    "project_id": 14,
+    "created_at": "2026-03-05 10:00:00"
+  },
+  {
+    "id": 23,
+    "partner_profile_id": 7,
+    "reviewer_user_id": 20,
+    "rating": 4.2,
+    "comment": "협업 과정에서 높은 이해도를 보여주셨습니다.",
+    "project_id": 15,
+    "created_at": "2025-12-25 10:00:00"
+  },
+  {
+    "id": 24,
+    "partner_profile_id": 8,
+    "reviewer_user_id": 16,
+    "rating": 4.1,
+    "comment": "의사결정이 빠르고 요구사항이 명확했습니다.",
+    "project_id": 8,
+    "created_at": "2025-11-22 10:00:00"
+  },
+  {
+    "id": 25,
+    "partner_profile_id": 8,
+    "reviewer_user_id": 7,
+    "rating": 4.6,
+    "comment": "의사결정이 빠르고 요구사항이 명확했습니다.",
+    "project_id": 20,
+    "created_at": "2026-01-15 10:00:00"
+  },
+  {
+    "id": 26,
+    "partner_profile_id": 8,
+    "reviewer_user_id": 25,
+    "rating": 4.7,
+    "comment": "피드백이 구체적이라 방향 정리가 쉬웠습니다.",
+    "project_id": 16,
+    "created_at": "2026-04-03 10:00:00"
+  },
+  {
+    "id": 27,
+    "partner_profile_id": 9,
+    "reviewer_user_id": 1,
+    "rating": 4.4,
+    "comment": "피드백이 구체적이라 방향 정리가 쉬웠습니다.",
+    "project_id": null,
+    "created_at": "2026-02-09 10:00:00"
+  },
+  {
+    "id": 28,
+    "partner_profile_id": 9,
+    "reviewer_user_id": 23,
+    "rating": 4.8,
+    "comment": "업무 범위가 명확하고 일정 공유가 체계적이었습니다.",
+    "project_id": 17,
+    "created_at": "2026-03-05 10:00:00"
+  },
+  {
+    "id": 29,
+    "partner_profile_id": 9,
+    "reviewer_user_id": 4,
+    "rating": 4.1,
+    "comment": "프로젝트 목표와 KPI 정의가 명확했습니다.",
+    "project_id": 30,
+    "created_at": "2026-01-19 10:00:00"
+  },
+  {
+    "id": 30,
+    "partner_profile_id": 9,
+    "reviewer_user_id": 6,
+    "rating": 3.6,
+    "comment": "의사결정이 빠르고 요구사항이 명확했습니다.",
+    "project_id": 12,
+    "created_at": "2026-01-21 10:00:00"
+  },
+  {
+    "id": 31,
+    "partner_profile_id": 10,
+    "reviewer_user_id": 15,
+    "rating": 4.6,
+    "comment": "프로젝트 목표와 KPI 정의가 명확했습니다.",
+    "project_id": 2,
+    "created_at": "2025-11-24 10:00:00"
+  },
+  {
+    "id": 32,
+    "partner_profile_id": 10,
+    "reviewer_user_id": 11,
+    "rating": 4.2,
+    "comment": "기술적 깊이와 커뮤니케이션 모두 훌륭했습니다.",
+    "project_id": 23,
+    "created_at": "2026-03-04 10:00:00"
+  },
+  {
+    "id": 33,
+    "partner_profile_id": 10,
+    "reviewer_user_id": 11,
+    "rating": 5.0,
+    "comment": "협업 과정에서 높은 이해도를 보여주셨습니다.",
+    "project_id": 19,
+    "created_at": "2026-01-06 10:00:00"
+  },
+  {
+    "id": 34,
+    "partner_profile_id": 11,
+    "reviewer_user_id": 6,
+    "rating": 4.9,
+    "comment": "협업 과정에서 높은 이해도를 보여주셨습니다.",
+    "project_id": 23,
+    "created_at": "2026-04-03 10:00:00"
+  },
+  {
+    "id": 35,
+    "partner_profile_id": 11,
+    "reviewer_user_id": 8,
+    "rating": 3.8,
+    "comment": "피드백이 구체적이라 방향 정리가 쉬웠습니다.",
+    "project_id": 24,
+    "created_at": "2026-02-12 10:00:00"
+  },
+  {
+    "id": 36,
+    "partner_profile_id": 12,
+    "reviewer_user_id": 1,
+    "rating": 4.4,
+    "comment": "피드백이 구체적이라 방향 정리가 쉬웠습니다.",
+    "project_id": null,
+    "created_at": "2026-03-07 10:00:00"
+  },
+  {
+    "id": 37,
+    "partner_profile_id": 12,
+    "reviewer_user_id": 12,
+    "rating": 4.6,
+    "comment": "의사결정이 빠르고 요구사항이 명확했습니다.",
+    "project_id": null,
+    "created_at": "2026-01-01 10:00:00"
+  },
+  {
+    "id": 38,
+    "partner_profile_id": 12,
+    "reviewer_user_id": 29,
+    "rating": 4.5,
+    "comment": "프로젝트 목표와 KPI 정의가 명확했습니다.",
+    "project_id": null,
+    "created_at": "2025-10-30 10:00:00"
+  },
+  {
+    "id": 39,
+    "partner_profile_id": 12,
+    "reviewer_user_id": 2,
+    "rating": 4.4,
+    "comment": "의사결정이 빠르고 요구사항이 명확했습니다.",
+    "project_id": null,
+    "created_at": "2025-10-20 10:00:00"
+  },
+  {
+    "id": 40,
+    "partner_profile_id": 13,
+    "reviewer_user_id": 21,
+    "rating": 4.8,
+    "comment": "의사결정이 빠르고 요구사항이 명확했습니다.",
+    "project_id": 3,
+    "created_at": "2025-10-13 10:00:00"
+  },
+  {
+    "id": 41,
+    "partner_profile_id": 13,
+    "reviewer_user_id": 4,
+    "rating": 4.1,
+    "comment": "협업 과정에서 높은 이해도를 보여주셨습니다.",
+    "project_id": 20,
+    "created_at": "2026-03-07 10:00:00"
+  },
+  {
+    "id": 42,
+    "partner_profile_id": 14,
+    "reviewer_user_id": 9,
+    "rating": 4.2,
+    "comment": "피드백이 구체적이라 방향 정리가 쉬웠습니다.",
+    "project_id": 16,
+    "created_at": "2026-02-14 10:00:00"
+  },
+  {
+    "id": 43,
+    "partner_profile_id": 14,
+    "reviewer_user_id": 23,
+    "rating": 4.5,
+    "comment": "의사결정이 빠르고 요구사항이 명확했습니다.",
+    "project_id": 22,
+    "created_at": "2026-01-20 10:00:00"
+  },
+  {
+    "id": 44,
+    "partner_profile_id": 14,
+    "reviewer_user_id": 14,
+    "rating": 4.5,
+    "comment": "기술적 깊이와 커뮤니케이션 모두 훌륭했습니다.",
+    "project_id": null,
+    "created_at": "2025-11-25 10:00:00"
+  },
+  {
+    "id": 45,
+    "partner_profile_id": 14,
+    "reviewer_user_id": 9,
+    "rating": 4.4,
+    "comment": "기술적 깊이와 커뮤니케이션 모두 훌륭했습니다.",
+    "project_id": 21,
+    "created_at": "2026-03-03 10:00:00"
+  },
+  {
+    "id": 46,
+    "partner_profile_id": 15,
+    "reviewer_user_id": 27,
+    "rating": 4.8,
+    "comment": "프로젝트 목표와 KPI 정의가 명확했습니다.",
+    "project_id": 19,
+    "created_at": "2025-10-05 10:00:00"
+  },
+  {
+    "id": 47,
+    "partner_profile_id": 15,
+    "reviewer_user_id": 20,
+    "rating": 3.7,
+    "comment": "의사결정이 빠르고 요구사항이 명확했습니다.",
+    "project_id": 2,
+    "created_at": "2026-03-11 10:00:00"
+  },
+  {
+    "id": 48,
+    "partner_profile_id": 15,
+    "reviewer_user_id": 16,
+    "rating": 3.8,
+    "comment": "피드백이 구체적이라 방향 정리가 쉬웠습니다.",
+    "project_id": null,
+    "created_at": "2026-01-30 10:00:00"
+  },
+  {
+    "id": 49,
+    "partner_profile_id": 16,
+    "reviewer_user_id": 7,
+    "rating": 4.0,
+    "comment": "협업 과정에서 높은 이해도를 보여주셨습니다.",
+    "project_id": 1,
+    "created_at": "2026-01-22 10:00:00"
+  },
+  {
+    "id": 50,
+    "partner_profile_id": 16,
+    "reviewer_user_id": 6,
+    "rating": 3.6,
+    "comment": "협업 과정에서 높은 이해도를 보여주셨습니다.",
+    "project_id": 17,
+    "created_at": "2026-02-13 10:00:00"
+  },
+  {
+    "id": 51,
+    "partner_profile_id": 16,
+    "reviewer_user_id": 23,
+    "rating": 4.9,
+    "comment": "업무 범위가 명확하고 일정 공유가 체계적이었습니다.",
+    "project_id": null,
+    "created_at": "2026-02-06 10:00:00"
+  },
+  {
+    "id": 52,
+    "partner_profile_id": 16,
+    "reviewer_user_id": 1,
+    "rating": 3.5,
+    "comment": "의사결정이 빠르고 요구사항이 명확했습니다.",
+    "project_id": 11,
+    "created_at": "2026-03-10 10:00:00"
+  },
+  {
+    "id": 53,
+    "partner_profile_id": 17,
+    "reviewer_user_id": 22,
+    "rating": 4.2,
+    "comment": "의사결정이 빠르고 요구사항이 명확했습니다.",
+    "project_id": 26,
+    "created_at": "2025-11-28 10:00:00"
+  },
+  {
+    "id": 54,
+    "partner_profile_id": 17,
+    "reviewer_user_id": 3,
+    "rating": 4.6,
+    "comment": "의사결정이 빠르고 요구사항이 명확했습니다.",
+    "project_id": 6,
+    "created_at": "2026-02-01 10:00:00"
+  },
+  {
+    "id": 55,
+    "partner_profile_id": 17,
+    "reviewer_user_id": 21,
+    "rating": 3.8,
+    "comment": "업무 범위가 명확하고 일정 공유가 체계적이었습니다.",
+    "project_id": 30,
+    "created_at": "2026-01-30 10:00:00"
+  },
+  {
+    "id": 56,
+    "partner_profile_id": 17,
+    "reviewer_user_id": 15,
+    "rating": 3.6,
+    "comment": "피드백이 구체적이라 방향 정리가 쉬웠습니다.",
+    "project_id": 10,
+    "created_at": "2026-03-28 10:00:00"
+  },
+  {
+    "id": 57,
+    "partner_profile_id": 18,
+    "reviewer_user_id": 12,
+    "rating": 4.7,
+    "comment": "업무 범위가 명확하고 일정 공유가 체계적이었습니다.",
+    "project_id": null,
+    "created_at": "2025-12-19 10:00:00"
+  },
+  {
+    "id": 58,
+    "partner_profile_id": 18,
+    "reviewer_user_id": 24,
+    "rating": 3.7,
+    "comment": "의사결정이 빠르고 요구사항이 명확했습니다.",
+    "project_id": 2,
+    "created_at": "2026-04-05 10:00:00"
+  },
+  {
+    "id": 59,
+    "partner_profile_id": 18,
+    "reviewer_user_id": 28,
+    "rating": 3.7,
+    "comment": "기술적 깊이와 커뮤니케이션 모두 훌륭했습니다.",
+    "project_id": 19,
+    "created_at": "2026-02-23 10:00:00"
+  },
+  {
+    "id": 60,
+    "partner_profile_id": 19,
+    "reviewer_user_id": 12,
+    "rating": 4.8,
+    "comment": "프로젝트 목표와 KPI 정의가 명확했습니다.",
+    "project_id": 2,
+    "created_at": "2026-01-29 10:00:00"
+  },
+  {
+    "id": 61,
+    "partner_profile_id": 19,
+    "reviewer_user_id": 29,
+    "rating": 4.6,
+    "comment": "업무 범위가 명확하고 일정 공유가 체계적이었습니다.",
+    "project_id": 10,
+    "created_at": "2026-01-10 10:00:00"
+  },
+  {
+    "id": 62,
+    "partner_profile_id": 19,
+    "reviewer_user_id": 6,
+    "rating": 3.7,
+    "comment": "협업 과정에서 높은 이해도를 보여주셨습니다.",
+    "project_id": null,
+    "created_at": "2025-12-12 10:00:00"
+  },
+  {
+    "id": 63,
+    "partner_profile_id": 20,
+    "reviewer_user_id": 27,
+    "rating": 4.1,
+    "comment": "협업 과정에서 높은 이해도를 보여주셨습니다.",
+    "project_id": 10,
+    "created_at": "2025-12-21 10:00:00"
+  },
+  {
+    "id": 64,
+    "partner_profile_id": 20,
+    "reviewer_user_id": 21,
+    "rating": 4.8,
+    "comment": "피드백이 구체적이라 방향 정리가 쉬웠습니다.",
+    "project_id": 5,
+    "created_at": "2026-03-10 10:00:00"
+  },
+  {
+    "id": 65,
+    "partner_profile_id": 20,
+    "reviewer_user_id": 5,
+    "rating": 4.5,
+    "comment": "의사결정이 빠르고 요구사항이 명확했습니다.",
+    "project_id": 28,
+    "created_at": "2026-02-26 10:00:00"
+  },
+  {
+    "id": 66,
+    "partner_profile_id": 21,
+    "reviewer_user_id": 14,
+    "rating": 4.9,
+    "comment": "협업 과정에서 높은 이해도를 보여주셨습니다.",
+    "project_id": null,
+    "created_at": "2025-11-13 10:00:00"
+  },
+  {
+    "id": 67,
+    "partner_profile_id": 21,
+    "reviewer_user_id": 22,
+    "rating": 4.2,
+    "comment": "프로젝트 목표와 KPI 정의가 명확했습니다.",
+    "project_id": 20,
+    "created_at": "2025-12-31 10:00:00"
+  },
+  {
+    "id": 68,
+    "partner_profile_id": 22,
+    "reviewer_user_id": 20,
+    "rating": 3.5,
+    "comment": "기술적 깊이와 커뮤니케이션 모두 훌륭했습니다.",
+    "project_id": 28,
+    "created_at": "2025-10-03 10:00:00"
+  },
+  {
+    "id": 69,
+    "partner_profile_id": 22,
+    "reviewer_user_id": 29,
+    "rating": 3.7,
+    "comment": "협업 과정에서 높은 이해도를 보여주셨습니다.",
+    "project_id": 24,
+    "created_at": "2026-03-10 10:00:00"
+  },
+  {
+    "id": 70,
+    "partner_profile_id": 22,
+    "reviewer_user_id": 29,
+    "rating": 4.1,
+    "comment": "의사결정이 빠르고 요구사항이 명확했습니다.",
+    "project_id": 6,
+    "created_at": "2026-03-22 10:00:00"
+  },
+  {
+    "id": 71,
+    "partner_profile_id": 23,
+    "reviewer_user_id": 21,
+    "rating": 4.0,
+    "comment": "기술적 깊이와 커뮤니케이션 모두 훌륭했습니다.",
+    "project_id": null,
+    "created_at": "2025-10-16 10:00:00"
+  },
+  {
+    "id": 72,
+    "partner_profile_id": 23,
+    "reviewer_user_id": 17,
+    "rating": 4.7,
+    "comment": "프로젝트 목표와 KPI 정의가 명확했습니다.",
+    "project_id": null,
+    "created_at": "2025-10-04 10:00:00"
+  },
+  {
+    "id": 73,
+    "partner_profile_id": 23,
+    "reviewer_user_id": 19,
+    "rating": 3.8,
+    "comment": "기술적 깊이와 커뮤니케이션 모두 훌륭했습니다.",
+    "project_id": 12,
+    "created_at": "2026-01-11 10:00:00"
+  },
+  {
+    "id": 74,
+    "partner_profile_id": 24,
+    "reviewer_user_id": 17,
+    "rating": 4.5,
+    "comment": "프로젝트 목표와 KPI 정의가 명확했습니다.",
+    "project_id": null,
+    "created_at": "2026-03-14 10:00:00"
+  },
+  {
+    "id": 75,
+    "partner_profile_id": 24,
+    "reviewer_user_id": 14,
+    "rating": 4.5,
+    "comment": "피드백이 구체적이라 방향 정리가 쉬웠습니다.",
+    "project_id": 23,
+    "created_at": "2025-12-05 10:00:00"
+  },
+  {
+    "id": 76,
+    "partner_profile_id": 24,
+    "reviewer_user_id": 12,
+    "rating": 4.5,
+    "comment": "기술적 깊이와 커뮤니케이션 모두 훌륭했습니다.",
+    "project_id": 6,
+    "created_at": "2025-12-30 10:00:00"
+  },
+  {
+    "id": 77,
+    "partner_profile_id": 24,
+    "reviewer_user_id": 5,
+    "rating": 4.8,
+    "comment": "프로젝트 목표와 KPI 정의가 명확했습니다.",
+    "project_id": null,
+    "created_at": "2025-11-02 10:00:00"
+  },
+  {
+    "id": 78,
+    "partner_profile_id": 25,
+    "reviewer_user_id": 1,
+    "rating": 4.5,
+    "comment": "피드백이 구체적이라 방향 정리가 쉬웠습니다.",
+    "project_id": null,
+    "created_at": "2025-11-29 10:00:00"
+  },
+  {
+    "id": 79,
+    "partner_profile_id": 25,
+    "reviewer_user_id": 28,
+    "rating": 4.2,
+    "comment": "협업 과정에서 높은 이해도를 보여주셨습니다.",
+    "project_id": 3,
+    "created_at": "2026-02-24 10:00:00"
+  },
+  {
+    "id": 80,
+    "partner_profile_id": 26,
+    "reviewer_user_id": 25,
+    "rating": 4.2,
+    "comment": "피드백이 구체적이라 방향 정리가 쉬웠습니다.",
+    "project_id": null,
+    "created_at": "2026-01-13 10:00:00"
+  },
+  {
+    "id": 81,
+    "partner_profile_id": 26,
+    "reviewer_user_id": 9,
+    "rating": 3.6,
+    "comment": "피드백이 구체적이라 방향 정리가 쉬웠습니다.",
+    "project_id": 27,
+    "created_at": "2025-11-18 10:00:00"
+  },
+  {
+    "id": 82,
+    "partner_profile_id": 27,
+    "reviewer_user_id": 13,
+    "rating": 4.1,
+    "comment": "피드백이 구체적이라 방향 정리가 쉬웠습니다.",
+    "project_id": 16,
+    "created_at": "2026-03-18 10:00:00"
+  },
+  {
+    "id": 83,
+    "partner_profile_id": 27,
+    "reviewer_user_id": 15,
+    "rating": 4.2,
+    "comment": "프로젝트 목표와 KPI 정의가 명확했습니다.",
+    "project_id": null,
+    "created_at": "2025-12-14 10:00:00"
+  },
+  {
+    "id": 84,
+    "partner_profile_id": 27,
+    "reviewer_user_id": 3,
+    "rating": 4.8,
+    "comment": "협업 과정에서 높은 이해도를 보여주셨습니다.",
+    "project_id": 13,
+    "created_at": "2026-01-17 10:00:00"
+  },
+  {
+    "id": 85,
+    "partner_profile_id": 27,
+    "reviewer_user_id": 4,
+    "rating": 5.0,
+    "comment": "기술적 깊이와 커뮤니케이션 모두 훌륭했습니다.",
+    "project_id": 15,
+    "created_at": "2025-10-22 10:00:00"
+  },
+  {
+    "id": 86,
+    "partner_profile_id": 28,
+    "reviewer_user_id": 4,
+    "rating": 4.1,
+    "comment": "의사결정이 빠르고 요구사항이 명확했습니다.",
+    "project_id": null,
+    "created_at": "2025-11-16 10:00:00"
+  },
+  {
+    "id": 87,
+    "partner_profile_id": 28,
+    "reviewer_user_id": 18,
+    "rating": 3.5,
+    "comment": "의사결정이 빠르고 요구사항이 명확했습니다.",
+    "project_id": 19,
+    "created_at": "2025-11-04 10:00:00"
+  },
+  {
+    "id": 88,
+    "partner_profile_id": 29,
+    "reviewer_user_id": 21,
+    "rating": 4.0,
+    "comment": "프로젝트 목표와 KPI 정의가 명확했습니다.",
+    "project_id": null,
+    "created_at": "2025-11-15 10:00:00"
+  },
+  {
+    "id": 89,
+    "partner_profile_id": 29,
+    "reviewer_user_id": 7,
+    "rating": 4.5,
+    "comment": "협업 과정에서 높은 이해도를 보여주셨습니다.",
+    "project_id": 21,
+    "created_at": "2026-01-10 10:00:00"
+  },
+  {
+    "id": 90,
+    "partner_profile_id": 29,
+    "reviewer_user_id": 12,
+    "rating": 4.7,
+    "comment": "피드백이 구체적이라 방향 정리가 쉬웠습니다.",
+    "project_id": 27,
+    "created_at": "2025-12-12 10:00:00"
+  },
+  {
+    "id": 91,
+    "partner_profile_id": 29,
+    "reviewer_user_id": 11,
+    "rating": 4.3,
+    "comment": "프로젝트 목표와 KPI 정의가 명확했습니다.",
+    "project_id": 6,
+    "created_at": "2025-11-05 10:00:00"
+  },
+  {
+    "id": 92,
+    "partner_profile_id": 30,
+    "reviewer_user_id": 23,
+    "rating": 4.5,
+    "comment": "기술적 깊이와 커뮤니케이션 모두 훌륭했습니다.",
+    "project_id": 16,
+    "created_at": "2025-12-13 10:00:00"
+  },
+  {
+    "id": 93,
+    "partner_profile_id": 30,
+    "reviewer_user_id": 4,
+    "rating": 3.6,
+    "comment": "기술적 깊이와 커뮤니케이션 모두 훌륭했습니다.",
+    "project_id": 24,
+    "created_at": "2026-02-10 10:00:00"
+  },
+  {
+    "id": 94,
+    "partner_profile_id": 30,
+    "reviewer_user_id": 1,
+    "rating": 4.0,
+    "comment": "기술적 깊이와 커뮤니케이션 모두 훌륭했습니다.",
+    "project_id": null,
+    "created_at": "2026-01-23 10:00:00"
+  },
+  {
+    "id": 95,
+    "partner_profile_id": 31,
+    "reviewer_user_id": 61,
+    "project_id": 31,
+    "rating": 2.9,
+    "comment": "파트너 이현진님은 1번 프로젝트에서 뛰어난 기술력을 보여주셨습니다.",
+    "created_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 96,
+    "partner_profile_id": 31,
+    "reviewer_user_id": 61,
+    "project_id": 32,
+    "rating": 1.8,
+    "comment": "파트너 이현진님은 2번 프로젝트에서 뛰어난 기술력을 보여주셨습니다.",
+    "created_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 97,
+    "partner_profile_id": 31,
+    "reviewer_user_id": 61,
+    "project_id": 33,
+    "rating": 2.6,
+    "comment": null,
+    "created_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 98,
+    "partner_profile_id": 31,
+    "reviewer_user_id": 61,
+    "project_id": 34,
+    "rating": 3.2,
+    "comment": "파트너 이현진님은 4번 프로젝트에서 뛰어난 기술력을 보여주셨습니다.",
+    "created_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 99,
+    "partner_profile_id": 31,
+    "reviewer_user_id": 61,
+    "project_id": 35,
+    "rating": 3.0,
+    "comment": "파트너 이현진님은 5번 프로젝트에서 뛰어난 기술력을 보여주셨습니다.",
+    "created_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 100,
+    "partner_profile_id": 31,
+    "reviewer_user_id": 61,
+    "project_id": 36,
+    "rating": 2.3,
+    "comment": null,
+    "created_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 101,
+    "partner_profile_id": 31,
+    "reviewer_user_id": 61,
+    "project_id": 37,
+    "rating": 2.2,
+    "comment": "파트너 이현진님은 7번 프로젝트에서 뛰어난 기술력을 보여주셨습니다.",
+    "created_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 102,
+    "partner_profile_id": 31,
+    "reviewer_user_id": 61,
+    "project_id": 38,
+    "rating": 4.9,
+    "comment": "파트너 이현진님은 8번 프로젝트에서 뛰어난 기술력을 보여주셨습니다.",
+    "created_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 103,
+    "partner_profile_id": 31,
+    "reviewer_user_id": 61,
+    "project_id": 39,
+    "rating": 3.5,
+    "comment": null,
+    "created_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 104,
+    "partner_profile_id": 31,
+    "reviewer_user_id": 61,
+    "project_id": 40,
+    "rating": 3.2,
+    "comment": "파트너 이현진님은 10번 프로젝트에서 뛰어난 기술력을 보여주셨습니다.",
+    "created_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 105,
+    "partner_profile_id": 31,
+    "reviewer_user_id": 61,
+    "project_id": 41,
+    "rating": 2.9,
+    "comment": "파트너 이현진님은 11번 프로젝트에서 뛰어난 기술력을 보여주셨습니다.",
+    "created_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 106,
+    "partner_profile_id": 31,
+    "reviewer_user_id": 61,
+    "project_id": 42,
+    "rating": 3.7,
+    "comment": null,
+    "created_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 107,
+    "partner_profile_id": 31,
+    "reviewer_user_id": 61,
+    "project_id": 55,
+    "rating": 4.7,
+    "comment": "파트너 이현진님은 25번 프로젝트에서 뛰어난 기술력을 보여주셨습니다.",
+    "created_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 108,
+    "partner_profile_id": 31,
+    "reviewer_user_id": 61,
+    "project_id": 56,
+    "rating": 3.1,
+    "comment": "파트너 이현진님은 26번 프로젝트에서 뛰어난 기술력을 보여주셨습니다.",
+    "created_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 109,
+    "partner_profile_id": 31,
+    "reviewer_user_id": 61,
+    "project_id": 57,
+    "rating": 1.2,
+    "comment": null,
+    "created_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 110,
+    "partner_profile_id": 31,
+    "reviewer_user_id": 61,
+    "project_id": 58,
+    "rating": 2.0,
+    "comment": "파트너 이현진님은 28번 프로젝트에서 뛰어난 기술력을 보여주셨습니다.",
+    "created_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 111,
+    "partner_profile_id": 31,
+    "reviewer_user_id": 61,
+    "project_id": 59,
+    "rating": 1.2,
+    "comment": "파트너 이현진님은 29번 프로젝트에서 뛰어난 기술력을 보여주셨습니다.",
+    "created_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 112,
+    "partner_profile_id": 31,
+    "reviewer_user_id": 61,
+    "project_id": 60,
+    "rating": 2.3,
+    "comment": null,
+    "created_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 113,
+    "partner_profile_id": 31,
+    "reviewer_user_id": 61,
+    "project_id": 61,
+    "rating": 3.4,
+    "comment": "파트너 이현진님은 31번 프로젝트에서 뛰어난 기술력을 보여주셨습니다.",
+    "created_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 114,
+    "partner_profile_id": 31,
+    "reviewer_user_id": 61,
+    "project_id": 62,
+    "rating": 4.2,
+    "comment": "파트너 이현진님은 32번 프로젝트에서 뛰어난 기술력을 보여주셨습니다.",
+    "created_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 115,
+    "partner_profile_id": 31,
+    "reviewer_user_id": 61,
+    "project_id": 63,
+    "rating": 1.7,
+    "comment": null,
+    "created_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 116,
+    "partner_profile_id": 31,
+    "reviewer_user_id": 61,
+    "project_id": 64,
+    "rating": 3.8,
+    "comment": "파트너 이현진님은 34번 프로젝트에서 뛰어난 기술력을 보여주셨습니다.",
+    "created_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 117,
+    "partner_profile_id": 31,
+    "reviewer_user_id": 61,
+    "project_id": 65,
+    "rating": 4.8,
+    "comment": "파트너 이현진님은 35번 프로젝트에서 뛰어난 기술력을 보여주셨습니다.",
+    "created_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 118,
+    "partner_profile_id": 31,
+    "reviewer_user_id": 61,
+    "project_id": 66,
+    "rating": 2.5,
+    "comment": null,
+    "created_at": "2026-04-11 10:00:00"
+  }
+]

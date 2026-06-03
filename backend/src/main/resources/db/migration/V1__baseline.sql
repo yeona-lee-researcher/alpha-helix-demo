@@ -1,0 +1,18 @@
+-- ============================================================
+-- Flyway Baseline V1
+-- 이 스크립트는 실제로 실행되지 않습니다.
+--
+-- [기존 운영 DB] baseline-on-migrate=true 가 flyway_schema_history 가 없는
+--   비어있지 않은 스키마를 만나면 baseline-version(=16) 기준으로 마킹하고
+--   V17+ 부터 적용합니다. (V1~V16 은 baseline 처리되어 실행되지 않음)
+--
+-- [신규(from-scratch) 구축] 빈 DB 에서는 절대로 마이그레이션만으로 스키마가
+--   만들어지지 않습니다. V2~V16 은 ALTER 뿐이고 broker_account·alpha_workspace·
+--   order_proposal·ai_usage_log 등 Alpha-Helix 핵심 테이블을 CREATE 하는 곳이 없기 때문입니다.
+--   → 반드시 backend/docs/schema_full_current.sql (현재 엔티티 전체 스키마, 36테이블)을
+--     먼저 import 한 뒤 애플리케이션을 기동하세요. (deploy/DEPLOY_FROM_SCRATCH.md 참고)
+--
+-- 이후 모든 스키마 변경은 V17 이상의 마이그레이션 파일로 관리하고,
+-- 동시에 schema_full_current.sql 과 baseline-version 을 함께 갱신합니다.
+-- ============================================================
+SELECT 1;

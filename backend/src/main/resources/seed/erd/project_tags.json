@@ -1,0 +1,447 @@
+[
+  {
+    "id": 1,
+    "project_id": 1,
+    "tag": "#Mobile"
+  },
+  {
+    "id": 2,
+    "project_id": 1,
+    "tag": "#Spring"
+  },
+  {
+    "id": 3,
+    "project_id": 1,
+    "tag": "#AI/ML"
+  },
+  {
+    "id": 4,
+    "project_id": 1,
+    "tag": "#React"
+  },
+  {
+    "id": 5,
+    "project_id": 2,
+    "tag": "#Spring"
+  },
+  {
+    "id": 6,
+    "project_id": 2,
+    "tag": "#Web"
+  },
+  {
+    "id": 7,
+    "project_id": 2,
+    "tag": "#Blockchain"
+  },
+  {
+    "id": 8,
+    "project_id": 3,
+    "tag": "#Flutter"
+  },
+  {
+    "id": 9,
+    "project_id": 3,
+    "tag": "#React"
+  },
+  {
+    "id": 10,
+    "project_id": 4,
+    "tag": "#Spring"
+  },
+  {
+    "id": 11,
+    "project_id": 4,
+    "tag": "#Python"
+  },
+  {
+    "id": 12,
+    "project_id": 5,
+    "tag": "#Flutter"
+  },
+  {
+    "id": 13,
+    "project_id": 5,
+    "tag": "#Spring"
+  },
+  {
+    "id": 14,
+    "project_id": 5,
+    "tag": "#Fintech"
+  },
+  {
+    "id": 15,
+    "project_id": 5,
+    "tag": "#Blockchain"
+  },
+  {
+    "id": 16,
+    "project_id": 6,
+    "tag": "#Mobile"
+  },
+  {
+    "id": 17,
+    "project_id": 6,
+    "tag": "#Blockchain"
+  },
+  {
+    "id": 18,
+    "project_id": 6,
+    "tag": "#React"
+  },
+  {
+    "id": 19,
+    "project_id": 6,
+    "tag": "#AI/ML"
+  },
+  {
+    "id": 20,
+    "project_id": 7,
+    "tag": "#Web"
+  },
+  {
+    "id": 21,
+    "project_id": 7,
+    "tag": "#Python"
+  },
+  {
+    "id": 22,
+    "project_id": 7,
+    "tag": "#Fintech"
+  },
+  {
+    "id": 23,
+    "project_id": 8,
+    "tag": "#Mobile"
+  },
+  {
+    "id": 24,
+    "project_id": 8,
+    "tag": "#Python"
+  },
+  {
+    "id": 25,
+    "project_id": 8,
+    "tag": "#React"
+  },
+  {
+    "id": 26,
+    "project_id": 9,
+    "tag": "#Mobile"
+  },
+  {
+    "id": 27,
+    "project_id": 9,
+    "tag": "#Spring"
+  },
+  {
+    "id": 28,
+    "project_id": 9,
+    "tag": "#Flutter"
+  },
+  {
+    "id": 29,
+    "project_id": 10,
+    "tag": "#Web"
+  },
+  {
+    "id": 30,
+    "project_id": 10,
+    "tag": "#Fintech"
+  },
+  {
+    "id": 31,
+    "project_id": 10,
+    "tag": "#Mobile"
+  },
+  {
+    "id": 32,
+    "project_id": 10,
+    "tag": "#Spring"
+  },
+  {
+    "id": 33,
+    "project_id": 11,
+    "tag": "#Blockchain"
+  },
+  {
+    "id": 34,
+    "project_id": 11,
+    "tag": "#Flutter"
+  },
+  {
+    "id": 35,
+    "project_id": 11,
+    "tag": "#Web"
+  },
+  {
+    "id": 36,
+    "project_id": 11,
+    "tag": "#React"
+  },
+  {
+    "id": 37,
+    "project_id": 12,
+    "tag": "#Fintech"
+  },
+  {
+    "id": 38,
+    "project_id": 12,
+    "tag": "#Spring"
+  },
+  {
+    "id": 39,
+    "project_id": 13,
+    "tag": "#Spring"
+  },
+  {
+    "id": 40,
+    "project_id": 13,
+    "tag": "#Blockchain"
+  },
+  {
+    "id": 41,
+    "project_id": 13,
+    "tag": "#React"
+  },
+  {
+    "id": 42,
+    "project_id": 13,
+    "tag": "#Python"
+  },
+  {
+    "id": 43,
+    "project_id": 14,
+    "tag": "#AI/ML"
+  },
+  {
+    "id": 44,
+    "project_id": 14,
+    "tag": "#Python"
+  },
+  {
+    "id": 45,
+    "project_id": 14,
+    "tag": "#Web"
+  },
+  {
+    "id": 46,
+    "project_id": 14,
+    "tag": "#Spring"
+  },
+  {
+    "id": 47,
+    "project_id": 15,
+    "tag": "#AI/ML"
+  },
+  {
+    "id": 48,
+    "project_id": 15,
+    "tag": "#Fintech"
+  },
+  {
+    "id": 49,
+    "project_id": 15,
+    "tag": "#Mobile"
+  },
+  {
+    "id": 50,
+    "project_id": 15,
+    "tag": "#Flutter"
+  },
+  {
+    "id": 51,
+    "project_id": 16,
+    "tag": "#Web"
+  },
+  {
+    "id": 52,
+    "project_id": 16,
+    "tag": "#Blockchain"
+  },
+  {
+    "id": 53,
+    "project_id": 17,
+    "tag": "#Blockchain"
+  },
+  {
+    "id": 54,
+    "project_id": 17,
+    "tag": "#Mobile"
+  },
+  {
+    "id": 55,
+    "project_id": 18,
+    "tag": "#React"
+  },
+  {
+    "id": 56,
+    "project_id": 18,
+    "tag": "#Fintech"
+  },
+  {
+    "id": 57,
+    "project_id": 18,
+    "tag": "#Blockchain"
+  },
+  {
+    "id": 58,
+    "project_id": 19,
+    "tag": "#Mobile"
+  },
+  {
+    "id": 59,
+    "project_id": 19,
+    "tag": "#Python"
+  },
+  {
+    "id": 60,
+    "project_id": 20,
+    "tag": "#Blockchain"
+  },
+  {
+    "id": 61,
+    "project_id": 20,
+    "tag": "#Web"
+  },
+  {
+    "id": 62,
+    "project_id": 21,
+    "tag": "#Blockchain"
+  },
+  {
+    "id": 63,
+    "project_id": 21,
+    "tag": "#Web"
+  },
+  {
+    "id": 64,
+    "project_id": 21,
+    "tag": "#Python"
+  },
+  {
+    "id": 65,
+    "project_id": 21,
+    "tag": "#Spring"
+  },
+  {
+    "id": 66,
+    "project_id": 22,
+    "tag": "#AI/ML"
+  },
+  {
+    "id": 67,
+    "project_id": 22,
+    "tag": "#Flutter"
+  },
+  {
+    "id": 68,
+    "project_id": 23,
+    "tag": "#Python"
+  },
+  {
+    "id": 69,
+    "project_id": 23,
+    "tag": "#Fintech"
+  },
+  {
+    "id": 70,
+    "project_id": 24,
+    "tag": "#Flutter"
+  },
+  {
+    "id": 71,
+    "project_id": 24,
+    "tag": "#AI/ML"
+  },
+  {
+    "id": 72,
+    "project_id": 25,
+    "tag": "#AI/ML"
+  },
+  {
+    "id": 73,
+    "project_id": 25,
+    "tag": "#React"
+  },
+  {
+    "id": 74,
+    "project_id": 25,
+    "tag": "#Flutter"
+  },
+  {
+    "id": 75,
+    "project_id": 26,
+    "tag": "#Fintech"
+  },
+  {
+    "id": 76,
+    "project_id": 26,
+    "tag": "#AI/ML"
+  },
+  {
+    "id": 77,
+    "project_id": 27,
+    "tag": "#Flutter"
+  },
+  {
+    "id": 78,
+    "project_id": 27,
+    "tag": "#React"
+  },
+  {
+    "id": 79,
+    "project_id": 27,
+    "tag": "#Spring"
+  },
+  {
+    "id": 80,
+    "project_id": 27,
+    "tag": "#Blockchain"
+  },
+  {
+    "id": 81,
+    "project_id": 28,
+    "tag": "#Flutter"
+  },
+  {
+    "id": 82,
+    "project_id": 28,
+    "tag": "#Fintech"
+  },
+  {
+    "id": 83,
+    "project_id": 28,
+    "tag": "#Python"
+  },
+  {
+    "id": 84,
+    "project_id": 29,
+    "tag": "#Spring"
+  },
+  {
+    "id": 85,
+    "project_id": 29,
+    "tag": "#Python"
+  },
+  {
+    "id": 86,
+    "project_id": 29,
+    "tag": "#React"
+  },
+  {
+    "id": 87,
+    "project_id": 29,
+    "tag": "#Mobile"
+  },
+  {
+    "id": 88,
+    "project_id": 30,
+    "tag": "#Flutter"
+  },
+  {
+    "id": 89,
+    "project_id": 30,
+    "tag": "#Fintech"
+  }
+]

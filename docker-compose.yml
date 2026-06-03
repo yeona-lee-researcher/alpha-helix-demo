@@ -1,0 +1,101 @@
+# Alpha-Helix 자동 배포 — docker compose up -d --build 한 방으로 전체 스택 기동.
+#   db(MySQL8) · analytics(FastAPI) · backend(Spring Boot + claude CLI) · frontend(nginx 정적+/api 프록시)
+# 시크릿/설정은 .env (옆의 .env.docker.example 복사) 로 주입. 외부 노출은 frontend(80) 하나뿐.
+services:
+
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:-rootpw-change-me}
+      MYSQL_DATABASE: ${DB_NAME:-alphahelix_db}
+      MYSQL_USER: ${DB_USERNAME:-alpha}
+      MYSQL_PASSWORD: ${DB_PASSWORD:-alphapw}
+    command: ["--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci"]
+    volumes:
+      - db_data:/var/lib/mysql
+    healthcheck:
+      # -h 127.0.0.1 로 TCP 준비 확인(소켓만 열린 init 단계 false-positive 방지 → 백엔드가 너무 일찍 붙다 refused 되지 않게)
+      test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 -uroot -p$$MYSQL_ROOT_PASSWORD --silent || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 24
+      start_period: 40s
+    restart: unless-stopped
+
+  analytics:
+    build:
+      context: ./analytics
+      dockerfile: Dockerfile
+    environment:
+      ANALYTICS_INTERNAL_TOKEN: ${ANALYTICS_INTERNAL_TOKEN:-dev-internal-token-change-me}
+    expose:
+      - "8001"
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      # DB 기동/네트워크 준비 경합 내성 — 초기 연결을 최대 120초 재시도(부팅 즉시 fail-fast 방지)
+      SPRING_DATASOURCE_HIKARI_INITIALIZATION_FAIL_TIMEOUT: "120000"
+      DB_HOST: db
+      DB_PORT: "3306"
+      DB_NAME: ${DB_NAME:-alphahelix_db}
+      DB_USERNAME: ${DB_USERNAME:-alpha}
+      DB_PASSWORD: ${DB_PASSWORD:-alphapw}
+      JWT_SECRET: ${JWT_SECRET:-}
+      APP_CRYPTO_KEY: ${APP_CRYPTO_KEY:-}
+      APPROVAL_HMAC_SECRET: ${APPROVAL_HMAC_SECRET:-}
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      ANALYTICS_BASE_URL: http://analytics:8001
+      ANALYTICS_INTERNAL_TOKEN: ${ANALYTICS_INTERNAL_TOKEN:-dev-internal-token-change-me}
+      CLAUDE_CLI_ENABLED: "true"
+      DEVELOPER_ALLOWLIST: ${DEVELOPER_ALLOWLIST:-}
+      CORS_ALLOWED_ORIGINS: ${CORS_ALLOWED_ORIGINS:-*}
+      # 선택(미설정이면 해당 기능만 비활성): 결제·메일·스트림챗
+      TOSS_SECRET_KEY: ${TOSS_SECRET_KEY:-}
+      TOSS_WEBHOOK_SECRET: ${TOSS_WEBHOOK_SECRET:-}
+      MAIL_USERNAME: ${MAIL_USERNAME:-}
+      MAIL_PASSWORD: ${MAIL_PASSWORD:-}
+      STREAM_CHAT_API_KEY: ${STREAM_CHAT_API_KEY:-}
+      STREAM_CHAT_API_SECRET: ${STREAM_CHAT_API_SECRET:-}
+    volumes:
+      - claude_home:/home/app/.claude      # Claude 세션 transcript 영속(--resume 가 컨테이너 재시작에도 동작)
+      - uploads:/var/devbridge/uploads
+    depends_on:
+      db:
+        condition: service_healthy
+      analytics:
+        condition: service_started
+    expose:
+      - "9091"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -s http://localhost:9091/actuator/health | grep -q status || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 20
+      start_period: 90s
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        VITE_GOOGLE_CLIENT_ID: ${VITE_GOOGLE_CLIENT_ID:-}
+        VITE_GITHUB_CLIENT_ID: ${VITE_GITHUB_CLIENT_ID:-}
+        VITE_KAKAO_REST_KEY: ${VITE_KAKAO_REST_KEY:-}
+        VITE_TOSS_CLIENT_KEY: ${VITE_TOSS_CLIENT_KEY:-}
+    ports:
+      - "${HTTP_PORT:-80}:80"
+    depends_on:
+      backend:
+        condition: service_started
+    restart: unless-stopped
+
+volumes:
+  db_data:
+  claude_home:
+  uploads:

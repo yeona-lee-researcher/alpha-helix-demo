@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "client_profile_id": 1,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": false,
+    "show_education": true,
+    "show_certificates": false,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "넥스트소프트",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [],
+    "created_at": "2025-11-17 10:00:00",
+    "updated_at": "2026-04-03 10:00:00"
+  },
+  {
+    "id": 2,
+    "client_profile_id": 2,
+    "show_intro": true,
+    "show_skills": false,
+    "show_career": false,
+    "show_education": true,
+    "show_certificates": true,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "스마트컴퍼니",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [],
+    "created_at": "2025-07-21 10:00:00",
+    "updated_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 3,
+    "client_profile_id": 3,
+    "show_intro": true,
+    "show_skills": false,
+    "show_career": false,
+    "show_education": false,
+    "show_certificates": false,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "디지털클라우드",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [],
+    "created_at": "2025-08-16 10:00:00",
+    "updated_at": "2026-04-12 10:00:00"
+  },
+  {
+    "id": 4,
+    "client_profile_id": 4,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": false,
+    "show_certificates": true,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "퓨처테크",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [],
+    "created_at": "2025-06-08 10:00:00",
+    "updated_at": "2026-04-14 10:00:00"
+  },
+  {
+    "id": 5,
+    "client_profile_id": 5,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": false,
+    "show_education": true,
+    "show_certificates": true,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "알파핀테크",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [
+      {
+        "awardName": "2024 혁신 IT 기업 대상",
+        "awarding": "한국IT서비스산업협회",
+        "awardDate": "2024-05-20"
+      }
+    ],
+    "created_at": "2025-06-29 10:00:00",
+    "updated_at": "2026-04-13 10:00:00"
+  },
+  {
+    "id": 6,
+    "client_profile_id": 6,
+    "show_intro": true,
+    "show_skills": false,
+    "show_career": true,
+    "show_education": true,
+    "show_certificates": false,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "블루리테일",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [],
+    "created_at": "2025-08-18 10:00:00",
+    "updated_at": "2026-04-16 10:00:00"
+  },
+  {
+    "id": 7,
+    "client_profile_id": 7,
+    "show_intro": true,
+    "show_skills": false,
+    "show_career": false,
+    "show_education": true,
+    "show_certificates": false,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "크립토시스템즈",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [
+      {
+        "awardName": "2024 혁신 IT 기업 대상",
+        "awarding": "한국IT서비스산업협회",
+        "awardDate": "2024-05-20"
+      }
+    ],
+    "created_at": "2026-03-04 10:00:00",
+    "updated_at": "2026-04-07 10:00:00"
+  },
+  {
+    "id": 8,
+    "client_profile_id": 8,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": false,
+    "show_education": true,
+    "show_certificates": true,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "네오뱅크스튜디오",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [
+      {
+        "awardName": "2024 혁신 IT 기업 대상",
+        "awarding": "한국IT서비스산업협회",
+        "awardDate": "2024-05-20"
+      }
+    ],
+    "created_at": "2025-07-20 10:00:00",
+    "updated_at": "2026-04-13 10:00:00"
+  },
+  {
+    "id": 9,
+    "client_profile_id": 9,
+    "show_intro": true,
+    "show_skills": false,
+    "show_career": false,
+    "show_education": true,
+    "show_certificates": true,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "그린로지스",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [
+      {
+        "awardName": "2024 혁신 IT 기업 대상",
+        "awarding": "한국IT서비스산업협회",
+        "awardDate": "2024-05-20"
+      }
+    ],
+    "created_at": "2026-01-01 10:00:00",
+    "updated_at": "2026-03-31 10:00:00"
+  },
+  {
+    "id": 10,
+    "client_profile_id": 10,
+    "show_intro": true,
+    "show_skills": false,
+    "show_career": true,
+    "show_education": false,
+    "show_certificates": true,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "클라우드네스트",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [
+      {
+        "awardName": "2024 혁신 IT 기업 대상",
+        "awarding": "한국IT서비스산업협회",
+        "awardDate": "2024-05-20"
+      }
+    ],
+    "created_at": "2025-11-16 10:00:00",
+    "updated_at": "2026-04-04 10:00:00"
+  },
+  {
+    "id": 11,
+    "client_profile_id": 11,
+    "show_intro": true,
+    "show_skills": false,
+    "show_career": true,
+    "show_education": true,
+    "show_certificates": false,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "하이퍼스케일",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [],
+    "created_at": "2025-05-28 10:00:00",
+    "updated_at": "2026-04-10 10:00:00"
+  },
+  {
+    "id": 12,
+    "client_profile_id": 12,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": false,
+    "show_education": false,
+    "show_certificates": true,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "리테일플러스",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [
+      {
+        "awardName": "2024 혁신 IT 기업 대상",
+        "awarding": "한국IT서비스산업협회",
+        "awardDate": "2024-05-20"
+      }
+    ],
+    "created_at": "2025-08-17 10:00:00",
+    "updated_at": "2026-04-12 10:00:00"
+  },
+  {
+    "id": 13,
+    "client_profile_id": 13,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": false,
+    "show_education": true,
+    "show_certificates": true,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "에듀웨이브",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [],
+    "created_at": "2026-02-24 10:00:00",
+    "updated_at": "2026-03-28 10:00:00"
+  },
+  {
+    "id": 14,
+    "client_profile_id": 14,
+    "show_intro": true,
+    "show_skills": false,
+    "show_career": false,
+    "show_education": false,
+    "show_certificates": true,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "코어랩스",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [],
+    "created_at": "2025-09-23 10:00:00",
+    "updated_at": "2026-04-10 10:00:00"
+  },
+  {
+    "id": 15,
+    "client_profile_id": 15,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": false,
+    "show_education": true,
+    "show_certificates": true,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "노바텍",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [],
+    "created_at": "2025-04-23 10:00:00",
+    "updated_at": "2026-04-12 10:00:00"
+  },
+  {
+    "id": 16,
+    "client_profile_id": 16,
+    "show_intro": true,
+    "show_skills": false,
+    "show_career": false,
+    "show_education": true,
+    "show_certificates": true,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "모멘텀소프트",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [],
+    "created_at": "2025-07-27 10:00:00",
+    "updated_at": "2026-04-16 10:00:00"
+  },
+  {
+    "id": 17,
+    "client_profile_id": 17,
+    "show_intro": true,
+    "show_skills": false,
+    "show_career": true,
+    "show_education": true,
+    "show_certificates": true,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "바인드웍스",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [
+      {
+        "awardName": "2024 혁신 IT 기업 대상",
+        "awarding": "한국IT서비스산업협회",
+        "awardDate": "2024-05-20"
+      }
+    ],
+    "created_at": "2025-10-11 10:00:00",
+    "updated_at": "2026-04-01 10:00:00"
+  },
+  {
+    "id": 18,
+    "client_profile_id": 18,
+    "show_intro": true,
+    "show_skills": false,
+    "show_career": false,
+    "show_education": false,
+    "show_certificates": true,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "솔라시스템",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [
+      {
+        "awardName": "2024 혁신 IT 기업 대상",
+        "awarding": "한국IT서비스산업협회",
+        "awardDate": "2024-05-20"
+      }
+    ],
+    "created_at": "2026-02-22 10:00:00",
+    "updated_at": "2026-03-28 10:00:00"
+  },
+  {
+    "id": 19,
+    "client_profile_id": 19,
+    "show_intro": true,
+    "show_skills": false,
+    "show_career": false,
+    "show_education": true,
+    "show_certificates": false,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "오로라디지털",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [],
+    "created_at": "2025-08-05 10:00:00",
+    "updated_at": "2026-04-05 10:00:00"
+  },
+  {
+    "id": 20,
+    "client_profile_id": 20,
+    "show_intro": true,
+    "show_skills": false,
+    "show_career": true,
+    "show_education": false,
+    "show_certificates": false,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "브릿지테크",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [],
+    "created_at": "2025-06-26 10:00:00",
+    "updated_at": "2026-04-09 10:00:00"
+  },
+  {
+    "id": 21,
+    "client_profile_id": 21,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": false,
+    "show_education": true,
+    "show_certificates": false,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "씨드소프트",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [],
+    "created_at": "2025-10-05 10:00:00",
+    "updated_at": "2026-04-14 10:00:00"
+  },
+  {
+    "id": 22,
+    "client_profile_id": 22,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": false,
+    "show_education": false,
+    "show_certificates": false,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "엔진룸",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [],
+    "created_at": "2025-08-12 10:00:00",
+    "updated_at": "2026-04-12 10:00:00"
+  },
+  {
+    "id": 23,
+    "client_profile_id": 23,
+    "show_intro": true,
+    "show_skills": false,
+    "show_career": false,
+    "show_education": false,
+    "show_certificates": true,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "테라벤처스",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [],
+    "created_at": "2025-08-08 10:00:00",
+    "updated_at": "2026-04-09 10:00:00"
+  },
+  {
+    "id": 24,
+    "client_profile_id": 24,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": true,
+    "show_education": false,
+    "show_certificates": false,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "유니크스튜디오",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [],
+    "created_at": "2026-01-04 10:00:00",
+    "updated_at": "2026-03-29 10:00:00"
+  },
+  {
+    "id": 25,
+    "client_profile_id": 25,
+    "show_intro": true,
+    "show_skills": false,
+    "show_career": true,
+    "show_education": true,
+    "show_certificates": true,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "정글웍스",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [],
+    "created_at": "2025-09-12 10:00:00",
+    "updated_at": "2026-04-06 10:00:00"
+  },
+  {
+    "id": 26,
+    "client_profile_id": 26,
+    "show_intro": true,
+    "show_skills": false,
+    "show_career": true,
+    "show_education": true,
+    "show_certificates": false,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "카이로스",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [
+      {
+        "awardName": "2024 혁신 IT 기업 대상",
+        "awarding": "한국IT서비스산업협회",
+        "awardDate": "2024-05-20"
+      }
+    ],
+    "created_at": "2026-02-07 10:00:00",
+    "updated_at": "2026-03-30 10:00:00"
+  },
+  {
+    "id": 27,
+    "client_profile_id": 27,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": false,
+    "show_education": false,
+    "show_certificates": false,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "타이탄랩",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [
+      {
+        "awardName": "2024 혁신 IT 기업 대상",
+        "awarding": "한국IT서비스산업협회",
+        "awardDate": "2024-05-20"
+      }
+    ],
+    "created_at": "2026-01-19 10:00:00",
+    "updated_at": "2026-04-17 10:00:00"
+  },
+  {
+    "id": 28,
+    "client_profile_id": 28,
+    "show_intro": true,
+    "show_skills": true,
+    "show_career": false,
+    "show_education": false,
+    "show_certificates": true,
+    "show_awards": false,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "제니스테크",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [],
+    "created_at": "2025-08-02 10:00:00",
+    "updated_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 29,
+    "client_profile_id": 29,
+    "show_intro": true,
+    "show_skills": false,
+    "show_career": false,
+    "show_education": true,
+    "show_certificates": true,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "엑시온",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [],
+    "created_at": "2025-07-30 10:00:00",
+    "updated_at": "2026-04-12 10:00:00"
+  },
+  {
+    "id": 30,
+    "client_profile_id": 30,
+    "show_intro": true,
+    "show_skills": false,
+    "show_career": true,
+    "show_education": false,
+    "show_certificates": false,
+    "show_awards": true,
+    "show_portfolio": true,
+    "show_client_reviews": true,
+    "show_active_projects": true,
+    "experience_json": [
+      {
+        "company": "바움소프트",
+        "jobTitle": "CTO",
+        "startDate": "2019-01",
+        "endDate": "",
+        "isCurrent": true,
+        "employmentType": "정규직",
+        "role": "기술이사",
+        "level": "임원",
+        "description": "회사 전체 기술 전략 수립 및 개발팀 관리."
+      }
+    ],
+    "education_json": [
+      {
+        "schoolName": "서울대학교",
+        "major": "경영학",
+        "degree": "학사",
+        "graduationDate": "2010-02"
+      }
+    ],
+    "certificates_json": [],
+    "awards_json": [],
+    "created_at": "2025-10-21 10:00:00",
+    "updated_at": "2026-04-08 10:00:00"
+  }
+]

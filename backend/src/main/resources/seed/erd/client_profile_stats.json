@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "client_profile_id": 1,
+    "completed_projects": 30,
+    "posted_projects": 32,
+    "rating": 4.4,
+    "repeat_rate": 32
+  },
+  {
+    "id": 2,
+    "client_profile_id": 2,
+    "completed_projects": 28,
+    "posted_projects": 33,
+    "rating": 4.0,
+    "repeat_rate": 25
+  },
+  {
+    "id": 3,
+    "client_profile_id": 3,
+    "completed_projects": 9,
+    "posted_projects": 11,
+    "rating": 3.5,
+    "repeat_rate": 73
+  },
+  {
+    "id": 4,
+    "client_profile_id": 4,
+    "completed_projects": 3,
+    "posted_projects": 8,
+    "rating": 4.1,
+    "repeat_rate": 57
+  },
+  {
+    "id": 5,
+    "client_profile_id": 5,
+    "completed_projects": 17,
+    "posted_projects": 25,
+    "rating": 3.3,
+    "repeat_rate": 21
+  },
+  {
+    "id": 6,
+    "client_profile_id": 6,
+    "completed_projects": 5,
+    "posted_projects": 9,
+    "rating": 3.8,
+    "repeat_rate": 71
+  },
+  {
+    "id": 7,
+    "client_profile_id": 7,
+    "completed_projects": 19,
+    "posted_projects": 25,
+    "rating": 4.5,
+    "repeat_rate": 19
+  },
+  {
+    "id": 8,
+    "client_profile_id": 8,
+    "completed_projects": 7,
+    "posted_projects": 12,
+    "rating": 4.3,
+    "repeat_rate": 67
+  },
+  {
+    "id": 9,
+    "client_profile_id": 9,
+    "completed_projects": 17,
+    "posted_projects": 25,
+    "rating": 3.7,
+    "repeat_rate": 80
+  },
+  {
+    "id": 10,
+    "client_profile_id": 10,
+    "completed_projects": 23,
+    "posted_projects": 25,
+    "rating": 4.5,
+    "repeat_rate": 26
+  },
+  {
+    "id": 11,
+    "client_profile_id": 11,
+    "completed_projects": 16,
+    "posted_projects": 24,
+    "rating": 4.8,
+    "repeat_rate": 17
+  },
+  {
+    "id": 12,
+    "client_profile_id": 12,
+    "completed_projects": 29,
+    "posted_projects": 30,
+    "rating": 4.0,
+    "repeat_rate": 48
+  },
+  {
+    "id": 13,
+    "client_profile_id": 13,
+    "completed_projects": 8,
+    "posted_projects": 10,
+    "rating": 3.6,
+    "repeat_rate": 38
+  },
+  {
+    "id": 14,
+    "client_profile_id": 14,
+    "completed_projects": 14,
+    "posted_projects": 22,
+    "rating": 4.8,
+    "repeat_rate": 20
+  },
+  {
+    "id": 15,
+    "client_profile_id": 15,
+    "completed_projects": 11,
+    "posted_projects": 14,
+    "rating": 4.3,
+    "repeat_rate": 80
+  },
+  {
+    "id": 16,
+    "client_profile_id": 16,
+    "completed_projects": 11,
+    "posted_projects": 13,
+    "rating": 4.3,
+    "repeat_rate": 78
+  },
+  {
+    "id": 17,
+    "client_profile_id": 17,
+    "completed_projects": 5,
+    "posted_projects": 13,
+    "rating": 4.3,
+    "repeat_rate": 29
+  },
+  {
+    "id": 18,
+    "client_profile_id": 18,
+    "completed_projects": 8,
+    "posted_projects": 13,
+    "rating": 4.7,
+    "repeat_rate": 15
+  },
+  {
+    "id": 19,
+    "client_profile_id": 19,
+    "completed_projects": 29,
+    "posted_projects": 29,
+    "rating": 3.2,
+    "repeat_rate": 43
+  },
+  {
+    "id": 20,
+    "client_profile_id": 20,
+    "completed_projects": 23,
+    "posted_projects": 26,
+    "rating": 4.5,
+    "repeat_rate": 63
+  },
+  {
+    "id": 21,
+    "client_profile_id": 21,
+    "completed_projects": 22,
+    "posted_projects": 22,
+    "rating": 4.0,
+    "repeat_rate": 79
+  },
+  {
+    "id": 22,
+    "client_profile_id": 22,
+    "completed_projects": 12,
+    "posted_projects": 16,
+    "rating": 4.0,
+    "repeat_rate": 61
+  },
+  {
+    "id": 23,
+    "client_profile_id": 23,
+    "completed_projects": 12,
+    "posted_projects": 19,
+    "rating": 3.1,
+    "repeat_rate": 17
+  },
+  {
+    "id": 24,
+    "client_profile_id": 24,
+    "completed_projects": 8,
+    "posted_projects": 15,
+    "rating": 3.8,
+    "repeat_rate": 69
+  },
+  {
+    "id": 25,
+    "client_profile_id": 25,
+    "completed_projects": 9,
+    "posted_projects": 14,
+    "rating": 4.2,
+    "repeat_rate": 50
+  },
+  {
+    "id": 26,
+    "client_profile_id": 26,
+    "completed_projects": 30,
+    "posted_projects": 35,
+    "rating": 4.5,
+    "repeat_rate": 54
+  },
+  {
+    "id": 27,
+    "client_profile_id": 27,
+    "completed_projects": 15,
+    "posted_projects": 17,
+    "rating": 4.5,
+    "repeat_rate": 75
+  },
+  {
+    "id": 28,
+    "client_profile_id": 28,
+    "completed_projects": 20,
+    "posted_projects": 21,
+    "rating": 3.6,
+    "repeat_rate": 69
+  },
+  {
+    "id": 29,
+    "client_profile_id": 29,
+    "completed_projects": 6,
+    "posted_projects": 10,
+    "rating": 3.9,
+    "repeat_rate": 28
+  },
+  {
+    "id": 30,
+    "client_profile_id": 30,
+    "completed_projects": 6,
+    "posted_projects": 6,
+    "rating": 3.6,
+    "repeat_rate": 59
+  }
+]

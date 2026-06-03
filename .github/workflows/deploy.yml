@@ -1,0 +1,39 @@
+# GitHub Actions 자동배포 — flow_finish 에 push 되면 EC2 서버에 SSH 접속해 git pull + docker 재빌드.
+# 필요한 Secrets (repo → Settings → Secrets and variables → Actions):
+#   EC2_HOST    = 서버 공인 IP (예: 34.197.226.144)
+#   EC2_USER    = ec2-user
+#   EC2_SSH_KEY = who-a.pem 파일 "전체 내용"(-----BEGIN ...----- 부터 끝까지)
+name: Deploy to EC2
+
+on:
+  push:
+    branches: [flow_finish]   # 이 브랜치에 push 되면 자동 배포 (운영을 main 으로 옮기면 여기 main 으로)
+  workflow_dispatch: {}       # Actions 탭에서 수동 실행 버튼도 제공
+
+# 동시에 여러 배포가 겹치지 않게(나중 push 가 이전 배포를 취소)
+concurrency:
+  group: ec2-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: SSH → git pull → docker rebuild
+    runs-on: ubuntu-latest
+    steps:
+      - name: 서버에 SSH 접속해 배포
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USER }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+          command_timeout: 30m       # 전체 빌드가 길 수 있어 넉넉히
+          script: |
+            set -e
+            cd ~/Alpha
+            echo "▶ git pull"
+            git pull
+            echo "▶ docker compose up -d --build (변경된 이미지만 재빌드됨)"
+            sudo docker compose up -d --build
+            echo "▶ 상태"
+            sudo docker compose ps
+            echo "✅ 배포 완료"

@@ -1,0 +1,18 @@
+[Unit]
+Description=who-a FastAPI analytics
+After=network.target
+
+[Service]
+Type=simple
+User=ec2-user
+WorkingDirectory=/home/ec2-user/analytics
+Environment=PYTHONUNBUFFERED=1
+Environment=INTERNAL_TOKEN=who-a-internal-2026
+ExecStart=/home/ec2-user/analytics/.venv/bin/uvicorn app.main:app --host 127.0.0.1 --port 8000 --workers 1
+Restart=on-failure
+RestartSec=10
+StartLimitBurst=5
+StartLimitIntervalSec=300
+
+[Install]
+WantedBy=multi-user.target

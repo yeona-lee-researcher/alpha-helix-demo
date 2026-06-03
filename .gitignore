@@ -1,0 +1,131 @@
+# Gradle
+.gradle/
+build/
+bin/
+!**/gradle/wrapper/gradle-wrapper.jar
+
+application-local.properties
+
+# Spring Boot
+*.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# 개인 금융정보 캡처 (실계좌·실명 포함) — 절대 커밋 금지
+frontend/stock_asset/
+frontend/src/assets/q1.jpg
+frontend/src/assets/q2.jpg
+frontend/src/assets/q3.jpg
+frontend/src/assets/실제*.jpg
+frontend/src/assets/*계좌*
+frontend/src/assets/*무한매수*
+frontend/src/assets/*수익*.jpg
+analytics/_calib.py
+analytics/_*.py
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.claude/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
+*.env
+
+# Logs
+*.log
+logs/
+
+# Spring local profile (contains secrets)
+backend/src/main/resources/application-local.properties
+
+# SSH / cloud keys — NEVER commit
+*.pem
+*.ppk
+*.key
+id_rsa
+id_ed25519
+
+# Deploy artifacts (production secrets)
+deploy/env.*
+deploy/*.env
+!deploy/ENV_TEMPLATE.txt
+
+# Google OAuth client secret JSON — NEVER commit
+client_secret_*.json
+
+# Build/deploy temp tarballs
+*.tar.gz
+*.tar
+*.zip
+analytics.tar
+dist.tar.gz
+fe-dist.zip
+dist.zip
+
+# Python venv & cache (analytics)
+analytics/.venv/
+analytics/__pycache__/
+analytics/**/__pycache__/
+analytics/cache/
+analytics/models_cache/
+analytics/reports/
+*.pyc
+
+# Uploads (runtime)
+backend/uploads/
+uploads/
+
+# Dev/test scratch files (request payloads, scratch SQL, ad-hoc scripts)
+test-kis-token.ps1
+kistest.json
+bt.json
+bt_req.json
+req_bt.json
+req_ib.json
+login.json
+rg.json
+ts.json
+formalize_out.json
+projects-response.json
+check_ws.sql
+inject_goal.sql
+inject_goal_filled.sql
+seed_broker.sql
+set_ib.sql
+show_tables.sql
+insert_project.sql
+dl_cache.py
+show_ib.py
+yftest.py
+e2e_ib.sh
+mysql_helper.sh
+
+# Frontend build artifacts / scratch
+frontend/dist.tgz
+frontend/dist.tar.gz
+frontend/lint_out.txt
+frontend/README_OLD.md
+frontend/UPDATE_LOG.md
+
+# Java/Gradle scratch
+hs_err_pid*.log
+replay_pid*.log
+
+# Lean CLI workspace (데이터 db·프로젝트·결과는 init 시 자동 스캐폴드/다운로드)
+analytics/.lean-workspace/

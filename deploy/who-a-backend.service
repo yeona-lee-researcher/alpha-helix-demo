@@ -1,0 +1,19 @@
+[Unit]
+Description=who-a Spring Boot backend
+After=network.target mariadb.service
+Wants=mariadb.service
+
+[Service]
+Type=simple
+User=ec2-user
+WorkingDirectory=/home/ec2-user
+EnvironmentFile=/home/ec2-user/.env.prod
+ExecStart=/usr/bin/java -Xms256m -Xmx512m -jar /home/ec2-user/app.jar
+SuccessExitStatus=143
+Restart=on-failure
+RestartSec=10
+StartLimitBurst=5
+StartLimitIntervalSec=300
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,44 @@
+# === Alpha-Helix analytics service ===
+# Python 3.11 only
+
+# Web
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+pydantic==2.9.2
+
+# Market data
+yfinance==0.2.50
+pandas==2.2.3
+numpy==1.26.4
+pyarrow==17.0.0
+
+# Backtest engine
+vectorbt==0.26.2
+numba==0.60.0
+plotly==5.24.1  # vectorbt 0.26.2 incompatible with plotly 6.x (heatmapgl removed)
+
+# Lean (QuantConnect) CLI — Docker 기반 Lean 엔진 실행. `lean init` 으로 데이터 스캐폴드.
+lean==1.0.225
+
+# Risk metrics
+quantstats==0.0.62
+
+# ML / Explainability
+scikit-learn==1.5.2
+xgboost==2.1.3
+shap==0.46.0
+interpret==0.6.7
+hmmlearn==0.3.3  # Gaussian HMM for regime detection (BSD-3)
+
+# Utils
+python-dotenv==1.0.1
+httpx==0.27.2
+requests==2.32.3
+
+# DB (market_ohlcv / market_macro time-series layer)
+sqlalchemy==2.0.36
+pymysql==1.1.1
+cryptography==43.0.3   # pymysql 암호화 인증 지원
+
+# Scheduler (data collection)
+apscheduler==3.10.4

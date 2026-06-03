@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "React",
+    "category": "frontend"
+  },
+  {
+    "id": 2,
+    "name": "Next.js",
+    "category": "frontend"
+  },
+  {
+    "id": 3,
+    "name": "Vue.js",
+    "category": "frontend"
+  },
+  {
+    "id": 4,
+    "name": "Angular",
+    "category": "frontend"
+  },
+  {
+    "id": 5,
+    "name": "Svelte",
+    "category": "frontend"
+  },
+  {
+    "id": 6,
+    "name": "TypeScript",
+    "category": "lang"
+  },
+  {
+    "id": 7,
+    "name": "JavaScript",
+    "category": "lang"
+  },
+  {
+    "id": 8,
+    "name": "HTML/CSS",
+    "category": "frontend"
+  },
+  {
+    "id": 9,
+    "name": "TailwindCSS",
+    "category": "frontend"
+  },
+  {
+    "id": 10,
+    "name": "Node.js",
+    "category": "backend"
+  },
+  {
+    "id": 11,
+    "name": "Express",
+    "category": "backend"
+  },
+  {
+    "id": 12,
+    "name": "NestJS",
+    "category": "backend"
+  },
+  {
+    "id": 13,
+    "name": "Django",
+    "category": "backend"
+  },
+  {
+    "id": 14,
+    "name": "FastAPI",
+    "category": "backend"
+  },
+  {
+    "id": 15,
+    "name": "Flask",
+    "category": "backend"
+  },
+  {
+    "id": 16,
+    "name": "Spring",
+    "category": "backend"
+  },
+  {
+    "id": 17,
+    "name": "Spring Boot",
+    "category": "backend"
+  },
+  {
+    "id": 18,
+    "name": "Java",
+    "category": "lang"
+  },
+  {
+    "id": 19,
+    "name": "Kotlin",
+    "category": "lang"
+  },
+  {
+    "id": 20,
+    "name": "Python",
+    "category": "lang"
+  },
+  {
+    "id": 21,
+    "name": "Go",
+    "category": "lang"
+  },
+  {
+    "id": 22,
+    "name": "Rust",
+    "category": "lang"
+  },
+  {
+    "id": 23,
+    "name": "C++",
+    "category": "lang"
+  },
+  {
+    "id": 24,
+    "name": "C#",
+    "category": "lang"
+  },
+  {
+    "id": 25,
+    "name": "MySQL",
+    "category": "database"
+  },
+  {
+    "id": 26,
+    "name": "PostgreSQL",
+    "category": "database"
+  },
+  {
+    "id": 27,
+    "name": "MongoDB",
+    "category": "database"
+  },
+  {
+    "id": 28,
+    "name": "Redis",
+    "category": "database"
+  },
+  {
+    "id": 29,
+    "name": "AWS",
+    "category": "devops"
+  },
+  {
+    "id": 30,
+    "name": "GCP",
+    "category": "devops"
+  },
+  {
+    "id": 31,
+    "name": "Azure",
+    "category": "devops"
+  },
+  {
+    "id": 32,
+    "name": "Docker",
+    "category": "devops"
+  },
+  {
+    "id": 33,
+    "name": "Kubernetes",
+    "category": "devops"
+  },
+  {
+    "id": 34,
+    "name": "Figma",
+    "category": "design"
+  },
+  {
+    "id": 35,
+    "name": "Sketch",
+    "category": "design"
+  },
+  {
+    "id": 36,
+    "name": "Adobe XD",
+    "category": "design"
+  },
+  {
+    "id": 37,
+    "name": "Flutter",
+    "category": "mobile"
+  },
+  {
+    "id": 38,
+    "name": "React Native",
+    "category": "mobile"
+  },
+  {
+    "id": 39,
+    "name": "Swift",
+    "category": "mobile"
+  },
+  {
+    "id": 40,
+    "name": "Objective-C",
+    "category": "mobile"
+  }
+]

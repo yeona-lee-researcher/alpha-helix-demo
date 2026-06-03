@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "parent_category": "IT 서비스 구축",
+    "field_name": "웹 서비스"
+  },
+  {
+    "id": 2,
+    "parent_category": "IT 서비스 구축",
+    "field_name": "모바일 앱"
+  },
+  {
+    "id": 3,
+    "parent_category": "IT 서비스 구축",
+    "field_name": "백오피스"
+  },
+  {
+    "id": 4,
+    "parent_category": "내부 업무시스템",
+    "field_name": "ERP"
+  },
+  {
+    "id": 5,
+    "parent_category": "내부 업무시스템",
+    "field_name": "그룹웨어"
+  },
+  {
+    "id": 6,
+    "parent_category": "AI·머신러닝",
+    "field_name": "추천 시스템"
+  },
+  {
+    "id": 7,
+    "parent_category": "AI·머신러닝",
+    "field_name": "자연어 처리"
+  },
+  {
+    "id": 8,
+    "parent_category": "AI·머신러닝",
+    "field_name": "컴퓨터 비전"
+  },
+  {
+    "id": 9,
+    "parent_category": "커머스·쇼핑몰",
+    "field_name": "B2C 쇼핑몰"
+  },
+  {
+    "id": 10,
+    "parent_category": "커머스·쇼핑몰",
+    "field_name": "마켓플레이스"
+  },
+  {
+    "id": 11,
+    "parent_category": "웹사이트 제작",
+    "field_name": "브랜드 사이트"
+  },
+  {
+    "id": 12,
+    "parent_category": "클라우드 도입",
+    "field_name": "인프라 마이그레이션"
+  },
+  {
+    "id": 13,
+    "parent_category": "컨설팅·PMO",
+    "field_name": "기술 컨설팅"
+  },
+  {
+    "id": 14,
+    "parent_category": "유지보수·운영",
+    "field_name": "레거시 리팩토링"
+  },
+  {
+    "id": 15,
+    "parent_category": "기타",
+    "field_name": "기타"
+  }
+]

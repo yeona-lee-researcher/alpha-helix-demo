@@ -1,0 +1,740 @@
+[
+  {
+    "id": 1,
+    "user_id": 1,
+    "partner_profile_id": 17,
+    "created_at": "2026-02-20 10:00:00"
+  },
+  {
+    "id": 2,
+    "user_id": 1,
+    "partner_profile_id": 15,
+    "created_at": "2026-02-20 10:00:00"
+  },
+  {
+    "id": 3,
+    "user_id": 1,
+    "partner_profile_id": 22,
+    "created_at": "2026-03-13 10:00:00"
+  },
+  {
+    "id": 4,
+    "user_id": 2,
+    "partner_profile_id": 24,
+    "created_at": "2026-03-10 10:00:00"
+  },
+  {
+    "id": 5,
+    "user_id": 3,
+    "partner_profile_id": 30,
+    "created_at": "2026-04-12 10:00:00"
+  },
+  {
+    "id": 6,
+    "user_id": 4,
+    "partner_profile_id": 24,
+    "created_at": "2026-04-07 10:00:00"
+  },
+  {
+    "id": 7,
+    "user_id": 5,
+    "partner_profile_id": 21,
+    "created_at": "2026-03-17 10:00:00"
+  },
+  {
+    "id": 8,
+    "user_id": 5,
+    "partner_profile_id": 1,
+    "created_at": "2026-02-17 10:00:00"
+  },
+  {
+    "id": 9,
+    "user_id": 6,
+    "partner_profile_id": 2,
+    "created_at": "2026-03-06 10:00:00"
+  },
+  {
+    "id": 10,
+    "user_id": 6,
+    "partner_profile_id": 8,
+    "created_at": "2026-04-08 10:00:00"
+  },
+  {
+    "id": 11,
+    "user_id": 6,
+    "partner_profile_id": 23,
+    "created_at": "2026-04-16 10:00:00"
+  },
+  {
+    "id": 12,
+    "user_id": 7,
+    "partner_profile_id": 21,
+    "created_at": "2026-04-13 10:00:00"
+  },
+  {
+    "id": 13,
+    "user_id": 8,
+    "partner_profile_id": 27,
+    "created_at": "2026-04-10 10:00:00"
+  },
+  {
+    "id": 14,
+    "user_id": 8,
+    "partner_profile_id": 26,
+    "created_at": "2026-03-18 10:00:00"
+  },
+  {
+    "id": 15,
+    "user_id": 9,
+    "partner_profile_id": 6,
+    "created_at": "2026-04-12 10:00:00"
+  },
+  {
+    "id": 16,
+    "user_id": 9,
+    "partner_profile_id": 27,
+    "created_at": "2026-02-23 10:00:00"
+  },
+  {
+    "id": 17,
+    "user_id": 9,
+    "partner_profile_id": 19,
+    "created_at": "2026-02-23 10:00:00"
+  },
+  {
+    "id": 18,
+    "user_id": 10,
+    "partner_profile_id": 4,
+    "created_at": "2026-03-16 10:00:00"
+  },
+  {
+    "id": 19,
+    "user_id": 11,
+    "partner_profile_id": 26,
+    "created_at": "2026-04-12 10:00:00"
+  },
+  {
+    "id": 20,
+    "user_id": 11,
+    "partner_profile_id": 20,
+    "created_at": "2026-02-24 10:00:00"
+  },
+  {
+    "id": 21,
+    "user_id": 11,
+    "partner_profile_id": 8,
+    "created_at": "2026-04-04 10:00:00"
+  },
+  {
+    "id": 22,
+    "user_id": 12,
+    "partner_profile_id": 11,
+    "created_at": "2026-02-22 10:00:00"
+  },
+  {
+    "id": 23,
+    "user_id": 12,
+    "partner_profile_id": 26,
+    "created_at": "2026-02-28 10:00:00"
+  },
+  {
+    "id": 24,
+    "user_id": 13,
+    "partner_profile_id": 13,
+    "created_at": "2026-03-04 10:00:00"
+  },
+  {
+    "id": 25,
+    "user_id": 13,
+    "partner_profile_id": 11,
+    "created_at": "2026-03-11 10:00:00"
+  },
+  {
+    "id": 26,
+    "user_id": 13,
+    "partner_profile_id": 4,
+    "created_at": "2026-03-13 10:00:00"
+  },
+  {
+    "id": 27,
+    "user_id": 14,
+    "partner_profile_id": 11,
+    "created_at": "2026-02-22 10:00:00"
+  },
+  {
+    "id": 28,
+    "user_id": 15,
+    "partner_profile_id": 25,
+    "created_at": "2026-04-14 10:00:00"
+  },
+  {
+    "id": 29,
+    "user_id": 16,
+    "partner_profile_id": 6,
+    "created_at": "2026-04-09 10:00:00"
+  },
+  {
+    "id": 30,
+    "user_id": 16,
+    "partner_profile_id": 11,
+    "created_at": "2026-03-30 10:00:00"
+  },
+  {
+    "id": 31,
+    "user_id": 16,
+    "partner_profile_id": 3,
+    "created_at": "2026-04-07 10:00:00"
+  },
+  {
+    "id": 32,
+    "user_id": 17,
+    "partner_profile_id": 6,
+    "created_at": "2026-03-24 10:00:00"
+  },
+  {
+    "id": 33,
+    "user_id": 17,
+    "partner_profile_id": 23,
+    "created_at": "2026-03-12 10:00:00"
+  },
+  {
+    "id": 34,
+    "user_id": 18,
+    "partner_profile_id": 15,
+    "created_at": "2026-04-01 10:00:00"
+  },
+  {
+    "id": 35,
+    "user_id": 19,
+    "partner_profile_id": 2,
+    "created_at": "2026-02-25 10:00:00"
+  },
+  {
+    "id": 36,
+    "user_id": 19,
+    "partner_profile_id": 5,
+    "created_at": "2026-02-21 10:00:00"
+  },
+  {
+    "id": 37,
+    "user_id": 19,
+    "partner_profile_id": 4,
+    "created_at": "2026-03-07 10:00:00"
+  },
+  {
+    "id": 38,
+    "user_id": 20,
+    "partner_profile_id": 13,
+    "created_at": "2026-04-15 10:00:00"
+  },
+  {
+    "id": 39,
+    "user_id": 20,
+    "partner_profile_id": 25,
+    "created_at": "2026-02-19 10:00:00"
+  },
+  {
+    "id": 40,
+    "user_id": 20,
+    "partner_profile_id": 6,
+    "created_at": "2026-03-16 10:00:00"
+  },
+  {
+    "id": 41,
+    "user_id": 21,
+    "partner_profile_id": 1,
+    "created_at": "2026-04-16 10:00:00"
+  },
+  {
+    "id": 42,
+    "user_id": 22,
+    "partner_profile_id": 30,
+    "created_at": "2026-04-11 10:00:00"
+  },
+  {
+    "id": 43,
+    "user_id": 23,
+    "partner_profile_id": 21,
+    "created_at": "2026-03-29 10:00:00"
+  },
+  {
+    "id": 44,
+    "user_id": 23,
+    "partner_profile_id": 19,
+    "created_at": "2026-03-21 10:00:00"
+  },
+  {
+    "id": 45,
+    "user_id": 23,
+    "partner_profile_id": 29,
+    "created_at": "2026-03-03 10:00:00"
+  },
+  {
+    "id": 46,
+    "user_id": 24,
+    "partner_profile_id": 23,
+    "created_at": "2026-04-03 10:00:00"
+  },
+  {
+    "id": 47,
+    "user_id": 24,
+    "partner_profile_id": 5,
+    "created_at": "2026-04-07 10:00:00"
+  },
+  {
+    "id": 48,
+    "user_id": 25,
+    "partner_profile_id": 9,
+    "created_at": "2026-03-21 10:00:00"
+  },
+  {
+    "id": 49,
+    "user_id": 25,
+    "partner_profile_id": 17,
+    "created_at": "2026-04-01 10:00:00"
+  },
+  {
+    "id": 50,
+    "user_id": 25,
+    "partner_profile_id": 15,
+    "created_at": "2026-04-05 10:00:00"
+  },
+  {
+    "id": 51,
+    "user_id": 26,
+    "partner_profile_id": 23,
+    "created_at": "2026-04-05 10:00:00"
+  },
+  {
+    "id": 52,
+    "user_id": 26,
+    "partner_profile_id": 2,
+    "created_at": "2026-03-02 10:00:00"
+  },
+  {
+    "id": 53,
+    "user_id": 26,
+    "partner_profile_id": 20,
+    "created_at": "2026-03-16 10:00:00"
+  },
+  {
+    "id": 54,
+    "user_id": 27,
+    "partner_profile_id": 3,
+    "created_at": "2026-02-25 10:00:00"
+  },
+  {
+    "id": 55,
+    "user_id": 27,
+    "partner_profile_id": 21,
+    "created_at": "2026-03-28 10:00:00"
+  },
+  {
+    "id": 56,
+    "user_id": 27,
+    "partner_profile_id": 27,
+    "created_at": "2026-03-25 10:00:00"
+  },
+  {
+    "id": 57,
+    "user_id": 28,
+    "partner_profile_id": 1,
+    "created_at": "2026-04-01 10:00:00"
+  },
+  {
+    "id": 58,
+    "user_id": 28,
+    "partner_profile_id": 18,
+    "created_at": "2026-04-04 10:00:00"
+  },
+  {
+    "id": 59,
+    "user_id": 29,
+    "partner_profile_id": 17,
+    "created_at": "2026-04-10 10:00:00"
+  },
+  {
+    "id": 60,
+    "user_id": 30,
+    "partner_profile_id": 12,
+    "created_at": "2026-03-13 10:00:00"
+  },
+  {
+    "id": 61,
+    "user_id": 30,
+    "partner_profile_id": 28,
+    "created_at": "2026-03-15 10:00:00"
+  },
+  {
+    "id": 62,
+    "user_id": 30,
+    "partner_profile_id": 25,
+    "created_at": "2026-04-02 10:00:00"
+  },
+  {
+    "id": 63,
+    "user_id": 31,
+    "partner_profile_id": 25,
+    "created_at": "2026-03-05 10:00:00"
+  },
+  {
+    "id": 64,
+    "user_id": 31,
+    "partner_profile_id": 21,
+    "created_at": "2026-04-03 10:00:00"
+  },
+  {
+    "id": 65,
+    "user_id": 32,
+    "partner_profile_id": 2,
+    "created_at": "2026-04-09 10:00:00"
+  },
+  {
+    "id": 66,
+    "user_id": 32,
+    "partner_profile_id": 7,
+    "created_at": "2026-02-25 10:00:00"
+  },
+  {
+    "id": 67,
+    "user_id": 33,
+    "partner_profile_id": 22,
+    "created_at": "2026-02-21 10:00:00"
+  },
+  {
+    "id": 68,
+    "user_id": 34,
+    "partner_profile_id": 16,
+    "created_at": "2026-04-06 10:00:00"
+  },
+  {
+    "id": 69,
+    "user_id": 34,
+    "partner_profile_id": 6,
+    "created_at": "2026-03-05 10:00:00"
+  },
+  {
+    "id": 70,
+    "user_id": 35,
+    "partner_profile_id": 2,
+    "created_at": "2026-03-06 10:00:00"
+  },
+  {
+    "id": 71,
+    "user_id": 36,
+    "partner_profile_id": 10,
+    "created_at": "2026-03-20 10:00:00"
+  },
+  {
+    "id": 72,
+    "user_id": 36,
+    "partner_profile_id": 7,
+    "created_at": "2026-03-31 10:00:00"
+  },
+  {
+    "id": 73,
+    "user_id": 37,
+    "partner_profile_id": 20,
+    "created_at": "2026-02-19 10:00:00"
+  },
+  {
+    "id": 74,
+    "user_id": 37,
+    "partner_profile_id": 26,
+    "created_at": "2026-02-27 10:00:00"
+  },
+  {
+    "id": 75,
+    "user_id": 38,
+    "partner_profile_id": 2,
+    "created_at": "2026-02-28 10:00:00"
+  },
+  {
+    "id": 76,
+    "user_id": 38,
+    "partner_profile_id": 4,
+    "created_at": "2026-04-13 10:00:00"
+  },
+  {
+    "id": 77,
+    "user_id": 39,
+    "partner_profile_id": 6,
+    "created_at": "2026-03-16 10:00:00"
+  },
+  {
+    "id": 78,
+    "user_id": 39,
+    "partner_profile_id": 26,
+    "created_at": "2026-03-15 10:00:00"
+  },
+  {
+    "id": 79,
+    "user_id": 39,
+    "partner_profile_id": 1,
+    "created_at": "2026-04-09 10:00:00"
+  },
+  {
+    "id": 80,
+    "user_id": 40,
+    "partner_profile_id": 29,
+    "created_at": "2026-04-01 10:00:00"
+  },
+  {
+    "id": 81,
+    "user_id": 41,
+    "partner_profile_id": 15,
+    "created_at": "2026-03-21 10:00:00"
+  },
+  {
+    "id": 82,
+    "user_id": 41,
+    "partner_profile_id": 19,
+    "created_at": "2026-04-04 10:00:00"
+  },
+  {
+    "id": 83,
+    "user_id": 41,
+    "partner_profile_id": 11,
+    "created_at": "2026-02-28 10:00:00"
+  },
+  {
+    "id": 84,
+    "user_id": 42,
+    "partner_profile_id": 29,
+    "created_at": "2026-02-26 10:00:00"
+  },
+  {
+    "id": 85,
+    "user_id": 42,
+    "partner_profile_id": 11,
+    "created_at": "2026-04-09 10:00:00"
+  },
+  {
+    "id": 86,
+    "user_id": 42,
+    "partner_profile_id": 8,
+    "created_at": "2026-03-27 10:00:00"
+  },
+  {
+    "id": 87,
+    "user_id": 43,
+    "partner_profile_id": 4,
+    "created_at": "2026-04-01 10:00:00"
+  },
+  {
+    "id": 88,
+    "user_id": 44,
+    "partner_profile_id": 14,
+    "created_at": "2026-03-23 10:00:00"
+  },
+  {
+    "id": 89,
+    "user_id": 44,
+    "partner_profile_id": 28,
+    "created_at": "2026-02-18 10:00:00"
+  },
+  {
+    "id": 90,
+    "user_id": 44,
+    "partner_profile_id": 7,
+    "created_at": "2026-04-02 10:00:00"
+  },
+  {
+    "id": 91,
+    "user_id": 45,
+    "partner_profile_id": 16,
+    "created_at": "2026-03-10 10:00:00"
+  },
+  {
+    "id": 92,
+    "user_id": 46,
+    "partner_profile_id": 2,
+    "created_at": "2026-03-20 10:00:00"
+  },
+  {
+    "id": 93,
+    "user_id": 46,
+    "partner_profile_id": 29,
+    "created_at": "2026-04-07 10:00:00"
+  },
+  {
+    "id": 94,
+    "user_id": 47,
+    "partner_profile_id": 30,
+    "created_at": "2026-03-08 10:00:00"
+  },
+  {
+    "id": 95,
+    "user_id": 48,
+    "partner_profile_id": 6,
+    "created_at": "2026-03-24 10:00:00"
+  },
+  {
+    "id": 96,
+    "user_id": 48,
+    "partner_profile_id": 13,
+    "created_at": "2026-04-08 10:00:00"
+  },
+  {
+    "id": 97,
+    "user_id": 49,
+    "partner_profile_id": 24,
+    "created_at": "2026-03-07 10:00:00"
+  },
+  {
+    "id": 98,
+    "user_id": 49,
+    "partner_profile_id": 7,
+    "created_at": "2026-03-25 10:00:00"
+  },
+  {
+    "id": 99,
+    "user_id": 50,
+    "partner_profile_id": 7,
+    "created_at": "2026-04-08 10:00:00"
+  },
+  {
+    "id": 100,
+    "user_id": 50,
+    "partner_profile_id": 11,
+    "created_at": "2026-04-14 10:00:00"
+  },
+  {
+    "id": 101,
+    "user_id": 51,
+    "partner_profile_id": 19,
+    "created_at": "2026-04-08 10:00:00"
+  },
+  {
+    "id": 102,
+    "user_id": 51,
+    "partner_profile_id": 2,
+    "created_at": "2026-04-09 10:00:00"
+  },
+  {
+    "id": 103,
+    "user_id": 51,
+    "partner_profile_id": 9,
+    "created_at": "2026-02-21 10:00:00"
+  },
+  {
+    "id": 104,
+    "user_id": 52,
+    "partner_profile_id": 15,
+    "created_at": "2026-04-06 10:00:00"
+  },
+  {
+    "id": 105,
+    "user_id": 52,
+    "partner_profile_id": 14,
+    "created_at": "2026-02-27 10:00:00"
+  },
+  {
+    "id": 106,
+    "user_id": 53,
+    "partner_profile_id": 8,
+    "created_at": "2026-03-29 10:00:00"
+  },
+  {
+    "id": 107,
+    "user_id": 53,
+    "partner_profile_id": 29,
+    "created_at": "2026-03-09 10:00:00"
+  },
+  {
+    "id": 108,
+    "user_id": 54,
+    "partner_profile_id": 26,
+    "created_at": "2026-02-25 10:00:00"
+  },
+  {
+    "id": 109,
+    "user_id": 55,
+    "partner_profile_id": 20,
+    "created_at": "2026-03-11 10:00:00"
+  },
+  {
+    "id": 110,
+    "user_id": 55,
+    "partner_profile_id": 29,
+    "created_at": "2026-03-12 10:00:00"
+  },
+  {
+    "id": 111,
+    "user_id": 55,
+    "partner_profile_id": 6,
+    "created_at": "2026-02-21 10:00:00"
+  },
+  {
+    "id": 112,
+    "user_id": 56,
+    "partner_profile_id": 3,
+    "created_at": "2026-03-21 10:00:00"
+  },
+  {
+    "id": 113,
+    "user_id": 57,
+    "partner_profile_id": 16,
+    "created_at": "2026-03-10 10:00:00"
+  },
+  {
+    "id": 114,
+    "user_id": 57,
+    "partner_profile_id": 28,
+    "created_at": "2026-03-17 10:00:00"
+  },
+  {
+    "id": 115,
+    "user_id": 57,
+    "partner_profile_id": 7,
+    "created_at": "2026-02-22 10:00:00"
+  },
+  {
+    "id": 116,
+    "user_id": 58,
+    "partner_profile_id": 9,
+    "created_at": "2026-03-01 10:00:00"
+  },
+  {
+    "id": 117,
+    "user_id": 58,
+    "partner_profile_id": 1,
+    "created_at": "2026-03-20 10:00:00"
+  },
+  {
+    "id": 118,
+    "user_id": 59,
+    "partner_profile_id": 28,
+    "created_at": "2026-03-20 10:00:00"
+  },
+  {
+    "id": 119,
+    "user_id": 59,
+    "partner_profile_id": 8,
+    "created_at": "2026-03-10 10:00:00"
+  },
+  {
+    "id": 120,
+    "user_id": 59,
+    "partner_profile_id": 11,
+    "created_at": "2026-04-02 10:00:00"
+  },
+  {
+    "id": 121,
+    "user_id": 60,
+    "partner_profile_id": 5,
+    "created_at": "2026-02-18 10:00:00"
+  },
+  {
+    "id": 122,
+    "user_id": 60,
+    "partner_profile_id": 30,
+    "created_at": "2026-04-16 10:00:00"
+  },
+  {
+    "id": 123,
+    "user_id": 60,
+    "partner_profile_id": 19,
+    "created_at": "2026-03-21 10:00:00"
+  }
+]

@@ -1,0 +1,178 @@
+
+> react@0.0.0 lint
+> eslint .
+
+
+C:\Team2_DevBridge\frontend\src\components\ClientProfileModal.jsx
+   81:19  warning  Unused eslint-disable directive (no problems were reported from 'no-param-reassign')
+  111:16  error    'e' is defined but never used                                                                                   no-unused-vars
+  153:6   warning  React Hook useEffect has a missing dependency: 'sectionRefs'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Team2_DevBridge\frontend\src\components\ContractModals.jsx
+  256:7  warning  Unused eslint-disable directive (no problems were reported from 'no-console')
+
+C:\Team2_DevBridge\frontend\src\components\Header_client.jsx
+  121:16  error  '_' is defined but never used                                                                   no-unused-vars
+  134:9   error  'getUserInitial' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Team2_DevBridge\frontend\src\components\Header_partner.jsx
+  139:16  error  '_' is defined but never used                                                                   no-unused-vars
+  158:9   error  'getUserInitial' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Team2_DevBridge\frontend\src\components\PartnerProfileModal.jsx
+  101:16  error    'e' is defined but never used                                                                                   no-unused-vars
+  143:6   warning  React Hook useEffect has a missing dependency: 'sectionRefs'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Team2_DevBridge\frontend\src\components\dashboard\ClientProjectsTab.jsx
+   64:34  warning  React Hook useEffect has a missing dependency: 'reload'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  127:16  error    '_' is defined but never used                                                                              no-unused-vars
+
+C:\Team2_DevBridge\frontend\src\components\dashboard\ProjectManageTabLive.jsx
+    64:7   error  'isAgreementCompleted' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+   320:47  error  'projects' is defined but never used. Allowed unused args must match /^[A-Z_]|^e$|^_/u                no-unused-vars
+  1545:17  error  'ss' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                    no-unused-vars
+
+C:\Team2_DevBridge\frontend\src\lib\generateResumeHtml.js
+  445:33  error  '_' is defined but never used  no-unused-vars
+
+C:\Team2_DevBridge\frontend\src\lib\githubPortfolio.js
+   40:14  error  Unexpected control character(s) in regular expression: \x00, \x1f                  no-control-regex
+  117:18  error  'pos' is defined but never used. Allowed unused args must match /^[A-Z_]|^e$|^_/u  no-unused-vars
+
+C:\Team2_DevBridge\frontend\src\lib\portfolio.js
+    1:10  error  'generateAutoThumbnail' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+   11:60  error  Unnecessary escape character: \/                                                              no-useless-escape
+   11:62  error  Unnecessary escape character: \?                                                              no-useless-escape
+  107:9   error  'sections' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u      no-unused-vars
+
+C:\Team2_DevBridge\frontend\src\pages\AIchatProfile.jsx
+  396:10  error    'mockGithubAnalysis' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                no-unused-vars
+  488:6   warning  React Hook useEffect has a missing dependency: 'lang'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  698:14  error    'e' is defined but never used                                                                            no-unused-vars
+
+C:\Team2_DevBridge\frontend\src\pages\ClientDashboard.jsx
+    19:84   error    'dashboardApi' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                                                                                                                                                                                                     no-unused-vars
+    19:98   error    'milestonesApi' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                                                                                                                                                                                                    no-unused-vars
+    19:113  error    'escrowsApi' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                                                                                                                                                                                                       no-unused-vars
+    19:125  error    'paymentMethodsApi' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                                                                                                                                                                                                no-unused-vars
+  2838:9    error    'navigate' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                                                                                                                                                                                                                no-unused-vars
+  3470:6    warning  React Hook useEffect has missing dependencies: 'contact?.isStreamReal' and 'contact.targetUserId'. Either include them or remove the dependency array                                                                                                                                                   react-hooks/exhaustive-deps
+  3528:76   error    Empty block statement                                                                                                                                                                                                                                                                                   no-empty
+  3557:16   error    '_' is defined but never used                                                                                                                                                                                                                                                                           no-unused-vars
+  3631:6    warning  React Hook useEffect has missing dependencies: 'user?.heroImage' and 'user?.username'. Either include them or remove the dependency array                                                                                                                                                               react-hooks/exhaustive-deps
+  3686:9    error    'canProposeProject' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                                                                                                                                                                                                       no-unused-vars
+  3705:9    error    'sharedFiles' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                                                                                                                                                                                                             no-unused-vars
+  3706:9    error    'sharedLinks' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                                                                                                                                                                                                             no-unused-vars
+  3707:9    error    'sharedImages' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                                                                                                                                                                                                            no-unused-vars
+  3712:71   error    Unnecessary escape character: \-                                                                                                                                                                                                                                                                        no-useless-escape
+  3712:73   error    Unnecessary escape character: \.                                                                                                                                                                                                                                                                        no-useless-escape
+  3816:75   error    Unnecessary escape character: \-                                                                                                                                                                                                                                                                        no-useless-escape
+  3816:77   error    Unnecessary escape character: \.                                                                                                                                                                                                                                                                        no-useless-escape
+  4070:9    error    'handleRejectProposal' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                                                                                                                                                                                                    no-unused-vars
+  4692:6    warning  React Hook useEffect has a missing dependency: 'meetingMode'. Either include it or remove the dependency array                                                                                                                                                                                          react-hooks/exhaustive-deps
+  4791:10   error    'autoProjectId' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                                                                                                                                                                                                           no-unused-vars
+  4842:6    warning  React Hook useEffect has a missing dependency: 'initialProjectId'. Either include it or remove the dependency array. If 'setSelectedContractProjectId' needs the current value of 'initialProjectId', you can also switch to useReducer instead of useState and read 'initialProjectId' in the reducer  react-hooks/exhaustive-deps
+  4923:71   error    Unnecessary escape character: \-                                                                                                                                                                                                                                                                        no-useless-escape
+  4923:73   error    Unnecessary escape character: \.                                                                                                                                                                                                                                                                        no-useless-escape
+  4971:71   error    Empty block statement                                                                                                                                                                                                                                                                                   no-empty
+  5030:75   error    Unnecessary escape character: \-                                                                                                                                                                                                                                                                        no-useless-escape
+  5030:77   error    Unnecessary escape character: \.                                                                                                                                                                                                                                                                        no-useless-escape
+  5254:16   error    'e' is defined but never used                                                                                                                                                                                                                                                                           no-unused-vars
+  5269:20   error    'e' is defined but never used                                                                                                                                                                                                                                                                           no-unused-vars
+  6035:10   error    'linked' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                                                                                                                                                                                                                  no-unused-vars
+
+C:\Team2_DevBridge\frontend\src\pages\Client_Profile.jsx
+  2846:10  error  'mapProjectsToHistory' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  2851:10  error  'mergeHistoryItems' is defined but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+  2919:40  error  'onDetail' is defined but never used. Allowed unused args must match /^[A-Z_]|^e$|^_/u       no-unused-vars
+
+C:\Team2_DevBridge\frontend\src\pages\Login.jsx
+   15:21   error    'setGoogleAccessToken' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+   15:87   error    'userRole' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u              no-unused-vars
+   15:97   error    'loginUser' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u             no-unused-vars
+   15:108  error    'user' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                  no-unused-vars
+   21:10   error    'agreedToTerms' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u         no-unused-vars
+   21:25   error    'setAgreedToTerms' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u      no-unused-vars
+   29:6    warning  React Hook useMemo has a missing dependency: 't'. Either include it or remove the dependency array    react-hooks/exhaustive-deps
+   35:6    warning  React Hook useMemo has a missing dependency: 't'. Either include it or remove the dependency array    react-hooks/exhaustive-deps
+   89:16   error    '_' is defined but never used                                                                         no-unused-vars
+  149:20   error    '_' is defined but never used                                                                         no-unused-vars
+
+C:\Team2_DevBridge\frontend\src\pages\Mypage.jsx
+   549:23  error  'created' is defined but never used. Allowed unused args must match /^[A-Z_]|^e$|^_/u   no-unused-vars
+   574:9   error  'luhnOk' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  1169:14  error  'lang' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u    no-unused-vars
+
+C:\Team2_DevBridge\frontend\src\pages\PartnerDashboard.jsx
+  3506:6  warning  React Hook useEffect has missing dependencies: 'contact?.isStreamReal' and 'contact.targetUserId'. Either include them or remove the dependency array                                                                                                                                                   react-hooks/exhaustive-deps
+  3660:6  warning  React Hook useEffect has missing dependencies: 'user?.heroImage' and 'user?.username'. Either include them or remove the dependency array                                                                                                                                                               react-hooks/exhaustive-deps
+  4725:6  warning  React Hook useEffect has a missing dependency: 'meetingMode'. Either include it or remove the dependency array                                                                                                                                                                                          react-hooks/exhaustive-deps
+  4787:6  warning  React Hook useEffect has a missing dependency: 'initialProjectId'. Either include it or remove the dependency array. If 'setSelectedContractProjectId' needs the current value of 'initialProjectId', you can also switch to useReducer instead of useState and read 'initialProjectId' in the reducer  react-hooks/exhaustive-deps
+
+C:\Team2_DevBridge\frontend\src\pages\PartnerProfile.jsx
+  2793:10  error  'mapProjectsToHistory' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  2866:40  error  'onDetail' is defined but never used. Allowed unused args must match /^[A-Z_]|^e$|^_/u       no-unused-vars
+
+C:\Team2_DevBridge\frontend\src\pages\PartnerSearch.jsx
+    1:31  error    'useMemo' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                        no-unused-vars
+   93:6   warning  React Hook useEffect has a missing dependency: 't'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  513:30  error    's' is not defined                                                                                    no-undef
+
+C:\Team2_DevBridge\frontend\src\pages\PortfolioDetailEditor.jsx
+    7:33  error    'generateThumbnailVariants' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                                             no-unused-vars
+  292:6   warning  React Hook useEffect has missing dependencies: 'initialProjects.length' and 'location.state?.projectId'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  315:6   warning  React Hook useEffect has a missing dependency: 'initialProjects'. Either include it or remove the dependency array                                           react-hooks/exhaustive-deps
+
+C:\Team2_DevBridge\frontend\src\pages\PortfolioProjectPreview.jsx
+  598:10  error    'loading' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                                                   no-unused-vars
+  599:10  error    'error' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                                                     no-unused-vars
+  692:6   warning  React Hook useEffect has missing dependencies: 'passedItems' and 'sourceKeys'. Either include them or remove the dependency array         react-hooks/exhaustive-deps
+  692:18  warning  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked  react-hooks/exhaustive-deps
+
+C:\Team2_DevBridge\frontend\src\pages\PrivacyPolicy.jsx
+  29:13  error  Duplicate key 'background'  no-dupe-keys
+
+C:\Team2_DevBridge\frontend\src\pages\ProjectRegister.jsx
+  1333:10   error  'aiGenerateReply' is defined but never used. Allowed unused vars must match /^[A-Z_]/u       no-unused-vars
+  1374:99   error  'lang' is not defined                                                                        no-undef
+  2207:31   error  'tr' is not defined                                                                          no-undef
+  2210:37   error  'tr' is not defined                                                                          no-undef
+  2216:22   error  'tr' is not defined                                                                          no-undef
+  2219:37   error  'tr' is not defined                                                                          no-undef
+  2225:22   error  'tr' is not defined                                                                          no-undef
+  2228:37   error  'tr' is not defined                                                                          no-undef
+  2236:31   error  'tr' is not defined                                                                          no-undef
+  2239:41   error  'tr' is not defined                                                                          no-undef
+  2239:63   error  'tr' is not defined                                                                          no-undef
+  2240:41   error  'tr' is not defined                                                                          no-undef
+  2240:63   error  'tr' is not defined                                                                          no-undef
+  2311:31   error  'tr' is not defined                                                                          no-undef
+  2331:147  error  'tr' is not defined                                                                          no-undef
+  2334:78   error  'tr' is not defined                                                                          no-undef
+  2353:91   error  'tr' is not defined                                                                          no-undef
+  3434:10   error  'editLoading' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Team2_DevBridge\frontend\src\pages\Signup.jsx
+  60:11   error  'setUserRole' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u           no-unused-vars
+  60:56   error  'setGoogleAccessToken' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  60:126  error  'clearSignupFormData' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u   no-unused-vars
+
+C:\Team2_DevBridge\frontend\src\pages\SolutionDetail.jsx
+   89:9  error    'navigate' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                        no-unused-vars
+  128:6  warning  React Hook useEffect has a missing dependency: 'sectionRefs'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Team2_DevBridge\frontend\src\pages\SolutionMarket.jsx
+  362:16  error  'lang' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Team2_DevBridge\frontend\src\pages\StreamChatPage.jsx
+  92:6  warning  React Hook useEffect has a missing dependency: 'username'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Team2_DevBridge\frontend\src\pages\TermsOfService.jsx
+  29:13  error  Duplicate key 'background'  no-dupe-keys
+
+C:\Team2_DevBridge\frontend\src\pages\UsageGuide_ServicePolicy.jsx
+  388:28  error  'lang' is defined but never used. Allowed unused args must match /^[A-Z_]|^e$|^_/u  no-unused-vars
+
+✖ 114 problems (91 errors, 23 warnings)
+  0 errors and 2 warnings potentially fixable with the `--fix` option.
+
