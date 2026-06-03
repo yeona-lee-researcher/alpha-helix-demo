@@ -175,7 +175,7 @@ export function PanelHeader({ icon, title, description, action, theme }) {
         <div style={{ flex: 1, minWidth: 0 }}>
           <h2 style={{
             margin: 0, fontSize: 26, fontWeight: 900, lineHeight: 1.25, letterSpacing: -0.5,
-            background: theme.accentGradient || BRAND_GRADIENT,
+            background: "linear-gradient(90deg, #1d4ed8, #4338ca, #6d28d9)",
             WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent",
             backgroundClip: "text",
             display: "inline-flex", alignItems: "center", gap: 8,
