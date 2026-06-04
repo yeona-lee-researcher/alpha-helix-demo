@@ -69,10 +69,11 @@ def retrain_all(force: bool = False) -> dict:
         log.info("XGBoost retrain START — %d tickers: %s", len(tickers), tickers)
         results = {}
         for ticker in tickers:
+            # 암호화폐/VIX는 XGBoost 신호에서 제외
+            if ticker in ("^VIX", "BTC-USD", "ETH-USD"):
+                continue
             try:
-                # 암호화폐/VIX는 XGBoost 신호에서 제외
-                if ticker in ("^VIX", "BTC-USD", "ETH-USD"):
-                    continue
+                # force_refresh 로 매일 대표 ETF 가격을 새로 받아 캐시에 저장(프리페치 겸용)
                 df = get_history(ticker, period="5y", interval="1d", force_refresh=True)
                 result = train_model(df, ticker)
                 results[ticker] = result
@@ -82,6 +83,7 @@ def retrain_all(force: bool = False) -> dict:
             except Exception as e:
                 log.error("retrain failed %s: %s", ticker, e)
                 results[ticker] = {"error": str(e)}
+            time.sleep(13)   # Polygon 무료티어 5콜/분 대비 — 페치 간격 확보(전 종목 캐시 보장)
 
         _last_retrain_date = today
         success = sum(1 for v in results.values() if "error" not in v)

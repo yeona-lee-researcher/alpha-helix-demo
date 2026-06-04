@@ -10,6 +10,7 @@ const PERIOD_OPTIONS = [
   { value: "2y", label: "2년" },
   { value: "5y", label: "5년" },
   { value: "10y", label: "10년 (권장)" },
+  { value: "custom", label: "직접 지정 (달력)" },
 ];
 
 export default function RegimePanel({ id, ws, onChange }) {
@@ -17,17 +18,23 @@ export default function RegimePanel({ id, ws, onChange }) {
   const [data, setData] = useState(ws?.lastRegime ?? null);
   const [busy, setBusy] = useState(false);
   const [period, setPeriod] = useState("10y");
+  const [start, setStart] = useState("");
+  const [end, setEnd] = useState("");
   const [showRaw, setShowRaw] = useState(false);
+  const custom = period === "custom";
   const onRun = async () => {
+    if (custom && (!start || !end)) { alert("시작일과 종료일을 선택하세요"); return; }
     setBusy(true);
     try {
-      const result = await runRegime(id, { period });
+      const result = await runRegime(id, custom ? { start, end } : { period });
       setData(result);
       if (onChange) onChange();
     }
     catch (e) { alert("Regime 분석 실패: " + (e?.response?.data?.error || e.message)); }
     finally { setBusy(false); }
   };
+  const dateStyle = { padding: "6px 8px", borderRadius: 8, fontSize: 12.5,
+    border: `1px solid ${theme.panelBorder}`, background: theme.cardBg, color: theme.text };
   const labels = { bull: "🐂 상승장", bear: "🐻 하락장", sideways: "↔ 횡보장", high_vol_unstable: "⚡ 고변동성 불안정장" };
   const ALL_KEYS = ["bull", "bear", "sideways", "high_vol_unstable"];
   return (
@@ -38,7 +45,7 @@ export default function RegimePanel({ id, ws, onChange }) {
         description="시장 국면별로 전략의 강점/약점을 분석합니다 (MA200 추세 + 60일 변동성 기반 5분류). 데이터 소스: Polygon.io (yfinance 폴백)."
         theme={theme}
         action={
-          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
             <select
               value={period}
               onChange={e => setPeriod(e.target.value)}
@@ -53,6 +60,12 @@ export default function RegimePanel({ id, ws, onChange }) {
                 <option key={o.value} value={o.value}>{o.label}</option>
               ))}
             </select>
+            {custom && (
+              <>
+                <input type="date" value={start} max={end || undefined} disabled={busy} onChange={e => setStart(e.target.value)} style={dateStyle} />
+                <input type="date" value={end} min={start || undefined} disabled={busy} onChange={e => setEnd(e.target.value)} style={dateStyle} />
+              </>
+            )}
             <button onClick={onRun} disabled={busy} style={primaryBtn(theme, busy)}>
               <Play size={14} /> {busy ? "분석 중…" : "Regime 실행"}
             </button>

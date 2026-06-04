@@ -48,9 +48,15 @@ public class AlphaAnalyticsController {
         try {
             String periodFinal = (body != null && body.containsKey("period"))
                     ? (String) body.get("period") : period;
-            @SuppressWarnings("unchecked")
-            Map<String, Object> customParams = (body != null && body.containsKey("customParams"))
-                    ? (Map<String, Object>) body.get("customParams") : Map.of();
+            Map<String, Object> customParams = new java.util.HashMap<>();
+            if (body != null && body.get("customParams") instanceof Map<?, ?> cp) {
+                @SuppressWarnings("unchecked")
+                Map<String, Object> cpm = (Map<String, Object>) cp;
+                customParams.putAll(cpm);
+            }
+            // 직접 지정(달력) 기간 — 시드계산기와 같은 selector 공유
+            if (body != null && body.get("start") != null) customParams.put("start", body.get("start"));
+            if (body != null && body.get("end") != null) customParams.put("end", body.get("end"));
             String json = svc.doBacktest(ws, periodFinal, customParams);
             return ResponseEntity.ok()
                     .contentType(MediaType.APPLICATION_JSON)

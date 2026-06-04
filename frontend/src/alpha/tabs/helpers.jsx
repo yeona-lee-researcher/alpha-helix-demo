@@ -4,14 +4,14 @@ import { BRAND_GRADIENT } from "../ThemeContext";
 // ──────────────────────────────────────────────
 // 기본 프리미티브
 // ──────────────────────────────────────────────
-export function Card({ title, children, theme, action, badge }) {
+export function Card({ title, children, theme, action, badge, titleSize = 13 }) {
   return (
     <div style={{
       background: theme.panel, border: `1px solid ${theme.panelBorder}`,
       borderRadius: 12, padding: 16, marginBottom: 12, backdropFilter: "blur(8px)",
     }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 10 }}>
-        <h3 style={{ margin: 0, fontSize: 13, fontWeight: 800, color: theme.text }}>
+        <h3 style={{ margin: 0, fontSize: titleSize, fontWeight: 800, color: theme.text }}>
           {title}{badge && <span style={{ marginLeft: 8, padding: "2px 8px", borderRadius: 999, background: theme.accent, color: "white", fontSize: 10 }}>{badge}</span>}
         </h3>
         {action}
@@ -175,7 +175,7 @@ export function PanelHeader({ icon, title, description, action, theme }) {
         <div style={{ flex: 1, minWidth: 0 }}>
           <h2 style={{
             margin: 0, fontSize: 26, fontWeight: 900, lineHeight: 1.25, letterSpacing: -0.5,
-            background: theme.accentGradient || BRAND_GRADIENT,
+            background: "linear-gradient(90deg, #1d4ed8, #4338ca, #6d28d9)",
             WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent",
             backgroundClip: "text",
             display: "inline-flex", alignItems: "center", gap: 8,

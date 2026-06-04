@@ -617,6 +617,9 @@ public class AlphaHelixService {
                 ibExtra.put("loc_offset_pct", pms.path("loc_offset_pct").asDouble());
             if (pms.path("initial_capital").isNumber())
                 ibExtra.put("initial_capital", pms.path("initial_capital").asDouble());
+            // 직접 지정(달력) 기간 — customParams 로 전달되면 [start,end] 구간만 백테스트
+            if (customParams.get("start") != null) ibExtra.put("start", String.valueOf(customParams.get("start")));
+            if (customParams.get("end") != null) ibExtra.put("end", String.valueOf(customParams.get("end")));
 
             JsonNode ib = analytics.infiniteBuying(tickers, ibExtra);
             ws.setLastBacktestJson(ib.toString());
