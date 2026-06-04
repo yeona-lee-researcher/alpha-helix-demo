@@ -66,7 +66,7 @@ const fieldLabel = (theme) => ({ fontSize: 12, color: theme.textMuted, fontWeigh
 const fieldInput = (theme) => ({ padding: "9px 11px", borderRadius: 8, fontSize: 14, fontWeight: 700,
   border: `1px solid ${theme.panelBorder}`, background: theme.panel, color: theme.text });
 
-function SeedSizingCard({ ws, theme }) {
+function SeedSizingCard({ ws, theme, onRunBacktest, btBusy, disabled }) {
   const { tickers } = useMemo(() => cfgInfiniteBuying(ws?.strategyConfig), [ws?.strategyConfig]);
   const [targetMan, setTargetMan] = useState(2000);
   const [period, setPeriod] = useState("2y");      // 프리셋 또는 "custom"
@@ -110,7 +110,7 @@ function SeedSizingCard({ ws, theme }) {
             onChange={(e) => setTargetMan(e.target.value)} style={{ ...fieldInput(theme), width: 130 }} />
         </label>
         <label style={fieldLabel(theme)}>
-          <div style={{ marginBottom: 5 }}>기준 기간</div>
+          <div style={{ marginBottom: 5 }}>기간 (백테스트·시드 공통)</div>
           <select value={period} onChange={(e) => setPeriod(e.target.value)} style={{ ...fieldInput(theme), fontSize: 13.5 }}>
             <option value="2mo">최근 2개월</option>
             <option value="3mo">최근 3개월</option>
@@ -133,9 +133,22 @@ function SeedSizingCard({ ws, theme }) {
             </label>
           </>
         )}
-        <button onClick={onCalc} disabled={busy} style={{ ...primaryBtn(theme, busy), height: 40 }}>
+        <button onClick={onCalc} disabled={busy} style={{ ...primaryBtn(theme, busy), height: 40,
+          background: theme.panel, color: theme.accent, boxShadow: "none", border: `1px solid ${theme.accent}` }}>
           <Calculator size={14} /> {busy ? "계산 중…" : "필요 시드 계산"}
         </button>
+        {onRunBacktest && (
+          <button type="button"
+            onClick={() => {
+              if (custom && (!start || !end)) { setErr("시작일과 종료일을 모두 선택하세요"); return; }
+              setErr(null);
+              onRunBacktest(custom ? null : period, custom ? start : null, custom ? end : null);
+            }}
+            disabled={btBusy || disabled}
+            style={{ ...primaryBtn(theme, btBusy), height: 40 }}>
+            <Play size={14} /> {btBusy ? "백테스트 중…" : "백테스트 실행"}
+          </button>
+        )}
       </div>
       {err && <div style={{ marginTop: 10, fontSize: 12, color: "#dc2626" }}>⚠️ {err}</div>}
       {res && (
@@ -268,14 +281,13 @@ function ChartTabs({ bt, theme }) {
 
 export default function ReportPanel({ id, ws, onChange }) {
   const { theme } = useTheme();
-  const [busy, setBusy] = useState(false);
-  const [period, setPeriod] = useState("5y");
-  const onRun = async () => {
-    if (busy) return;
-    setBusy(true);
-    try { await runBacktest(id, period); onChange(); }
+  const [btBusy, setBtBusy] = useState(false);
+  const onRunBacktest = async (period, start, end) => {
+    if (btBusy) return;
+    setBtBusy(true);
+    try { await runBacktest(id, period, undefined, start, end); onChange(); }
     catch (e) { alert("백테스트 실패: " + (e?.response?.data?.error || e.message)); }
-    finally { setBusy(false); }
+    finally { setBtBusy(false); }
   };
   const bt = ws.lastBacktest;
   const rm = bt?.risk_metrics || {};
@@ -284,26 +296,10 @@ export default function ReportPanel({ id, ws, onChange }) {
     <div>
       <PanelHeader
         icon="📊" title="Backtest Report"
-        description="Strategy Config가 정형화되면 vectorbt deterministic engine으로 실행한 백테스트 결과입니다."
+        description="기간(백테스트·시드 공통)을 고른 뒤 아래에서 「백테스트 실행」 / 「필요 시드 계산」을 같은 기간으로 돌립니다. 달력으로 특정 구간(예: 최근 2개월)만 볼 수도 있어요."
         theme={theme}
-        action={
-          <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
-            <select value={period} onChange={(e) => setPeriod(e.target.value)} disabled={busy} title="백테스트 기간"
-              style={{ padding: "8px 10px", borderRadius: 8, fontSize: 13, fontWeight: 600,
-                border: `1px solid ${theme.panelBorder}`, background: theme.panel, color: theme.text }}>
-              <option value="1y">최근 1년</option>
-              <option value="2y">최근 2년</option>
-              <option value="5y">최근 5년</option>
-              <option value="10y">최근 10년</option>
-              <option value="max">최대 (가능한 최장)</option>
-            </select>
-            <button onClick={onRun} disabled={!ws.strategyConfig || busy} style={primaryBtn(theme, busy)}>
-              <Play size={14} /> {busy ? "실행 중…" : "백테스트 실행"}
-            </button>
-          </div>
-        }
       />
-      <SeedSizingCard ws={ws} theme={theme} />
+      <SeedSizingCard ws={ws} theme={theme} onRunBacktest={onRunBacktest} btBusy={btBusy} disabled={!ws.strategyConfig} />
       {!bt && <Empty msg="Strategy Config가 정형화되면 vectorbt deterministic engine으로 백테스트 실행" theme={theme} />}
       {bt && (
         <>

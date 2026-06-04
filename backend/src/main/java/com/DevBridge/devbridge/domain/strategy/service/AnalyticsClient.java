@@ -290,7 +290,7 @@ public class AnalyticsClient {
         // 10y로 늘려 bear/high-vol regime 표본을 충분히 확보 (이전 5y는 bear=2일에 그침)
         body.put("period", "10y");
         if (options != null) {
-            for (String k : new String[]{"period", "strategy", "method", "smoothing", "n_states"}) {
+            for (String k : new String[]{"period", "strategy", "method", "smoothing", "n_states", "start", "end"}) {
                 if (options.containsKey(k) && options.get(k) != null) {
                     body.put(k, options.get(k));
                 }
@@ -319,7 +319,7 @@ public class AnalyticsClient {
             for (String k : new String[]{
                     "period", "weights", "overfit_penalty_max",
                     "wf_train", "wf_test", "mdd_target_pct",
-                    "asset_class", "leverage"
+                    "asset_class", "leverage", "start", "end"
             }) {
                 if (options.containsKey(k) && options.get(k) != null) {
                     body.put(k, options.get(k));

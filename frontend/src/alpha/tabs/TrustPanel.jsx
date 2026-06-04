@@ -176,20 +176,27 @@ const PERIOD_OPTIONS = [
   { value: "20y", label: "20년" },
   { value: "25y", label: "25년" },
   { value: "30y", label: "30년 (최대)" },
+  { value: "custom", label: "직접 지정 (달력)" },
 ];
 
 export default function TrustPanel({ id, ws, onChange }) {
   const { theme } = useTheme();
   const [busy, setBusy] = useState(false);
   const [period, setPeriod] = useState("10y");
+  const [start, setStart] = useState("");
+  const [end, setEnd] = useState("");
   const trust = ws.lastTrust;
+  const custom = period === "custom";
   const onRun = async () => {
     if (busy) return;
+    if (custom && (!start || !end)) { alert("시작일과 종료일을 선택하세요"); return; }
     setBusy(true);
-    try { await runTrust(id, { period }); onChange(); }
+    try { await runTrust(id, custom ? { start, end } : { period }); onChange(); }
     catch (e) { alert("Trust 계산 실패: " + (e?.response?.data?.error || e.message)); }
     finally { setBusy(false); }
   };
+  const dateStyle = { padding: "6px 8px", borderRadius: 8, fontSize: 12.5,
+    border: `1px solid ${theme.panelBorder}`, background: theme.cardBg, color: theme.text };
   return (
     <div>
       <PanelHeader
@@ -198,7 +205,7 @@ export default function TrustPanel({ id, ws, onChange }) {
         description="Walk-Forward + Regime + Parameter Stability + Statistical Confidence를 종합한 0~100 점수."
         theme={theme}
         action={
-          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
             <select
               value={period}
               onChange={e => setPeriod(e.target.value)}
@@ -213,6 +220,12 @@ export default function TrustPanel({ id, ws, onChange }) {
                 <option key={o.value} value={o.value}>{o.label}</option>
               ))}
             </select>
+            {custom && (
+              <>
+                <input type="date" value={start} max={end || undefined} disabled={busy} onChange={e => setStart(e.target.value)} style={dateStyle} />
+                <input type="date" value={end} min={start || undefined} disabled={busy} onChange={e => setEnd(e.target.value)} style={dateStyle} />
+              </>
+            )}
             <button onClick={onRun} disabled={busy} style={primaryBtn(theme, busy)}>
               <Play size={14} /> {busy ? "계산 중… (~1분)" : "Trust Score 계산"}
             </button>

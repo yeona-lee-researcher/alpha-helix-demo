@@ -249,6 +249,16 @@ def walk_forward_endpoint(req: WalkForwardReq):
         raise HTTPException(500, str(e))
 
 
+def _slice_df(df, start=None, end=None):
+    """ISO start/end 가 주어지면 df 를 그 날짜구간으로 자른다(백테스트·Regime·Trust 공통)."""
+    if not start and not end:
+        return df
+    try:
+        return df.loc[(start or None):(end or None)]
+    except Exception:
+        return df
+
+
 class RegimeReq(BaseModel):
     ticker: str
     period: str = "5y"
@@ -256,12 +266,14 @@ class RegimeReq(BaseModel):
     method: str = "rule"      # "rule" | "hmm"
     smoothing: int = 0        # Viterbi-style minimum-run filter (0=off, 권장 5)
     n_states: int = 4         # HMM 상태 수 (rule-based에서는 무시)
+    start: str | None = None  # 직접 지정 시작일(ISO). 주면 period 무시하고 [start,end] 구간 분석
+    end: str | None = None    # 직접 지정 종료일(ISO)
 
 
 @app.post("/regime", dependencies=[Depends(require_internal_token)])
 def regime_endpoint(req: RegimeReq):
     try:
-        df = get_history(req.ticker, period=req.period)
+        df = _slice_df(get_history(req.ticker, period=req.period), req.start, req.end)
         params = BacktestParams(strategy=req.strategy)
         return per_regime_stats(
             df["Close"], params,
@@ -290,12 +302,14 @@ class TrustReq(BaseModel):
     # 자산 분류 override — "auto" 시 ticker 로 자동 판별
     asset_class: str = "auto"
     leverage: int | None = None
+    start: str | None = None  # 직접 지정 시작일(ISO). 주면 [start,end] 구간으로 신뢰도 평가
+    end: str | None = None    # 직접 지정 종료일(ISO)
 
 
 @app.post("/trust", dependencies=[Depends(require_internal_token)])
 def trust_endpoint(req: TrustReq):
     try:
-        df = get_history(req.ticker, period=req.period)
+        df = _slice_df(get_history(req.ticker, period=req.period), req.start, req.end)
         params = BacktestParams(strategy=req.strategy)
         return compute_trust_score(
             df["Close"], params,
@@ -323,6 +337,8 @@ class InfiniteBuyingReq(BaseModel):
     initial_capital: float = 300_000_000.0
     fees: float = 0.0025      # 0.25% — CLAUDE.md 명세(InfiniteBuyingParams 기본값과 정합)
     slippage: float = 0.001   # 0.1%
+    start: str | None = None  # 직접 지정 시작일(ISO). 주면 [start,end] 구간만 백테스트
+    end: str | None = None    # 직접 지정 종료일(ISO)
 
 
 def _build_ib_params(req: "InfiniteBuyingReq") -> InfiniteBuyingParams:
@@ -360,7 +376,7 @@ def backtest_infinite_buying(req: InfiniteBuyingReq):
     try:
         closes: dict = {}
         for t in req.tickers:
-            df = get_history(t, period=req.period)
+            df = _slice_df(get_history(t, period=req.period), req.start, req.end)
             closes[t.upper()] = df["Close"]
         params = _build_ib_params(req)
         result = run_infinite_buying(closes, params)
